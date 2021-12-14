@@ -27,7 +27,9 @@ input {
       background-color: #fff;
     }
   }
-
+input[type=radio], input[type=checkbox]{
+  margin-right:0.5rem;
+}
   button,
   a.button {
     padding: 0.5rem 1rem;
@@ -39,6 +41,7 @@ input {
     margin-bottom:2rem
   }
 
+  
 .hide {
   position:absolute;
 left:-10000px;
@@ -159,21 +162,36 @@ overflow:hidden;
     }
 
   }
-  span.dedicacion {
+
+  span.title {
     width: 30%;
   }
   .barrita {
     background: #f5f5f5;
-    width: 70%;
-    height: 10px;
+    width: 62%;
+    height: 1rem;
     border:1px solid #80c56e;
-  
+
+    &.Alta .dedicacion{
+      width: 80%;
+    }
+    &.Media .dedicacion{
+      width: 50%;
+    } 
+    &.Baja .dedicacion{
+      width: 10%;
+    }
     .dedicacion {
       background: #80c56e;
       height: 100%;
       display: block;
-      width: 60%;
+      display: flex;
+      justify-content: center;
     }
+    .small {
+      font-size:0.8rem;
+    }
+    
   }
 
 .toxicity{

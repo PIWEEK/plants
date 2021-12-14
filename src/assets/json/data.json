@@ -16,7 +16,16 @@
        "name":"Achira",
        "image_url":"https://www.aspca.org/sites/default/files/styles/medium_image_300x200/public/field/image/plants/achira-r.jpg?itok=iQMC4kSf",
        "toxicity":null,
-       "toxicity_dogs":false
+       "toxicity_dogs":false,
+       "care": {
+         "dedication": {
+           "value": "Baja",
+           "description": null
+         }
+      },
+      "tests": {
+         "primero":"ok"
+      }
     },
     {
       "slug":"cucurbita-pepo",
@@ -35,7 +44,16 @@
        "name":"Acorn Squash",
        "image_url":"https://www.aspca.org/sites/default/files/styles/medium_image_300x200/public/field/image/plants/acorn-squash-r.jpg?itok=t1Jia-vp",
        "toxicity":null,
-       "toxicity_dogs":false
+       "toxicity_dogs":false,
+       "care": {
+         "dedication": {
+           "value": "Media",
+           "description": null
+         }
+      },
+      "tests": {
+         "primero":"ok"
+      }
     },
     {
       "slug":"arum-maculatum",
@@ -54,7 +72,16 @@
        "name":"Adam-and-Eve",
        "image_url":"https://www.aspca.org/sites/default/files/styles/medium_image_300x200/public/field/image/plants/arum-r.jpg?itok=I6KyQVcY",
        "toxicity":" Toxic to Dogs, Toxic to Cats, Toxic to Horses",
-       "toxicity_dogs":true
+       "toxicity_dogs":true,
+       "care": {
+         "dedication": {
+           "value": "Alta",
+           "description": null
+         }
+      },
+      "tests": {
+         "primero":"no"
+      }
     },
     {
       "slug":"gerbera-janesonii",
@@ -73,7 +100,16 @@
        "name":"African Daisy",
        "image_url":"https://www.aspca.org/sites/default/files/styles/medium_image_300x200/public/field/image/plants/african-daisy-r.jpg?itok=Q30Femx_",
        "toxicity":null,
-       "toxicity_dogs":false
+       "toxicity_dogs":false,
+       "care": {
+         "dedication": {
+           "value": "Alta",
+           "description": null
+         }
+      },
+      "tests": {
+         "primero":"ok"
+      }
     },
     {
       "slug":"saintpaulia-spp",
@@ -92,7 +128,16 @@
        "name":"African Violet",
        "image_url":"https://www.aspca.org/sites/default/files/styles/medium_image_300x200/public/default_images/imageunavailable_0.jpg?itok=JCCt_uvE",
        "toxicity":" ",
-       "toxicity_dogs":false
+       "toxicity_dogs":false,
+       "care": {
+         "dedication": {
+           "value": "Alta",
+           "description": null
+         }
+      },
+      "tests": {
+         "primero":"ok"
+      }
     },
     {
       "slug":"ricinus-comunis",
@@ -111,7 +156,16 @@
        "name":"African Wonder Tree",
        "image_url":"https://www.aspca.org/sites/default/files/styles/medium_image_300x200/public/african-wonder-2-r.jpg?itok=omLSnmZc",
        "toxicity":" Toxic to Dogs, Toxic to Cats, Toxic to Horses",
-       "toxicity_dogs":true
+       "toxicity_dogs":true,
+       "care": {
+         "dedication": {
+           "value": "Alta",
+           "description": null
+         }
+      },
+      "tests": {
+         "primero":"ok"
+      }
     },
     {
       "slug":"prosopis-limensis",
@@ -130,7 +184,16 @@
        "name":"Algaroba",
        "image_url":"https://www.aspca.org/sites/default/files/styles/medium_image_300x200/public/default_images/imageunavailable_0.jpg?itok=JCCt_uvE",
        "toxicity":" ",
-       "toxicity_dogs":false
+       "toxicity_dogs":false,
+       "care": {
+         "dedication": {
+           "value": "Alta",
+           "description": null
+         }
+      },
+      "tests": {
+         "primero":"ok"
+      }
     },
     {
       "slug":"alocasia-spp",
@@ -149,7 +212,16 @@
        "name":"Alocasia",
        "image_url":"https://www.aspca.org/sites/default/files/styles/medium_image_300x200/public/field/image/plants/alocasia-r.jpg?itok=Q-8fgzUQ",
        "toxicity":" Toxic to Dogs, Toxic to Cats, Toxic to Horses",
-       "toxicity_dogs":true
+       "toxicity_dogs":true,
+       "care": {
+         "dedication": {
+           "value": "Alta",
+           "description": null
+         }
+      },
+      "tests": {
+         "primero":"ok"
+      }
     },
     {
       "slug":"aloe-vera",
@@ -168,7 +240,16 @@
        "name":"Aloe",
        "image_url":"https://www.aspca.org/sites/default/files/styles/medium_image_300x200/public/field/image/plants/aloe-r.jpg",
        "toxicity":" Toxic to Dogs, Toxic to Cats",
-       "toxicity_dogs":true
+       "toxicity_dogs":true,
+       "care": {
+         "dedication": {
+           "value": "Media",
+           "description": null
+         }
+      },
+      "tests": {
+         "primero":"no"
+      }
     },
     {
       "slug":"trifolium-hybridum",
@@ -187,7 +268,16 @@
        "name":"Alsike Clover",
        "image_url":"https://www.aspca.org/sites/default/files/styles/medium_image_300x200/public/field/image/plants/alsike-clover-r.jpg?itok=w7VcLRAD",
        "toxicity":" Toxic to Horses",
-       "toxicity_dogs":false
+       "toxicity_dogs":false,
+       "care": {
+         "dedication": {
+           "value": "Media",
+           "description": null
+         }
+      },
+      "tests": {
+         "primero":"no"
+      }
     },
     {
       "slug":"pilea-cadieri",
@@ -206,7 +296,16 @@
        "name":"Aluminum Plant",
        "image_url":"https://www.aspca.org/sites/default/files/styles/medium_image_300x200/public/default_images/imageunavailable_0.jpg?itok=JCCt_uvE",
        "toxicity":" ",
-       "toxicity_dogs":false
+       "toxicity_dogs":false,
+       "care": {
+         "dedication": {
+           "value": "Alta",
+           "description": null
+         }
+      },
+      "tests": {
+         "primero":"no"
+      }
     },
     {
       "slug":"heuchera-sanguinea",
@@ -225,7 +324,16 @@
        "name":"Alumroot",
        "image_url":"https://www.aspca.org/sites/default/files/styles/medium_image_300x200/public/default_images/imageunavailable_0.jpg?itok=JCCt_uvE",
        "toxicity":" ",
-       "toxicity_dogs":false
+       "toxicity_dogs":false,
+       "care": {
+         "dedication": {
+           "value": "Baja",
+           "description": null
+         }
+      },
+      "tests": {
+         "primero":"ok"
+      }
     },
     {
        "slug":"alyssum_spp",
@@ -244,6 +352,15 @@
        "name":"Alyssum",
        "image_url":"https://www.aspca.org/sites/default/files/styles/medium_image_300x200/public/default_images/imageunavailable_0.jpg?itok=JCCt_uvE",
        "toxicity":" ",
-       "toxicity_dogs":false
+       "toxicity_dogs":false,
+       "care": {
+         "dedication": {
+           "value": "Alta",
+           "description": null
+         }
+      },
+      "tests": {
+         "primero":"no"
+      }
     }
  ]

@@ -11,83 +11,161 @@
           id="buscar"
           v-model="buscar"
           class="form-control"
-          placeholder="Ejemplo: Cactus"
+          placeholder="Ejemplo: Aloe"
         />
       </div>
     </div>
-
-    <div class="row">
-      <div class="col-3" v-for="item in items" v-bind:key="item.slug">
-        <div class="card">
-          <router-link
-            :to="{
-              name: 'Plants',
-              params: { plantslug: item.slug, plant: JSON.stringify(item) },
-            }"
-          >
-            <img
-              class="card-img"
-              v-bind:src="item.image_url"
-              v-bind:alt="item.scientific_name"
+    <div class="container-plants row">
+      <!-- Bar containing all sort inputs -->
+      <div class="sidebar">
+        <!--  <select name="sortBy" id="select" v-model="sortBy">
+          <option value="alphabetically">Alphabetically</option>
+          <option value="cookingTime">Cooking Time</option>
+        </select> -->
+        <h4>Dedicación</h4>
+        <!--         <div class="row">
+          <label class="form-control">
+            <input
+              v-model="dedication"
+              type="checkbox"
+              id="huey"
+              name="drone"
+              value="huey"
             />
-          </router-link>
+            Baja</label
+          >
 
-          <div class="card__body">
+          <label class="form-control">
+            <input
+              v-model="dedication"
+              type="checkbox"
+              id="dewey"
+              name="drone"
+              value="dewey"
+            />
+            Media</label
+          >
+
+          <label class="form-control">
+            <input
+              v-model="dedication"
+              type="checkbox"
+              id="louie"
+              name="drone"
+              value="louie"
+            />
+            Alta</label
+          > 
+        </div>-->
+        <h4>lalal es:</h4>
+        <div class="row">
+          <label class="form-control">
+            <input type="checkbox" id="huey" name="drone" value="huey" />
+            Increíble</label
+          >
+
+          <label class="form-control">
+            <input type="checkbox" id="dewey" name="drone" value="dewey" />
+            La mejor</label
+          >
+
+          <label class="form-control">
+            <input type="checkbox" id="louie" name="drone" value="louie" />
+            un mostro</label
+          >
+        </div>
+
+        <!--         <button v-on:click="ascending = !ascending" class="sort-button">
+          <i v-if="ascending" class="fa fa-sort-up"></i>
+          <i v-else class="fa fa-sort-down"></i>
+        </button>
+        <input type="number" v-model="maxCookingTime" id="cooking-time-input" />
+        <input
+          type="text"
+          v-model="buscar"
+          placeholder="Search Recipe"
+          id="search-input"
+        />
+        <i class="fa fa-search"></i> -->
+      </div>
+      <div class="row list">
+        <div class="col-3" v-for="item in items" v-bind:key="item.slug">
+          <div class="card">
             <router-link
               :to="{
                 name: 'Plants',
                 params: { plantslug: item.slug, plant: JSON.stringify(item) },
               }"
             >
-              <h3 class="card__title">{{ item.name }}</h3>
+              <img
+                class="card-img"
+                v-bind:src="item.image_url"
+                v-bind:alt="item.scientific_name"
+              />
             </router-link>
-            <h4 class="card__scientific-name">
-              {{ item.scientific_name }}
-            </h4>
 
-            <div class="row ded">
-              <span class="dedicacion">Dedicación</span>
-              <div class="barrita"><span class="dedicacion"></span></div>
-            </div>
-            <!-- 
+            <div class="card__body">
+              <router-link
+                :to="{
+                  name: 'Plants',
+                  params: { plantslug: item.slug, plant: JSON.stringify(item) },
+                }"
+              >
+                <h3 class="card__title">{{ item.name }}</h3>
+              </router-link>
+              <h4 class="card__scientific-name">
+                {{ item.scientific_name }}
+              </h4>
+
+              <div class="row ded">
+                <span class="title">Dedicación</span>
+                <div class="barrita" :class="item.care.dedication.value">
+                  <span class="dedicacion">
+                    <div class="small">
+                      {{ item.care.dedication.value }}
+                    </div></span
+                  >
+                </div>
+              </div>
+              <!-- 
             <p v-bind:class="{ nontoxic: item.toxicity_dogs }" :key="item.key">
               perro
             </p> -->
-            <div class="row">
-              <span>Toxico para</span>
-              <img
-                class="toxicity"
-                src="../assets/svg/animals_dog.svg"
-                v-bind:class="{ nontoxic: item.toxicity_dogs }"
-                :key="item.key"
-              />
-              <img
-                class="toxicity"
-                src="../assets/svg/animals_cat.svg"
-                v-bind:class="{ nontoxic: item.toxicity_cats }"
-                :key="item.key"
-              />
-              <img
-                class="toxicity"
-                src="../assets/svg/horse-2.svg"
-                v-bind:class="{ nontoxic: item.toxicity_horses }"
-                :key="item.key"
-              />
-              <img
-                class="toxicity"
-                src="../assets/svg/animals_rabbit_1.svg"
-                v-bind:class="{ nontoxic: item.toxicity_dogs }"
-                :key="item.key"
-              />
-              <img
-                class="toxicity"
-                src="../assets/svg/face_baby-2.svg"
-                v-bind:class="{ nontoxic: item.toxicity_dogs }"
-                :key="item.key"
-              />
-            </div>
+              <div class="row">
+                <span>Toxico para</span>
+                <img
+                  class="toxicity"
+                  src="../assets/svg/animals_dog.svg"
+                  v-bind:class="{ nontoxic: item.toxicity_dogs }"
+                  :key="item.key"
+                />
+                <img
+                  class="toxicity"
+                  src="../assets/svg/animals_cat.svg"
+                  v-bind:class="{ nontoxic: item.toxicity_cats }"
+                  :key="item.key"
+                />
+                <img
+                  class="toxicity"
+                  src="../assets/svg/horse-2.svg"
+                  v-bind:class="{ nontoxic: item.toxicity_horses }"
+                  :key="item.key"
+                />
+                <img
+                  class="toxicity"
+                  src="../assets/svg/animals_rabbit_1.svg"
+                  v-bind:class="{ nontoxic: item.toxicity_dogs }"
+                  :key="item.key"
+                />
+                <img
+                  class="toxicity"
+                  src="../assets/svg/face_baby-2.svg"
+                  v-bind:class="{ nontoxic: item.toxicity_dogs }"
+                  :key="item.key"
+                />
+              </div>
 
-            <!--             <router-link
+              <!--             <router-link
               class="button"
               :to="{
                 name: 'Plants',
@@ -97,10 +175,11 @@
 
               Ver ficha de {{ item.name }}
             </router-link> -->
-            <!-- <router-link
+              <!-- <router-link
               class="button"
               :to="{ name: 'Plants', params: { plant: item } }"
             > -->
+            </div>
           </div>
         </div>
       </div>
@@ -161,4 +240,14 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.sidebar {
+  flex-basis: 20%;
+  .row {
+    margin-bottom: 2rem;
+  }
+}
+.row.list {
+  flex-basis: 78%;
+}
+</style>
