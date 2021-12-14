@@ -1,0 +1,104 @@
+[
+  {
+    "slug": "poto",
+    "name": "Poto",
+    "alternativeName": "Potus, pothos",
+    "scientificName": "Epipremnum aureum",
+    "image: "https://via.placeholder.com/500",
+    "description": "Tropical, nativa del sudeste asiático, con hojas perennes. De crecimiento bastante rápido, muy resistente, requiere pocos cuidados.",
+    "type": ["Trepadora", "Colgante"],
+    "size": "Se puede limitar con la poda",
+    "toxicity": {
+      "dog": {
+        "value": "Si",
+        "symptoms": "Oral irritation, intense burning and irritation of mouth, tongue and lips, excessive drooling, vomiting, difficulty swallowing.",
+      },
+      "cat": {
+        "value": "Si",
+        "symptoms": "Oral irritation, intense burning and irritation of mouth, tongue and lips, excessive drooling, vomiting, difficulty swallowing.",
+      },
+      "rabbit": {
+        "value": "Desconocida",
+        "symptoms": "bla bla bla"
+      },
+      "horse": {
+        "value": "No",
+        "symptoms": null
+      },
+      "baby": null
+    },
+    "care": {
+      "dedication": {
+        "value": "Medio",
+        "description": null
+      },
+      "location": ["Interior", "Terraza o patio"],
+      "light": {
+        "value": "Indirecta",
+        "description": "Luz media/alta sin sol directo (que se queman las hojas)."
+      },
+      "temperature": "10 a 30ºC",
+      "humidity": {
+        "value": "Ambiente húmedo",
+        "description": "Pero soporta bien ambientes más secos si se riega adecuadamente. Pulverizar las hojas si hay mucha sequedad.",
+      },
+      "irrigation": {
+        "value": "Moderado.",
+        "description": "Dejar secar la tierra entre riego y riego."
+      },
+      "fertilizer": {
+        "type": ["Universal", "Plantas verdes"],
+        "time": "Primavera y verano"
+      },
+      "soil": ["Universal", "Plantas verdes"],
+      "transplant": "Cada 2 años",
+      "pruning": "En cualquier momento, para controlar su crecimiento u obtener esquejes.",
+    },
+    "problems": {
+      "diseases": "Hongos. También pulgones, cochinillas o araña roja, aunque no son habituales.",
+      "commonMistakes": "El riego excesivo es el error más común. Evitar encharcamientos porque es sensible a la asfixia de las raices y a los hongos. Es necesario un buen drenaje."
+    }
+  },
+  {
+    "slug": "cinta",
+    "name": "Cinta",
+    "alternativeName": "malamadre",
+    "scientificName": "Chlorophytum comosum",
+    "image: "https://via.placeholder.com/500",
+    "description": "Es originaria de las regiones costeras y húmedas de Sudáfrica, de hoja perenne, sus diminutas flores son de color blanco y hermafroditas. Su reprodución por medio de estolones dan la sensación visual de pequeñas plantas ‘flotando’ en el aire, en contacto con la tierra enraízan y dan lugar a nuevas plantas. El nombre de ‘malamadre’ hace alusión a sus estolones porque parece que aleja a sus hijos de ella. Muy resistente, requiere pocos cuidados.",
+    "type": ["Suelo", "Colgante"],
+    "size": "Se puede limitar con la poda",
+    "toxicity": null,
+    "care": {
+      "dedication": {
+        "value": "Medio",
+        "description": null
+      },
+      "location": ["Interior", "Exterior"],
+      "light": {
+        "value": "Indirecta",
+        "description": "Luz media sin sol directo."
+      },
+      "temperature": "-2 a 30 ºC",
+      "humidity": {
+        "value": "Ambiente húmedo",
+        "description": "Pero soporta bien ambientes más secos si se riega adecuadamente. Pulverizar las hojas si hay mucha sequedad.",
+      },
+      "irrigation": {
+        "value": "Moderado.",
+        "description": "Dejar secar la tierra entre riego y riego."
+      },
+      "fertilizer": {
+        "type": ["Universal", "Plantas verdes"],
+        "time": "Primavera y verano"
+      },
+      "soil": ["Universal", "Plantas verdes"],
+      "transplant": "Cada 2 años",
+      "pruning": "En cualquier momento, para controlar su crecimiento u obtener esquejes.",
+    },
+    "problems": {
+      "diseases": "Hongos. También pulgones, cochinillas o araña roja, aunque no son habituales.",
+      "commonMistakes": "El riego excesivo es el error más común. Evitar encharcamientos porque es sensible a la asfixia de las raices y a los hongos. Es necesario un buen drenaje."
+    }
+  }
+]
