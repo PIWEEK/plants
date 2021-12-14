@@ -14,10 +14,18 @@
       <div class="col-2">
         <!--         <h2>Planta {{ $route.params.plant.slug }}</h2>
  -->
-        <p>name: {{ plantData.name }}</p>
-        <p>{{ plantData.family }}</p>
-        <p>{{ plantData.family }}</p>
-        <p>{{ plantData.family }}</p>
+        <dl>
+          <dt>Nombre</dt>
+          <dd>{{ plantData.name }}</dd>
+        </dl>
+        <dl>
+          <dt>Otros nombres</dt>
+          <dd>{{ plantData.name }}</dd>
+        </dl>
+        <dl>
+          <dt>Familia</dt>
+          <dd>{{ plantData.family }}</dd>
+        </dl>
       </div>
     </div>
   </div>

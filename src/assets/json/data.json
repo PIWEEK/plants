@@ -166,7 +166,7 @@
        "non_toxicity_horses":false,
        "url":"https://www.aspca.org//pet-care/animal-poison-control/toxic-and-non-toxic-plants/aloe",
        "name":"Aloe",
-       "image_url":"https://www.aspca.org/sites/default/files/styles/medium_image_300x200/public/field/image/plants/aloe-r.jpg?itok=w3kaGLt-",
+       "image_url":"https://www.aspca.org/sites/default/files/styles/medium_image_300x200/public/field/image/plants/aloe-r.jpg",
        "toxicity":" Toxic to Dogs, Toxic to Cats",
        "toxicity_dogs":true
     },

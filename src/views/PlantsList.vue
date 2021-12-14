@@ -1,6 +1,5 @@
 <template>
-  <div class="plantsList" id="app">
-    <h1>This is the plants list page</h1>
+  <div class="plantsList">
     <Plants />
   </div>
 </template>
