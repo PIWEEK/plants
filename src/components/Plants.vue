@@ -23,7 +23,7 @@
           <option value="cookingTime">Cooking Time</option>
         </select> -->
         <h4>Dedicación</h4>
-        <!--         <div class="row">
+        <div class="row">
           <label class="form-control">
             <input
               v-model="dedication"
@@ -55,9 +55,9 @@
               value="louie"
             />
             Alta</label
-          > 
-        </div>-->
-        <h4>lalal es:</h4>
+          >
+        </div>
+        <h4>Soy:</h4>
         <div class="row">
           <label class="form-control">
             <input type="checkbox" id="huey" name="drone" value="huey" />
