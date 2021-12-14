@@ -2,24 +2,24 @@
   {
     "slug": "poto",
     "name": "Poto",
-    "alternativeName": "Potus, pothos",
+    "variantsName": "Potus, Pothos",
     "scientificName": "Epipremnum aureum",
-    "image: "https://via.placeholder.com/500",
+    "image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Epipremnum_pinnatum_a2.jpg/640px-Epipremnum_pinnatum_a2.jpg",
     "description": "Tropical, nativa del sudeste asiático, con hojas perennes. De crecimiento bastante rápido, muy resistente, requiere pocos cuidados.",
     "type": ["Trepadora", "Colgante"],
     "size": "Se puede limitar con la poda",
     "toxicity": {
       "dog": {
         "value": "Si",
-        "symptoms": "Oral irritation, intense burning and irritation of mouth, tongue and lips, excessive drooling, vomiting, difficulty swallowing.",
+        "symptoms": "Irritación oral, ardor intenso e irritación de boca, lengua y labios, babeo excesivo, vómitos, dificultad para tragar.",
       },
       "cat": {
         "value": "Si",
-        "symptoms": "Oral irritation, intense burning and irritation of mouth, tongue and lips, excessive drooling, vomiting, difficulty swallowing.",
+        "symptoms": "Irritación oral, ardor intenso e irritación de boca, lengua y labios, babeo excesivo, vómitos, dificultad para tragar.",
       },
       "rabbit": {
-        "value": "Desconocida",
-        "symptoms": "bla bla bla"
+        "value": "Sí",
+        "symptoms": "No determinados"
       },
       "horse": {
         "value": "No",
@@ -29,22 +29,22 @@
     },
     "care": {
       "dedication": {
-        "value": "Medio",
+        "value": "Medio-bajo",
         "description": null
       },
       "location": ["Interior", "Terraza o patio"],
       "light": {
         "value": "Indirecta",
-        "description": "Luz media/alta sin sol directo (que se queman las hojas)."
+        "description": "Tolera luz baja pero lo oṕtimo es media/alta, sin sol directo porque se pueden quemar las hojas."
       },
-      "temperature": "10 a 30ºC",
+      "temperature": "Óptimo de 10 a 30ºC",
       "humidity": {
         "value": "Ambiente húmedo",
-        "description": "Pero soporta bien ambientes más secos si se riega adecuadamente. Pulverizar las hojas si hay mucha sequedad.",
+        "description": "Soporta bien ambientes más secos, pulverizar las hojas si hay excesiva sequedad.",
       },
       "irrigation": {
         "value": "Moderado.",
-        "description": "Dejar secar la tierra entre riego y riego."
+        "description": "Dejar secar la tierra entre riegos."
       },
       "fertilizer": {
         "type": ["Universal", "Plantas verdes"],
@@ -55,38 +55,38 @@
       "pruning": "En cualquier momento, para controlar su crecimiento u obtener esquejes.",
     },
     "problems": {
-      "diseases": "Hongos. También pulgones, cochinillas o araña roja, aunque no son habituales.",
-      "commonMistakes": "El riego excesivo es el error más común. Evitar encharcamientos porque es sensible a la asfixia de las raices y a los hongos. Es necesario un buen drenaje."
+      "diseases": "Son resistentes a casi todo tipo de plagas y las que los afectan no traen daños considerables. Los más comunes son los pulgones, cochinilla y araña roja. Cuando se riega en exceso, es vulnerable a los hongos.",
+      "commonMistakes": "El riego excesivo es el error más común. Evitar encharcamientos porque es sensible a la asfixia de las raices y a los hongos. Es necesario un buen drenaje. Otros como puntas marrones por falta de agua o baja humedad. Hojas pálidas o descoloridas por falta de luz."
     }
   },
   {
-    "slug": "cinta",
+    "slug": "Cinta",
     "name": "Cinta",
-    "alternativeName": "malamadre",
+    "variantsName": "Araña, Malamadre",
     "scientificName": "Chlorophytum comosum",
-    "image: "https://via.placeholder.com/500",
+    "image: "https://en.wikipedia.org/wiki/Chlorophytum_comosum#/media/File:Hierbabuena_0611_Revised.jpg",
     "description": "Es originaria de las regiones costeras y húmedas de Sudáfrica, de hoja perenne, sus diminutas flores son de color blanco y hermafroditas. Su reprodución por medio de estolones dan la sensación visual de pequeñas plantas ‘flotando’ en el aire, en contacto con la tierra enraízan y dan lugar a nuevas plantas. El nombre de ‘malamadre’ hace alusión a sus estolones porque parece que aleja a sus hijos de ella. Muy resistente, requiere pocos cuidados.",
     "type": ["Suelo", "Colgante"],
-    "size": "Se puede limitar con la poda",
+    "size": "Según la variedad puede adquirir alturas superiores a los 50 centímetros, pero se puede controlar con la poda.",
     "toxicity": null,
     "care": {
       "dedication": {
-        "value": "Medio",
+        "value": "Medio-bajo",
         "description": null
       },
       "location": ["Interior", "Exterior"],
       "light": {
         "value": "Indirecta",
-        "description": "Luz media sin sol directo."
+        "description": "Tolera luz baja pero lo oṕtimo es media/alta, sin sol directo porque se pueden quemar las hojas."
       },
-      "temperature": "-2 a 30 ºC",
+      "temperature": "Óptima de 10 a 30ºC, pero tolera hasta -2ºC",
       "humidity": {
         "value": "Ambiente húmedo",
-        "description": "Pero soporta bien ambientes más secos si se riega adecuadamente. Pulverizar las hojas si hay mucha sequedad.",
+        "description": "Soporta bien ambientes más secos, pulverizar las hojas si hay excesiva sequedad.",
       },
       "irrigation": {
         "value": "Moderado.",
-        "description": "Dejar secar la tierra entre riego y riego."
+        "description": "Dejar secar ligeramente la tierra entre riegos."
       },
       "fertilizer": {
         "type": ["Universal", "Plantas verdes"],
@@ -94,11 +94,71 @@
       },
       "soil": ["Universal", "Plantas verdes"],
       "transplant": "Cada 2 años",
-      "pruning": "En cualquier momento, para controlar su crecimiento u obtener esquejes.",
+      "pruning": "En cualquier momento, para controlar su crecimiento.",
     },
     "problems": {
-      "diseases": "Hongos. También pulgones, cochinillas o araña roja, aunque no son habituales.",
-      "commonMistakes": "El riego excesivo es el error más común. Evitar encharcamientos porque es sensible a la asfixia de las raices y a los hongos. Es necesario un buen drenaje."
+      "diseases": "Pulgones, cochinillas o araña roja, aunque no son habituales.",
+      "commonMistakes": "Puntas marrones por falta de agua o baja humedad. Hojas pálidas o descoloridas por falta de luz. Hojas amarillas por falta de hierro. Hojas pequeñas o crecimiento lento por falta de fertilizante."
+    }
+  },
+  {
+    "slug": "lirio",
+    "name": "Lirio de la paz",
+    "variantsName": "Espatifilo",
+    "scientificName": "Spathiphyllum",
+    "image: "https://commons.wikimedia.org/wiki/Category:Spathiphyllum#/media/File:Spathiphyllum_cochlearispathum_RTBG.jpg",
+    "description": "Nativas de la América tropical y Malasia, de hoja perenne. Produce una copiosa floración todo el año. Tiene una gran capacidad de eliminar los contaminantes que se acumulan en nuestro hogar.",
+    "type": ["Suelo"],
+    "size": "Según la variedad puede adquirir alturas superiores a los 40 centímetros, pero se puede controlar con la poda.",
+    "toxicity": {
+      "dog": {
+        "value": "Si",
+        "symptoms": "Irritación oral, ardor intenso e irritación de boca, lengua y labios, babeo excesivo, vómitos, dificultad para tragar.",
+      },
+      "cat": {
+        "value": "Si",
+        "symptoms": "Irritación oral, ardor intenso e irritación de boca, lengua y labios, babeo excesivo, vómitos, dificultad para tragar.",
+      },
+      "rabbit": {
+        "value": "Sí",
+        "symptoms": "No determinados"
+      },
+      "horse": {
+        "value": "No",
+        "symptoms": null
+      },
+      "baby": null
+    },
+    "care": {
+      "dedication": {
+        "value": "Medio-bajo",
+        "description": null
+      },
+      "location": ["Interior", "Terraza o patio"],
+      "light": {
+        "value": "Indirecta",
+        "description": "Tolera luz baja pero lo oṕtimo es media/alta para que florezca, sin sol directo porque se pueden quemar las hojas."
+      },
+      "temperature": "Óptimo de 15 a 30ºC. No soporta temperaturas muy bajas ni las heladas.",
+      "humidity": {
+        "value": "Ambiente húmedo",
+        "description": "Soporta bien ambientes más secos, pulverizar las hojas si hay excesiva sequedad.",
+      },
+      "irrigation": {
+        "value": "Moderado.",
+        "description": "Mantener la tierra húmeda sin encharcar en primavera y verano, en otoño e invierno dejar secar la tierra entre riegos. Si el cloro del agua del grifo es excesivo riégala con agua filtrada, o al menos, déjala reposar durante la noche para permitir que el cloro se evapore."
+      },
+      "fertilizer": {
+        "type": ["Universal", "Plantas verdes", "Plantas con flor"],
+        "time": "Primavera y verano"
+      },
+      "soil": ["Universal", "Plantas verdes", "Plantas con flor"],
+      "transplant": "1 vez al año",
+      "pruning": "Cuando la flor comienza a marchitarse, hay que podarla dos o tres centímetros por encima de la unión con la hoja. Pasado un mes, el tallo que dejamos se habrá secado y entonces podremos tirar de él y extraerlo sin ningún problema de resistencia. De esta manera, induciremos una ininterrumpida floración.",
+    },
+    "problems": {
+      "diseases": "Son resistentes a casi todo tipo de plagas y las que los afectan no traen daños considerables. Los más comunes son los pulgones, araña roja y mosca blanca. Cuando se riega en exceso, es vulnerable a los hongos.",
+      "commonMistakes": "Bordes de hojas marrones por exceso de riego, quemaduras solares o exceso de fertilizante. No florece por falta de luz. Hojas amarillas por exceso de riego o quemaduras solares. Hojas caidas por falta o exceso de riego."
     }
   }
 ]
