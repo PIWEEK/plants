@@ -29,7 +29,7 @@
     },
     "care": {
       "dedication": {
-        "value": "Medio-bajo",
+        "value": "Media-baja",
         "description": null
       },
       "location": ["Interior", "Terraza o patio"],
@@ -60,7 +60,7 @@
     }
   },
   {
-    "slug": "Cinta",
+    "slug": "cinta",
     "name": "Cinta",
     "variantsName": "Araña, Malamadre",
     "scientificName": "Chlorophytum comosum",
@@ -71,7 +71,7 @@
     "toxicity": null,
     "care": {
       "dedication": {
-        "value": "Medio-bajo",
+        "value": "Media-baja",
         "description": null
       },
       "location": ["Interior", "Exterior"],
@@ -102,7 +102,7 @@
     }
   },
   {
-    "slug": "lirio",
+    "slug": "lirio-de-la-paz",
     "name": "Lirio de la paz",
     "variantsName": "Espatifilo",
     "scientificName": "Spathiphyllum",
@@ -131,7 +131,7 @@
     },
     "care": {
       "dedication": {
-        "value": "Medio-bajo",
+        "value": "Media-baja",
         "description": null
       },
       "location": ["Interior", "Terraza o patio"],
@@ -159,6 +159,132 @@
     "problems": {
       "diseases": "Son resistentes a casi todo tipo de plagas y las que los afectan no traen daños considerables. Los más comunes son los pulgones, araña roja y mosca blanca. Cuando se riega en exceso, es vulnerable a los hongos.",
       "commonMistakes": "Bordes de hojas marrones por exceso de riego, quemaduras solares o exceso de fertilizante. No florece por falta de luz. Hojas amarillas por exceso de riego o quemaduras solares. Hojas caidas por falta o exceso de riego."
+    }
+  },
+  {
+    "slug": "sansevieria",
+    "name": "Sansevieria",
+    "variantsName": "Lengua de tigre, lengua de suegra, espada de san juan",
+    "scientificName": "Sansevieria",
+    "image": "",
+    "description": "Abarca aproximadamente 130 especies, la mayoría naturales de África y Asia, de hoja perenne y crecimiento lento. Es una planta muy fácil de cultivar y casi indestructible. Tiene la capacidad de eliminar toxinas del aire. Otra de sus ventajas es que sus hojas siempre crecen hacia arriba, lo que hace que se conviertan en una compañera perfecta para espacios reducidos.",
+    "type": ["Suelo"],
+    "size": "Hasta dos metros y medio de alto, dependiendo de la variedad.",
+    "toxicity": null,
+    "care": {
+      "dedication": {
+        "value": "Baja",
+        "description": null
+      },
+      "location": ["Interior", "Exterior"],
+      "light": {
+        "value": "Indirecta",
+        "description": "Con algo de sol directo. Pueden adaptarse a condiciones de pleno sol y también sobrevivirán en ambientes más oscuros."
+      },
+      "temperature": "Óptimo de 15 a 30ºC.",
+      "humidity": {
+        "value": "Media-baja",
+        "description": "Soporta bien los ambientes secos."
+      },
+      "irrigation": {
+        "value": "Bajo",
+        "description": "Dejar secar mucho la tierra entre riegos."
+      },
+      "fertilizer": {
+        "type": ["Plantas crasas"],
+        "time": "Primavera y verano"
+      },
+      "soil": ["Plantas crasas"],
+      "transplant": "No necesario, sólo cuando las raices crezcan fuera de la maceta.",
+      "pruning": "No necesita poda, sólo eliminar hojas secas."
+    },
+    "problems": {
+      "diseases": "Son resistentes a casi todo tipo de plagas y las que los afectan no traen daños considerables. Los más comunes son las cochinillas. Cuando se riega en exceso, es vulnerable a los hongos.",
+      "commonMistakes": "Hojas que se pudren en la base o aparición de manchas marrones, por excesivo riego. Hojas que pierden su color por falta de luz. Hojas secas por falta de agua. "
+    }
+  },
+  {
+    "slug": "monstera-deliciosa",
+    "name": "Monstera",
+    "variantsName": "Costilla de Adán, Queso suizo, Cerimán, Filodendro, Planta esqueleto",
+    "scientificName": "Monstera deliciosa",
+    "image": "",
+    "description": "Planta trepadora de hoja perenne nativa de América Central. Las Monsteras son famosas por los hermosos agujeros de sus hojas. Puede dar flores y frutos cuya pulpa es comestible, pero rara vez sucede en interior.",
+    "type": ["Trepadora"],
+    "size": "Media 45-55 cm aprox. pero puede ser superior. Se puede limitar con la poda.",
+    "toxicity": null,
+    "care": {
+      "dedication": {
+        "value": "Media-baja",
+        "description": null
+      },
+      "location": ["Interior", "Exterior"],
+      "light": {
+        "value": "Indirecta",
+        "description": "Lo oṕtimo es media/alta, sin sol directo porque se pueden quemar las hojas."
+      },
+      "temperature": "Óptima de 18°C a 30°C. Es mejor no dejar que baje de los 10°C. No tolera las heladas.",
+      "humidity": {
+        "value": "Ambiente húmedo",
+        "description": "Soporta bien ambientes algo más secos, pulverizar las hojas si hay excesiva sequedad."
+      },
+      "irrigation": {
+        "value": "Moderado",
+        "description": "Dejar secar la tierra entre riegos."
+      },
+      "fertilizer": {
+        "type": ["Universal", "Plantas verdes"],
+        "time": "Primavera y verano"
+      },
+      "soil": ["Universal", "Plantas verdes"],
+      "transplant": "Cada 2 años",
+      "pruning": "No necesita poda, sólo para retirar ramas secas o para limitar su crecimiento."
+    },
+    "problems": {
+      "diseases": "Muy pocas posibilidades de ser atacada por plagas o enfermedades. Raras veces araña roja, cochinilla o pudriciones causadas por hongos o bacterias",
+      "commonMistakes": "Puntas de las hojas secas por falta de riego o humedad. Manchas negras por exceso de agua, baja temperatura o quemadura solar. Hojas amarillas por exceso de riego, falta de fertilizante o falta de luz."
+    }
+  },
+  {
+    "slug": "",
+    "name": "",
+    "variantsName": "",
+    "scientificName": "",
+    "image": "",
+    "description": "",
+    "type": [],
+    "size": "",
+    "toxicity": null,
+    "care": {
+      "dedication": {
+        "value": "",
+        "description": null
+      },
+      "location": [],
+      "light": {
+        "value": "",
+        "description": ""
+      },
+      "temperature": "",
+      "humidity": {
+        "value": "",
+        "description": ""
+      },
+      "irrigation": {
+        "value": "",
+        "description": ""
+      },
+      "fertilizer": {
+        "type": [],
+        "time": ""
+      },
+      "soil": [],
+      "transplant": "",
+      "pruning": ""
+    },
+    "problems": {
+      "diseases": "",
+      "commonMistakes": ""
     }
   }
 ]
