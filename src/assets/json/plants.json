@@ -204,6 +204,48 @@
     }
   },
   {
+    "slug": "monstera-deliciosa",
+    "name": "Monstera",
+    "variantsName": "Costilla de Adán, Queso suizo, Cerimán, Filodendro, Planta esqueleto",
+    "scientificName": "Monstera deliciosa",
+    "image": "",
+    "description": "Planta trepadora de hoja perenne nativa de América Central. Las Monsteras son famosas por los hermosos agujeros de sus hojas. Puede dar flores y frutos cuya pulpa es comestible, pero rara vez sucede en interior.",
+    "type": ["Trepadora"],
+    "size": "Media 45-55 cm aprox. pero puede ser superior. Se puede limitar con la poda.",
+    "toxicity": null,
+    "care": {
+      "dedication": {
+        "value": "Media-baja",
+        "description": null
+      },
+      "location": ["Interior", "Exterior"],
+      "light": {
+        "value": "Indirecta",
+        "description": "Lo oṕtimo es media/alta, sin sol directo porque se pueden quemar las hojas."
+      },
+      "temperature": "Óptima de 18°C a 30°C. Es mejor no dejar que baje de los 10°C. No tolera las heladas.",
+      "humidity": {
+        "value": "Ambiente húmedo",
+        "description": "Soporta bien ambientes algo más secos, pulverizar las hojas si hay excesiva sequedad."
+      },
+      "irrigation": {
+        "value": "Moderado",
+        "description": "Dejar secar la tierra entre riegos."
+      },
+      "fertilizer": {
+        "type": ["Universal", "Plantas verdes"],
+        "time": "Primavera y verano"
+      },
+      "soil": ["Universal", "Plantas verdes"],
+      "transplant": "Cada 2 años",
+      "pruning": "No necesita poda, sólo para retirar ramas secas o para limitar su crecimiento."
+    },
+    "problems": {
+      "diseases": "Muy pocas posibilidades de ser atacada por plagas o enfermedades. Raras veces araña roja, cochinilla o pudriciones causadas por hongos o bacterias",
+      "commonMistakes": "Puntas de las hojas secas por falta de riego o humedad. Manchas negras por exceso de agua, baja temperatura o quemadura solar. Hojas amarillas por exceso de riego, falta de fertilizante o falta de luz."
+    }
+  },
+  {
     "slug": "",
     "name": "",
     "variantsName": "",
