@@ -1,5 +1,6 @@
 <template>
-  <div class="home" id="app">
+  <div class="plantsList" id="app">
+    <h1>This is the plants list page</h1>
     <Plants />
   </div>
 </template>
@@ -9,7 +10,7 @@
 import Plants from "../components/Plants.vue";
 
 export default {
-  name: "Home",
+  name: "Home", // por qué no funciona con Plants?
   components: {
     Plants,
   },
