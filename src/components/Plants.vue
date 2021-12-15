@@ -4,7 +4,39 @@
       <div class="col2">
         <h1>Plantas</h1>
       </div>
-      <div class="">
+      <div class="row">
+        <button v-on:click="ascending = !ascending" class="sort-button">
+          <template v-if="ascending">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="chevron-down"
+            >
+              <polyline points="6 9 12 15 18 9"></polyline></svg
+          ></template>
+          <template v-else>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-chevron-up"
+            >
+              <polyline points="18 15 12 9 6 15" /></svg
+          ></template>
+        </button>
         <label for="buscar" class="hide">Buscar</label>
         <input
           type="text"
@@ -242,6 +274,7 @@ export default {
   // declaro el elemento buscar
   data() {
     return {
+      ascending: true,
       buscar: "",
     };
   },
@@ -275,7 +308,10 @@ export default {
           item.name.toLowerCase().includes(this.buscar.toLowerCase())
         );
       });
-
+      // Show sorted array in descending or ascending order
+      if (!this.ascending) {
+        tempPlantas.reverse();
+      }
       return tempPlantas;
     },
   },
@@ -291,5 +327,8 @@ export default {
 }
 .row.list {
   flex-basis: 78%;
+}
+.sort-button {
+  margin-bottom: 0;
 }
 </style>
