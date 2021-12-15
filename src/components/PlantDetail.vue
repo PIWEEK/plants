@@ -55,60 +55,60 @@
     </div>
     <div class="detailed-info row">
       <div class="care">
-        <div class="row left">
-          <div class="iconcare">
-            <img src="../assets/svg/iluminacion.svg" width="48" height="48" />
+        <div class="listacuidados">
+          <div class="row left">
+            <div class="iconcare">
+              <img src="../assets/svg/iluminacion.svg" width="48" height="48" />
+            </div>
+            <div>
+              <h5 class="cuidados">Iluminación</h5>
+              <p>
+                {{ plantData.care.light.value }}.
+                {{ plantData.care.light.description }}
+              </p>
+            </div>
           </div>
-          <div>
-            <h5 class="cuidados">Iluminación</h5>
-            <p>
-              {{ plantData.care.light.value }}.
-              {{ plantData.care.light.description }}
-            </p>
+          <div class="row left">
+            <div class="iconcare">
+              <img src="../assets/svg/riego.svg" width="48" height="48" />
+            </div>
+            <div>
+              <h5 class="cuidados">Riego</h5>
+              <p>
+                {{ plantData.care.irrigation.value }}.
+                {{ plantData.care.irrigation.description }}
+              </p>
+            </div>
+          </div>
+          <div class="row left">
+            <div class="iconcare">
+              <img src="../assets/svg/temperatura.svg" width="48" height="48" />
+            </div>
+            <div>
+              <h5 class="cuidados">Temperatura óptima</h5>
+              <p>
+                {{ plantData.care.temperature }}
+              </p>
+            </div>
+          </div>
+          <div class="row left">
+            <div class="iconcare">
+              <img src="../assets/svg/humedad.svg" width="48" height="48" />
+            </div>
+            <div>
+              <h5 class="cuidados">Humedad</h5>
+              <p>
+                {{ plantData.care.humidity.value }}.
+                {{ plantData.care.humidity.description }}
+              </p>
+            </div>
           </div>
         </div>
-        <div class="row left">
-          <div class="iconcare">
-            <img src="../assets/svg/riego.svg" width="48" height="48" />
-          </div>
-          <div>
-            <h5 class="cuidados">Riego</h5>
+        <div class="otroscuidados">
+          <h3>Otros cuidados</h3>
+          <div class="row left">
             <p>
-              {{ plantData.care.irrigation.value }}.
-              {{ plantData.care.irrigation.description }}
-            </p>
-          </div>
-        </div>
-        <div class="row left">
-          <div class="iconcare">
-            <img src="../assets/svg/temperatura.svg" width="48" height="48" />
-          </div>
-          <div>
-            <h5 class="cuidados">Temperatura óptima</h5>
-            <p>
-              {{ plantData.care.temperature }}
-            </p>
-          </div>
-        </div>
-        <div class="row left">
-          <div class="iconcare">
-            <img src="../assets/svg/humedad.svg" width="48" height="48" />
-          </div>
-          <div>
-            <h5 class="cuidados">Humedad</h5>
-            <p>
-              {{ plantData.care.humidity.value }}.
-              {{ plantData.care.humidity.description }}
-            </p>
-          </div>
-        </div>
-        <div class="row left">
-          <div class="iconcare">
-            <img src="../assets/svg/iluminacion.svg" width="48" height="48" />
-          </div>
-          <div>
-            <h5 class="cuidados">Fertilizante</h5>
-            <p>
+              <span class="cuidados">Fertilizante</span>
               <span
                 v-for="(tipofert, index) in plantData.care.fertilizer.type"
                 :key="index"
@@ -118,18 +118,122 @@
               {{ plantData.care.fertilizer.time }}
             </p>
           </div>
-        </div>
-        <div class="row left">
-          <div class="iconcare">
-            <img src="../assets/svg/iluminacion.svg" width="48" height="48" />
-          </div>
-          <div>
-            <h5 class="cuidados">Tierra</h5>
+          <div class="row left">
             <p>
-              <span v-for="(tierra, index) in plantData.care.soil" :key="index">
-                {{ tierra }},
+              <span class="cuidados">Sustrato</span>
+              <span
+                v-for="(sustrato, index) in plantData.care.soil"
+                :key="index"
+              >
+                {{ sustrato }},
               </span>
             </p>
+          </div>
+          <div class="row left">
+            <p>
+              <span class="cuidados">Transplante</span>
+              <span>
+                {{ plantData.care.transplant }}
+              </span>
+            </p>
+          </div>
+          <div class="row left">
+            <p>
+              <span class="cuidados">Poda</span>
+              <span>
+                {{ plantData.care.pruning }}
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="problemas">
+          <h3>Enfermedades y plagas</h3>
+          <div class="row left">
+            <p>{{ plantData.problems.diseases }}</p>
+          </div>
+        </div>
+        <div class="problemas">
+          <h3>Errores más comunes</h3>
+          <div class="row left">
+            <p>{{ plantData.problems.commonMistakes }}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="toxicidad">
+        <h3>Toxicidad</h3>
+        <div class="row column" v-if="plantData.toxicity !== null">
+          <div class="row left" v-if="plantData.toxicity.dog !== null">
+            <img
+              class="toxicity"
+              src="../assets/svg/animals_dog.svg"
+              v-bind:class="{ nontoxic: plantData.toxicity.dog.value == 'No' }"
+              v-bind:title="
+                plantData.toxicity.dog.value + ' tóxico para perretes'
+              "
+              v-bind:alt="plantData.toxicity.dog.value"
+              :key="plantData.key"
+            />
+            <p>{{ plantData.toxicity.dog.symptoms }}</p>
+          </div>
+          <div class="row left" v-if="plantData.toxicity.cat !== null">
+            <img
+              v-if="plantData.toxicity.cat !== null"
+              class="toxicity"
+              src="../assets/svg/animals_cat.svg"
+              v-bind:class="{ nontoxic: plantData.toxicity.cat.value == 'No' }"
+              v-bind:title="
+                plantData.toxicity.cat.value + ' tóxico para gatetes'
+              "
+              v-bind:alt="plantData.toxicity.cat.value"
+              :key="plantData.key"
+            />
+            <p>{{ plantData.toxicity.cat.symptoms }}</p>
+          </div>
+          <div class="row left" v-if="plantData.toxicity.horse !== null">
+            <img
+              class="toxicity"
+              src="../assets/svg/horse-2.svg"
+              v-bind:class="{
+                nontoxic: plantData.toxicity.horse.value == 'No',
+              }"
+              v-bind:title="
+                plantData.toxicity.horse.value + ' tóxico para caballos'
+              "
+              v-bind:alt="plantData.toxicity.horse.value"
+              :key="plantData.key"
+            />
+            <p>{{ plantData.toxicity.horse.symptoms }}</p>
+          </div>
+          <div class="row left" v-if="plantData.toxicity.rabbit !== null">
+            <img
+              class="toxicity"
+              src="../assets/svg/animals_rabbit_1.svg"
+              v-bind:class="{
+                nontoxic: plantData.toxicity.rabbit.value == 'No',
+              }"
+              v-bind:title="
+                plantData.toxicity.rabbit.value + ' tóxico para conejos'
+              "
+              v-bind:alt="plantData.toxicity.rabbit.value"
+              :key="plantData.key"
+            />
+            <p>{{ plantData.toxicity.rabbit.symptoms }}</p>
+          </div>
+          <div class="row left" v-if="plantData.toxicity.baby !== null">
+            <img
+              class="toxicity"
+              src="../assets/svg/face_baby-2.svg"
+              v-bind:class="{
+                plantData: plantData.toxicity.baby.value == 'Yes',
+              }"
+              v-bind:title="
+                plantData.toxicity.baby.value + ' tóxico para bebés'
+              "
+              v-bind:alt="plantData.toxicity.baby.value"
+              :key="plantData.key"
+            />
+            <p>{{ plantData.toxicity.baby.symptoms }}</p>
           </div>
         </div>
       </div>
@@ -187,6 +291,10 @@ h5 {
   font-size: 1rem;
   margin-bottom: 0.2rem;
 }
+span.cuidados {
+  color: #476643;
+  margin-right: 0.25rem;
+}
 .iconcare {
   width: 48px;
   height: 48px;
@@ -194,5 +302,33 @@ h5 {
 .row {
   gap: 1rem;
   margin-bottom: 2rem;
+}
+.care {
+  flex-basis: 66%;
+  .row {
+    margin-bottom: 1.5rem;
+  }
+}
+.toxicidad {
+  flex-basis: 25%;
+  padding: 2rem;
+  padding-bottom: 0;
+  background-color: #eef4ed;
+  .row {
+    margin-bottom: 0;
+    .left {
+      flex-wrap: nowrap;
+      align-items: flex-start;
+    }
+  }
+}
+.listacuidados {
+  margin-bottom: 2rem;
+}
+.otroscuidados {
+  margin-bottom: 2rem;
+  .row {
+    margin-bottom: 0;
+  }
 }
 </style>
