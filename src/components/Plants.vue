@@ -4,7 +4,7 @@
       <div class="col2">
         <h1>Plantas</h1>
       </div>
-      <div class="col-2">
+      <div class="">
         <label for="buscar" class="hide">Buscar</label>
         <input
           type="text"
