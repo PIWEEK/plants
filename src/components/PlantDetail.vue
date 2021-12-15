@@ -12,20 +12,33 @@
         />
       </div>
       <div class="col-2">
-        <!--         <h2>Planta {{ $route.params.plant.slug }}</h2>
- -->
+        <!-- <h2>Planta {{ $route.params.plant.slug }}</h2>-->
         <dl>
           <dt>Nombre</dt>
           <dd>{{ plantData.name }}</dd>
         </dl>
         <dl>
-          <dt>Otros nombres</dt>
+          <dt>Scientific name</dt>
+          <dd>{{ plantData.scientificName }}</dd>
+          <dd>{{ plantData.scientific_name }}</dd>
+        </dl>
+        <dl>
+          <dt>Nombre</dt>
           <dd>{{ plantData.name }}</dd>
         </dl>
         <dl>
-          <dt>Familia</dt>
-          <dd>{{ plantData.family }}</dd>
+          <dt>Nombre</dt>
+          <dd>{{ plantData.care.dedication.value }}</dd>
         </dl>
+        <dl>
+          <dt>Dedicacion</dt>
+          <dd>{{ plantData.care.dedication.description }}</dd>
+        </dl>
+
+        <!--         {{ variantsName }}
+        {{ description }}
+        {{ size }}
+        {{ toxicity.dog }} -->
       </div>
     </div>
   </div>

@@ -99,8 +99,8 @@
             >
               <img
                 class="card-img"
-                v-bind:src="item.image_url"
-                v-bind:alt="item.scientific_name"
+                v-bind:src="item.image"
+                v-bind:alt="item.scientificName"
               />
             </router-link>
 
@@ -114,7 +114,7 @@
                 <h3 class="card__title">{{ item.name }}</h3>
               </router-link>
               <h4 class="card__scientific-name">
-                {{ item.scientific_name }}
+                {{ item.scientificName }}
               </h4>
 
               <div class="row ded">
@@ -133,34 +133,45 @@
             </p> -->
               <div class="row">
                 <span>Toxico para</span>
-                <img
+                <!--                 <img
                   class="toxicity"
                   src="../assets/svg/animals_dog.svg"
                   v-bind:class="{ nontoxic: item.toxicity_dogs }"
                   :key="item.key"
+                />  -->
+                <img
+                  v-if="item.toxicity !== null"
+                  class="toxicity"
+                  src="../assets/svg/animals_dog.svg"
+                  v-bind:class="{ nontoxic: item.toxicity.dog.value }"
+                  :key="item.key"
                 />
                 <img
+                  v-if="item.toxicity !== null"
                   class="toxicity"
                   src="../assets/svg/animals_cat.svg"
-                  v-bind:class="{ nontoxic: item.toxicity_cats }"
+                  v-bind:class="{ nontoxic: item.toxicity.cat.value }"
                   :key="item.key"
                 />
                 <img
+                  v-if="item.toxicity !== null"
                   class="toxicity"
                   src="../assets/svg/horse-2.svg"
-                  v-bind:class="{ nontoxic: item.toxicity_horses }"
+                  v-bind:class="{ nontoxic: item.toxicity.horse.value }"
                   :key="item.key"
                 />
                 <img
+                  v-if="item.toxicity !== null"
                   class="toxicity"
                   src="../assets/svg/animals_rabbit_1.svg"
-                  v-bind:class="{ nontoxic: item.toxicity_dogs }"
+                  v-bind:class="{ nontoxic: item.toxicity.rabbit.value }"
                   :key="item.key"
                 />
                 <img
+                  v-if="item.toxicity !== null"
                   class="toxicity"
                   src="../assets/svg/face_baby-2.svg"
-                  v-bind:class="{ nontoxic: item.toxicity_dogs }"
+                  v-bind:class="{ nontoxic: item.toxicity.baby }"
                   :key="item.key"
                 />
               </div>
@@ -188,7 +199,8 @@
 </template>
 
 <script>
-import datos from "../assets/json/data.json";
+//import datos from "../assets/json/data.json";
+import datos from "../assets/json/plants_copy.json";
 
 export default {
   // Exporto mi componente 'Plants'
@@ -227,7 +239,7 @@ export default {
 
       tempPlantas = datos.filter((item) => {
         return (
-          item.scientific_name
+          item.scientificName
             .toLowerCase()
             .includes(this.buscar.toLowerCase()) ||
           item.name.toLowerCase().includes(this.buscar.toLowerCase())
