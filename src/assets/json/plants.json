@@ -164,13 +164,31 @@
   {
     "slug": "sansevieria",
     "name": "Sansevieria",
-    "variantsName": "Lengua de tigre, lengua de suegra, espada de san juan",
+    "variantsName": "Lengua de tigre, Lengua de suegra, Espada de san juan, Laurentii",
     "scientificName": "Sansevieria",
-    "image": "",
+    "image": "https://images.unsplash.com/photo-1620127252536-03bdfcf6d5c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80",
     "description": "Abarca aproximadamente 130 especies, la mayoría naturales de África y Asia, de hoja perenne y crecimiento lento. Es una planta muy fácil de cultivar y casi indestructible. Tiene la capacidad de eliminar toxinas del aire. Otra de sus ventajas es que sus hojas siempre crecen hacia arriba, lo que hace que se conviertan en una compañera perfecta para espacios reducidos.",
     "type": ["Suelo"],
     "size": "Hasta dos metros y medio de alto, dependiendo de la variedad, pero es de crecimiento lento.",
-    "toxicity": null,
+    "toxicity": {
+      "dog": {
+        "value": "Si",
+        "symptoms": "Nauseas, vómitos y diarrea."
+      },
+      "cat": {
+        "value": "Si",
+        "symptoms": "Nauseas, vómitos y diarrea."
+      },
+      "rabbit": {
+        "value": "Sí",
+        "symptoms": "No determinados"
+      },
+      "horse": {
+        "value": "No",
+        "symptoms": null
+      },
+      "baby": null
+    },
     "care": {
       "dedication": {
         "value": "Baja",
@@ -208,11 +226,29 @@
     "name": "Monstera",
     "variantsName": "Costilla de Adán, Queso suizo, Cerimán, Filodendro, Planta esqueleto",
     "scientificName": "Monstera deliciosa",
-    "image": "",
+    "image": "https://images.unsplash.com/photo-1614594975525-e45190c55d0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80",
     "description": "Planta trepadora de hoja perenne nativa de América Central. Las Monsteras son famosas por los hermosos agujeros de sus hojas. Puede dar flores y frutos cuya pulpa es comestible, pero rara vez sucede en interior.",
     "type": ["Trepadora"],
     "size": "Media 45-55 cm aprox. pero puede ser superior. Se puede limitar con la poda.",
-    "toxicity": null,
+    "toxicity": {
+      "dog": {
+        "value": "Si",
+        "symptoms": "Irritación oral, ardor intenso e irritación de boca, lengua y labios, babeo excesivo, vómitos o dificultad para tragar."
+      },
+      "cat": {
+        "value": "Si",
+        "symptoms": "Irritación oral, ardor intenso e irritación de boca, lengua y labios, babeo excesivo, vómitos o dificultad para tragar."
+      },
+      "rabbit": {
+        "value": "Sí",
+        "symptoms": "No determinados"
+      },
+      "horse": {
+        "value": "No",
+        "symptoms": null
+      },
+      "baby": null
+    },
     "care": {
       "dedication": {
         "value": "Media-baja",
@@ -250,11 +286,29 @@
     "name": "Árbol de Jade",
     "variantsName": "Árbol del dinero",
     "scientificName": "Crassula ovata",
-    "image": "",
+    "image": "https://images.unsplash.com/photo-1620127620051-fea30e50c66e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80",
     "description": "Una de las suculentas más conocidas del mundo. Originaria de Mozambique y algunas de las provincias sudafricanas (KwaZulu-Natal, Cabo Oriental). Perenne y de lento crecimiento. Sus hojas carnosas y su porte de arbolito, además de su resistencia a la sequía, hacen de ella una especie muy querida. Aunque su período de floración es bastante amplio, es raro que florezca si se mantiene en interior.",
     "type": ["Suelo"],
     "size": "Hasta dos metros de alto, dependiendo de la variedad, pero es de crecimiento lento y se puede limitar con la poda.",
-    "toxicity": null,
+    "toxicity": {
+      "dog": {
+        "value": "Si",
+        "symptoms": "Vómitos, depresión."
+      },
+      "cat": {
+        "value": "Si",
+        "symptoms": "Vómitos, depresión."
+      },
+      "rabbit": {
+        "value": "No",
+        "symptoms": null
+      },
+      "horse": {
+        "value": "No",
+        "symptoms": null
+      },
+      "baby": null
+    },
     "care": {
       "dedication": {
         "value": "Baja",
