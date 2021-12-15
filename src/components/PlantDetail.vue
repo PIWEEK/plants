@@ -74,8 +74,8 @@
           <div>
             <h5 class="cuidados">Riego</h5>
             <p>
-              {{ plantData.care.light.value }}.
-              {{ plantData.care.light.description }}
+              {{ plantData.care.irrigation.value }}.
+              {{ plantData.care.irrigation.description }}
             </p>
           </div>
         </div>
@@ -86,8 +86,7 @@
           <div>
             <h5 class="cuidados">Temperatura óptima</h5>
             <p>
-              {{ plantData.care.light.value }}.
-              {{ plantData.care.light.description }}
+              {{ plantData.care.temperature }}
             </p>
           </div>
         </div>
@@ -98,8 +97,8 @@
           <div>
             <h5 class="cuidados">Humedad</h5>
             <p>
-              {{ plantData.care.light.value }}.
-              {{ plantData.care.light.description }}
+              {{ plantData.care.humidity.value }}.
+              {{ plantData.care.humidity.description }}
             </p>
           </div>
         </div>
