@@ -64,8 +64,8 @@
     "name": "Cinta",
     "variantsName": "Araña, Malamadre",
     "scientificName": "Chlorophytum comosum",
-    "image": "https://en.wikipedia.org/wiki/Chlorophytum_comosum#/media/File:Hierbabuena_0611_Revised.jpg",
-    "description": "Es originaria de las regiones costeras y húmedas de Sudáfrica, de hoja perenne, sus diminutas flores son de color blanco y hermafroditas. Su reprodución por medio de estolones dan la sensación visual de pequeñas plantas ‘flotando’ en el aire, en contacto con la tierra enraízan y dan lugar a nuevas plantas. El nombre de ‘malamadre’ hace alusión a sus estolones porque parece que aleja a sus hijos de ella. Muy resistente, requiere pocos cuidados.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Hierbabuena_0611_Revised.jpg",
+    "description": "Es originaria de las regiones costeras y húmedas de Sudáfrica, de hoja perenne, sus diminutas flores son de color blanco y hermafroditas. Su reprodución por medio de estolones dan la sensación visual de pequeñas plantas /flotando/ en el aire, en contacto con la tierra enraízan y dan lugar a nuevas plantas. El nombre de malamadre hace alusión a sus estolones porque parece que aleja a sus hijos de ella. Muy resistente, requiere pocos cuidados.",
     "type": ["Suelo", "Colgante"],
     "size": "Según la variedad puede adquirir alturas superiores a los 50 centímetros, pero se puede controlar con la poda.",
     "toxicity": null,
@@ -243,6 +243,66 @@
     "problems": {
       "diseases": "Muy pocas posibilidades de ser atacada por plagas o enfermedades. Raras veces araña roja, cochinilla o pudriciones causadas por hongos o bacterias",
       "commonMistakes": "Puntas de las hojas secas por falta de riego o humedad. Manchas negras por exceso de agua, baja temperatura o quemadura solar. Hojas amarillas por exceso de riego, falta de fertilizante o falta de luz."
+    }
+  },
+  {
+    "slug": "poto",
+    "name": "Poto",
+    "variantsName": "Potus, Pothos",
+    "scientificName": "Epipremnum aureum",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Epipremnum_pinnatum_a2.jpg/640px-Epipremnum_pinnatum_a2.jpg",
+    "description": "Tropical, nativa del sudeste asiático, con hojas perennes. De crecimiento bastante rápido, muy resistente, requiere pocos cuidados.",
+    "type": ["Trepadora", "Colgante"],
+    "size": "Se puede limitar con la poda",
+    "toxicity": {
+      "dog": {
+        "value": "Si",
+        "symptoms": "Irritación oral, ardor intenso e irritación de boca, lengua y labios, babeo excesivo, vómitos, dificultad para tragar."
+      },
+      "cat": {
+        "value": "Si",
+        "symptoms": "Irritación oral, ardor intenso e irritación de boca, lengua y labios, babeo excesivo, vómitos, dificultad para tragar."
+      },
+      "rabbit": {
+        "value": "Sí",
+        "symptoms": "No determinados"
+      },
+      "horse": {
+        "value": "No",
+        "symptoms": null
+      },
+      "baby": null
+    },
+    "care": {
+      "dedication": {
+        "value": "Media-baja",
+        "description": null
+      },
+      "location": ["Interior", "Terraza o patio"],
+      "light": {
+        "value": "Indirecta",
+        "description": "Tolera luz baja pero lo oṕtimo es media/alta, sin sol directo porque se pueden quemar las hojas."
+      },
+      "temperature": "Óptimo de 10 a 30ºC",
+      "humidity": {
+        "value": "Ambiente húmedo",
+        "description": "Soporta bien ambientes más secos, pulverizar las hojas si hay excesiva sequedad."
+      },
+      "irrigation": {
+        "value": "Moderado.",
+        "description": "Dejar secar la tierra entre riegos."
+      },
+      "fertilizer": {
+        "type": ["Universal", "Plantas verdes"],
+        "time": "Primavera y verano"
+      },
+      "soil": ["Universal", "Plantas verdes"],
+      "transplant": "Cada 2 años",
+      "pruning": "En cualquier momento, para controlar su crecimiento u obtener esquejes."
+    },
+    "problems": {
+      "diseases": "Son resistentes a casi todo tipo de plagas y las que los afectan no traen daños considerables. Los más comunes son los pulgones, cochinilla y araña roja. Cuando se riega en exceso, es vulnerable a los hongos.",
+      "commonMistakes": "El riego excesivo es el error más común. Evitar encharcamientos porque es sensible a la asfixia de las raices y a los hongos. Es necesario un buen drenaje. Otros como puntas marrones por falta de agua o baja humedad. Hojas pálidas o descoloridas por falta de luz."
     }
   }
 ]

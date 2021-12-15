@@ -7,8 +7,8 @@
       <div class="image-left col-2">
         <img
           class="card-img-top"
-          v-bind:src="plantData.image_url"
-          v-bind:alt="plantData.scientific_name"
+          v-bind:src="plantData.image"
+          v-bind:alt="plantData.scientificName"
         />
       </div>
       <div class="col-2">
