@@ -169,7 +169,7 @@
     "image": "",
     "description": "Abarca aproximadamente 130 especies, la mayoría naturales de África y Asia, de hoja perenne y crecimiento lento. Es una planta muy fácil de cultivar y casi indestructible. Tiene la capacidad de eliminar toxinas del aire. Otra de sus ventajas es que sus hojas siempre crecen hacia arriba, lo que hace que se conviertan en una compañera perfecta para espacios reducidos.",
     "type": ["Suelo"],
-    "size": "Hasta dos metros y medio de alto, dependiendo de la variedad.",
+    "size": "Hasta dos metros y medio de alto, dependiendo de la variedad, pero es de crecimiento lento.",
     "toxicity": null,
     "care": {
       "dedication": {
@@ -243,6 +243,48 @@
     "problems": {
       "diseases": "Muy pocas posibilidades de ser atacada por plagas o enfermedades. Raras veces araña roja, cochinilla o pudriciones causadas por hongos o bacterias",
       "commonMistakes": "Puntas de las hojas secas por falta de riego o humedad. Manchas negras por exceso de agua, baja temperatura o quemadura solar. Hojas amarillas por exceso de riego, falta de fertilizante o falta de luz."
+    }
+  },
+  {
+    "slug": "arbol-de-jade",
+    "name": "Árbol de Jade",
+    "variantsName": "Árbol del dinero",
+    "scientificName": "Crassula ovata",
+    "image": "",
+    "description": "Una de las suculentas más conocidas del mundo. Originaria de Mozambique y algunas de las provincias sudafricanas (KwaZulu-Natal, Cabo Oriental). Perenne y de lento crecimiento. Sus hojas carnosas y su porte de arbolito, además de su resistencia a la sequía, hacen de ella una especie muy querida. Aunque su período de floración es bastante amplio, es raro que florezca si se mantiene en interior.",
+    "type": ["Suelo"],
+    "size": "Hasta dos metros de alto, dependiendo de la variedad, pero es de crecimiento lento y se puede limitar con la poda.",
+    "toxicity": null,
+    "care": {
+      "dedication": {
+        "value": "Baja",
+        "description": null
+      },
+      "location": ["Interior", "Exterior"],
+      "light": {
+        "value": "Indirecta",
+        "description": "Con algo de sol directo. Necesita luz media-alta aunque se puede poner en sitios de menos luz, pero sus hojas serán de verde más oscuro y el crecimiento será más lento."
+      },
+      "temperature": "Óptimo de 12 a 26ºC. No tolera el frío ni las heladas.",
+      "humidity": {
+        "value": "Baja",
+        "description": "Soporta bien los ambientes secos y muy secos. No tolera la excesiva humedad ambiental."
+      },
+      "irrigation": {
+        "value": "Bajo",
+        "description": "Dejar secar mucho la tierra entre riegos."
+      },
+      "fertilizer": {
+        "type": ["Plantas crasas"],
+        "time": "Primavera y verano"
+      },
+      "soil": ["Plantas crasas"],
+      "transplant": "Sólo cuando la planta se desborde de su contenedor.",
+      "pruning": "Sólo para la estética de la planta o para limitar su crecimiento."
+    },
+    "problems": {
+      "diseases": "Son resistentes a casi todo tipo de plagas y las que los afectan no traen daños considerables. Los más comunes son las cochinillas o araña roja. Cuando se riega en exceso, es vulnerable a los hongos.",
+      "commonMistakes": "Manchas negras en las hojas por exceso de humedad o frío. Caida de hojas por falta o exceso de agua. Tallos largos con pocas hojas o no crece por falta de luz."
     }
   }
 ]
