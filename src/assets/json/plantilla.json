@@ -1,0 +1,42 @@
+{
+    "slug": "",
+    "name": "",
+    "variantsName": "",
+    "scientificName": "",
+    "image": "",
+    "description": "",
+    "type": [],
+    "size": "",
+    "toxicity": null,
+    "care": {
+      "dedication": {
+        "value": "",
+        "description": null
+      },
+      "location": [],
+      "light": {
+        "value": "",
+        "description": ""
+      },
+      "temperature": "",
+      "humidity": {
+        "value": "",
+        "description": ""
+      },
+      "irrigation": {
+        "value": "",
+        "description": ""
+      },
+      "fertilizer": {
+        "type": [],
+        "time": ""
+      },
+      "soil": [],
+      "transplant": "",
+      "pruning": ""
+    },
+    "problems": {
+      "diseases": "",
+      "commonMistakes": ""
+    }
+  }

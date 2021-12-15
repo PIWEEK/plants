@@ -229,7 +229,7 @@
 
 <script>
 //import datos from "../assets/json/data.json";
-import datos from "../assets/json/plants_copy.json";
+import datos from "../assets/json/plants.json";
 
 export default {
   // Exporto mi componente 'Plants'
