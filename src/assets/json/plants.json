@@ -29,7 +29,7 @@
     },
     "care": {
       "dedication": {
-        "value": "Media-baja",
+        "value": "Media",
         "description": null
       },
       "location": ["Interior", "Terraza o patio"],
@@ -56,7 +56,7 @@
     },
     "problems": {
       "diseases": "Son resistentes a casi todo tipo de plagas y las que los afectan no traen daños considerables. Los más comunes son los pulgones, cochinilla y araña roja. Cuando se riega en exceso, es vulnerable a los hongos.",
-      "commonMistakes": "El riego excesivo es el error más común. Evitar encharcamientos porque es sensible a la asfixia de las raices y a los hongos. Es necesario un buen drenaje. Otros como puntas marrones por falta de agua o baja humedad. Hojas pálidas o descoloridas por falta de luz."
+      "commonMistakes": "Manchas marrones por excesivo riego o quemaduras de sol. Hojas amarillas y lacias por falta de riego o de hierro. Puntas de las hojas marrones por falta de agua o baja humedad. Hojas pálidas o descoloridas por falta de luz."
     }
   },
   {
@@ -71,7 +71,7 @@
     "toxicity": null,
     "care": {
       "dedication": {
-        "value": "Media-baja",
+        "value": "Media",
         "description": null
       },
       "location": ["Interior", "Exterior"],
@@ -131,7 +131,7 @@
     },
     "care": {
       "dedication": {
-        "value": "Media-baja",
+        "value": "Media",
         "description": null
       },
       "location": ["Interior", "Terraza o patio"],
@@ -251,7 +251,7 @@
     },
     "care": {
       "dedication": {
-        "value": "Media-baja",
+        "value": "Media",
         "description": null
       },
       "location": ["Interior", "Exterior"],
@@ -319,7 +319,7 @@
         "value": "Indirecta",
         "description": "Con algo de sol directo. Necesita luz media-alta aunque se puede poner en sitios de menos luz, pero sus hojas serán de verde más oscuro y el crecimiento será más lento."
       },
-      "temperature": "Óptimo de 12 a 26ºC. No tolera el frío ni las heladas.",
+      "temperature": "Óptima de 12 a 26ºC. No tolera el frío ni las heladas.",
       "humidity": {
         "value": "Baja",
         "description": "Soporta bien los ambientes secos y muy secos. No tolera la excesiva humedad ambiental."
@@ -333,12 +333,138 @@
         "time": "Primavera y verano"
       },
       "soil": ["Plantas crasas"],
-      "transplant": "Sólo cuando la planta se desborde de su contenedor.",
+      "transplant": "Sólo cuando la planta se desborde de su maceta.",
       "pruning": "Sólo para la estética de la planta o para limitar su crecimiento."
     },
     "problems": {
       "diseases": "Son resistentes a casi todo tipo de plagas y las que los afectan no traen daños considerables. Los más comunes son las cochinillas o araña roja. Cuando se riega en exceso, es vulnerable a los hongos.",
       "commonMistakes": "Manchas negras en las hojas por exceso de humedad o frío. Caida de hojas por falta o exceso de agua. Tallos largos con pocas hojas o no crece por falta de luz."
+    }
+  },
+  {
+    "slug": "anturio",
+    "name": "Anturio",
+    "variantsName": "",
+    "scientificName": "Anthurium andreanum",
+    "image": "",
+    "description": "Originario de las zonas tropicales y subtropicales de América Central y América del Sur. Son plantas caducas, llamativas y su tamaño varía según su especie. Sus características brácteas de color no son, a pesar de lo que se cree, flores. En realidad, son únicamente hojas protectoras de la auténtica floración.",
+    "type": ["Suelo", "Trepadora"],
+    "size": "40 y 60 cm según la variedad.",
+    "toxicity": null,
+    "care": {
+      "dedication": {
+        "value": "Media",
+        "description": null
+      },
+      "location": ["interior"],
+      "light": {
+        "value": "Indirecta",
+        "description": "Tolera luz baja pero lo oṕtimo es media/alta para que florezca, sin sol directo porque se pueden quemar las hojas."
+      },
+      "temperature": "Óptima de 20 a 28ºC. No tolera el frío ni las heladas.",
+      "humidity": {
+        "value": "Ambiente húmedo",
+        "description": "Pulverizar las hojas si hay excesiva sequedad."
+      },
+      "irrigation": {
+        "value": "Moderado",
+        "description": "Dejar secar la tierra ligeramente entre riegos. Es sensible a la cal, se debe filtrar el agua si tiene excesiva cal."
+      },
+      "fertilizer": {
+        "type": ["Universal", "Plantas verdes"],
+        "time": "Primavera y verano"
+      },
+      "soil": ["Universal", "Plantas verdes"],
+      "transplant": "Cada 2 años",
+      "pruning": "No necesita poda, sólo para retirar ramas secas o para limitar su crecimiento."
+    },
+    "problems": {
+      "diseases": "Los más comunes son los pulgones, cochinilla y araña roja.",
+      "commonMistakes": "Hojas amarillas o marrones por falta o exceso de riego, excesiva cal en el agua o sol directo que la quema. No florece o no se abren las flores por falta de luz o fertilizante."
+    }
+  },
+  {
+    "slug": "helecho-espada",
+    "name": "Helecho espada",
+    "variantsName": "",
+    "scientificName": "Nephrolepis exaltata",
+    "image": "",
+    "description": "Nativa de regiones tropicales de todo el mundo y común en los bosques húmedos y pantanos. Son plantas de hoja perenne, sin flores, frutos ni semillas. Es una de las especies más antigüa de plantas y se reproducen por generación de esporas.",
+    "type": ["Suelo", "Colgante"],
+    "size": "Puede superar el metro de longitud pero se puede limitar con la poda.",
+    "toxicity": null,
+    "care": {
+      "dedication": {
+        "value": "Media",
+        "description": null
+      },
+      "location": ["Interior", "Exterior"],
+      "light": {
+        "value": "Indirecta",
+        "description": "Tolera luz baja pero lo oṕtimo es media, sin sol directo porque se pueden quemar las hojas."
+      },
+      "temperature": "Óptima de 16 a 21ºC.",
+      "humidity": {
+        "value": "Ambiente húmedo",
+        "description": "Soporta bien ambientes algo más secos pero pulverizar las hojas si hay excesiva sequedad."
+      },
+      "irrigation": {
+        "value": "Moderado-alto",
+        "description": "Mantener la tierra un poco húmeda sin encharcar."
+      },
+      "fertilizer": {
+        "type": ["Universal", "Plantas verdes"],
+        "time": "Primavera y verano"
+      },
+      "soil": ["Universal", "Plantas verdes"],
+      "transplant": "No es necesario a menos que se quiera aumentar su tamaño o la planta se desborde de su maceta.",
+      "pruning": "No necesita poda, sólo para retirar ramas secas o viejas y para limitar su crecimiento."
+    },
+    "problems": {
+      "diseases": "No suele sufrir plagas o enfermedades aunque, en ocasiones, la cochinilla puede resultar problemática y puede tener hongos por encharcamiento.",
+      "commonMistakes": "Hojas secas que se caen por falta de riego o humedad. Hojas claras o descoloridas por quemaduras solares o falta de fertilizante. Hojas arrugadas por temperatura excesivamente baja. Hojas con bordes oscuros que se marchitan por demasiado calor."
+    }
+  },
+  {
+    "slug": "tronco-de-brasil",
+    "name": "Tronco de Brasil",
+    "variantsName": "Palo de Brasil, Palo de Agua",
+    "scientificName": "Dracaena fragans",
+    "image": "",
+    "description": "Nativa de África tropical, arbusto de crecimiento lento, presenta una o varias coronas (según su brotación) de amplias hojas brillantes en la parte superior del tronco. Es muy común en los hogares por su capacidad de purificar el aire.",
+    "type": ["Suelo"],
+    "size": "Hasta 2 m de alto pero es de crecimiento lento y se puede limitar con la poda.",
+    "toxicity": null,
+    "care": {
+      "dedication": {
+        "value": "Media",
+        "description": null
+      },
+      "location": ["Interior", "Exterior"],
+      "light": {
+        "value": "Indirecta",
+        "description": "Lo oṕtimo es media/alta, sin sol directo porque se pueden quemar las hojas."
+      },
+      "temperature": "Óptima entre 16 y 24ºC. No menos de 10ºC.",
+      "humidity": {
+        "value": "Ambiente húmedo",
+        "description": "Soporta bien ambientes algo más secos pero pulverizar las hojas si hay excesiva sequedad."
+      },
+      "irrigation": {
+        "value": "Moderado",
+        "description": "Mantén el sustrato ligeramente húmedo, sin que quede empapado, especialmente en invierno."
+      },
+      "fertilizer": {
+        "type": ["Universal", "Plantas verdes"],
+        "time": "Primavera y verano"
+      },
+      "soil": ["Universal", "Plantas verdes"],
+      "transplant": "Cada 2 años",
+      "pruning": "No necesita poda, sólo para retirar ramas secas o viejas y para limitar su crecimiento."
+    },
+    "problems": {
+      "diseases": "Los más comunes son los pulgones, cochinilla y araña roja. También puede ser atacada por hongos por exceso de riego.",
+      "commonMistakes": "Tronco blando u hojas amarillas por excesivo riego. Puntas de las hojas secas u hojas arrugadas por falta de agua. Manchas marrones por temperatura baja o quemaduras solares. Hojas descoloridas por falta de luz."
     }
   }
 ]
