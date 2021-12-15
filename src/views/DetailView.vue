@@ -1,9 +1,10 @@
 <!--- vista -->
 <template>
-  <div class="DetailView">
-    <h1>Ficha planta</h1>
-    <PlantDetail :plant="plant" />
-    <button @click="home">home</button>
+  <div id="#app">
+    <div class="DetailView container">
+      <PlantDetail :plant="plant" />
+      <button @click="home">home</button>
+    </div>
   </div>
 </template>
 
