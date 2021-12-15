@@ -101,6 +101,7 @@
                 <img
                   class="card-img"
                   src="../assets/no-photo.jpg"
+                  title="no image"
                   alt="no image"
                 />
               </template>
