@@ -53,6 +53,88 @@
         </div>
       </div>
     </div>
+    <div class="detailed-info row">
+      <div class="care">
+        <div class="row left">
+          <div class="iconcare">
+            <img src="../assets/svg/iluminacion.svg" width="48" height="48" />
+          </div>
+          <div>
+            <h5 class="cuidados">Iluminación</h5>
+            <p>
+              {{ plantData.care.light.value }}.
+              {{ plantData.care.light.description }}
+            </p>
+          </div>
+        </div>
+        <div class="row left">
+          <div class="iconcare">
+            <img src="../assets/svg/riego.svg" width="48" height="48" />
+          </div>
+          <div>
+            <h5 class="cuidados">Riego</h5>
+            <p>
+              {{ plantData.care.light.value }}.
+              {{ plantData.care.light.description }}
+            </p>
+          </div>
+        </div>
+        <div class="row left">
+          <div class="iconcare">
+            <img src="../assets/svg/temperatura.svg" width="48" height="48" />
+          </div>
+          <div>
+            <h5 class="cuidados">Temperatura óptima</h5>
+            <p>
+              {{ plantData.care.light.value }}.
+              {{ plantData.care.light.description }}
+            </p>
+          </div>
+        </div>
+        <div class="row left">
+          <div class="iconcare">
+            <img src="../assets/svg/humedad.svg" width="48" height="48" />
+          </div>
+          <div>
+            <h5 class="cuidados">Humedad</h5>
+            <p>
+              {{ plantData.care.light.value }}.
+              {{ plantData.care.light.description }}
+            </p>
+          </div>
+        </div>
+        <div class="row left">
+          <div class="iconcare">
+            <img src="../assets/svg/iluminacion.svg" width="48" height="48" />
+          </div>
+          <div>
+            <h5 class="cuidados">Fertilizante</h5>
+            <p>
+              <span
+                v-for="(tipofert, index) in plantData.care.fertilizer.type"
+                :key="index"
+              >
+                {{ tipofert }},
+              </span>
+              {{ plantData.care.fertilizer.time }}
+            </p>
+          </div>
+        </div>
+        <div class="row left">
+          <div class="iconcare">
+            <img src="../assets/svg/iluminacion.svg" width="48" height="48" />
+          </div>
+          <div>
+            <h5 class="cuidados">Tierra</h5>
+            <p>
+              <span v-for="(tierra, index) in plantData.care.soil" :key="index">
+                {{ tierra }},
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -100,5 +182,18 @@ h2 {
 h3 {
   font-size: 1.3rem;
   text-transform: uppercase;
+}
+h5 {
+  color: #476643;
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+.iconcare {
+  width: 48px;
+  height: 48px;
+}
+.row {
+  gap: 1rem;
+  margin-bottom: 2rem;
 }
 </style>
