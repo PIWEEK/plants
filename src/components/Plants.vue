@@ -2,7 +2,7 @@
   <div class="container cont">
     <div class="row search">
       <div class="col2">
-        <h1>Plantas</h1>
+        <h1>Plantas para dummies</h1>
       </div>
       <div class="row">
         <button v-on:click="ascending = !ascending" class="sort-button">
