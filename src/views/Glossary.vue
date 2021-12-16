@@ -15,3 +15,10 @@ export default {
   },
 };
 </script>
+<style lang="scss" scoped>
+.container {
+  padding-top: 2rem;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+</style>
