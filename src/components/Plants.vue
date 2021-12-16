@@ -4,7 +4,7 @@
       <div class="col2">
         <h1>Plantas para dummies</h1>
       </div>
-      <div class="row">
+      <div class="row search">
         <!-- <button v-on:click="ascending = !ascending" class="sort-button">
           <template v-if="ascending">
             <svg
@@ -423,5 +423,8 @@ export default {
 p.notoxica {
   line-height: 1.8;
   color: #797979;
+}
+.row-search {
+  margin-bottom: 0;
 }
 </style>

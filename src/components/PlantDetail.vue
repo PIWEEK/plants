@@ -317,6 +317,8 @@ export default {
 h1 {
   font-size: 2.25rem;
   margin-bottom: 0.5rem;
+  font-family: Roboto, sans serif;
+  text-transform: unset;
 }
 h2 {
   font-size: 1.25rem;

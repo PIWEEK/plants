@@ -14,6 +14,11 @@ p{
 }
 h1,h2,h3,h4 {
   font-family: 'Roboto Condensed', sans-serif;
+  font-weight:500;
+}
+h1{
+  text-transform:uppercase;
+  font-size:1.5rem;
 }
 h2{
   margin-bottom:1rem;
@@ -152,10 +157,10 @@ opacity: 0.8;
     flex-basis: 48%;
   }
   .col-3 {
-    flex-basis: 31%;
+    flex-basis: 31.33333%;
   }
   &.search{
-    margin-bottom:2rem;
+    margin-bottom:1rem;
   }
   &.ded {
       align-items: center;
@@ -166,7 +171,6 @@ opacity: 0.8;
 }
 
   .card{
-    margin-bottom:2rem;
     border-radius: 5px;
     box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.1);
     &:hover{
