@@ -179,7 +179,7 @@
                   nontoxic: plantData.toxicity.dog.value == 'No',
                 }"
                 v-bind:title="
-                  plantData.toxicity.dog.value + ' tóxico para perretes'
+                  plantData.toxicity.dog.value + ' tóxica para perretes'
                 "
                 v-bind:alt="plantData.toxicity.dog.value"
                 :key="plantData.key"
@@ -195,7 +195,7 @@
                   nontoxic: plantData.toxicity.cat.value == 'No',
                 }"
                 v-bind:title="
-                  plantData.toxicity.cat.value + ' tóxico para gatetes'
+                  plantData.toxicity.cat.value + ' tóxica para gatetes'
                 "
                 v-bind:alt="plantData.toxicity.cat.value"
                 :key="plantData.key"
@@ -210,7 +210,7 @@
                   nontoxic: plantData.toxicity.horse.value == 'No',
                 }"
                 v-bind:title="
-                  plantData.toxicity.horse.value + ' tóxico para caballos'
+                  plantData.toxicity.horse.value + ' tóxica para caballos'
                 "
                 v-bind:alt="plantData.toxicity.horse.value"
                 :key="plantData.key"
@@ -225,7 +225,7 @@
                   nontoxic: plantData.toxicity.rabbit.value == 'No',
                 }"
                 v-bind:title="
-                  plantData.toxicity.rabbit.value + ' tóxico para conejos'
+                  plantData.toxicity.rabbit.value + ' tóxica para conejos'
                 "
                 v-bind:alt="plantData.toxicity.rabbit.value"
                 :key="plantData.key"
@@ -240,13 +240,18 @@
                   plantData: plantData.toxicity.baby.value == 'Yes',
                 }"
                 v-bind:title="
-                  plantData.toxicity.baby.value + ' tóxico para bebés'
+                  plantData.toxicity.baby.value + ' tóxica para bebés'
                 "
                 v-bind:alt="plantData.toxicity.baby.value"
                 :key="plantData.key"
               />
               <p>{{ plantData.toxicity.baby.symptoms }}</p>
             </div>
+          </div>
+          <div class="row" v-else>
+            <p class="notoxica">
+              <em>No tóxica para tu mascota</em>
+            </p>
           </div>
         </div>
         <randomBenefit />

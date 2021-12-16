@@ -202,20 +202,15 @@
               perro
             </p> -->
               <div class="row" v-if="item.toxicity !== null">
-                <span>Tóxico para</span>
-                <!--                 <img
-                  class="toxicity"
-                  src="../assets/svg/animals_dog.svg"
-                  v-bind:class="{ nontoxic: item.toxicity_dogs }"
-                  :key="item.key"
-                />  -->
+                <span>Tóxica para</span>
+
                 <img
                   v-if="item.toxicity.dog !== null"
                   class="toxicity"
                   src="../assets/svg/animals_dog.svg"
                   v-bind:class="{ nontoxic: item.toxicity.dog.value == 'No' }"
                   v-bind:title="
-                    item.toxicity.dog.value + ' tóxico para perretes'
+                    item.toxicity.dog.value + ' tóxica para perretes'
                   "
                   v-bind:alt="item.toxicity.dog.value"
                   :key="item.key"
@@ -226,7 +221,7 @@
                   src="../assets/svg/animals_cat.svg"
                   v-bind:class="{ nontoxic: item.toxicity.cat.value == 'No' }"
                   v-bind:title="
-                    item.toxicity.cat.value + ' tóxico para gatetes'
+                    item.toxicity.cat.value + ' tóxica para gatetes'
                   "
                   v-bind:alt="item.toxicity.cat.value"
                   :key="item.key"
@@ -237,7 +232,7 @@
                   src="../assets/svg/horse-2.svg"
                   v-bind:class="{ nontoxic: item.toxicity.horse.value == 'No' }"
                   v-bind:title="
-                    item.toxicity.horse.value + ' tóxico para caballos'
+                    item.toxicity.horse.value + ' tóxica para caballos'
                   "
                   v-bind:alt="item.toxicity.horse.value"
                   :key="item.key"
@@ -250,7 +245,7 @@
                     nontoxic: item.toxicity.rabbit.value == 'No',
                   }"
                   v-bind:title="
-                    item.toxicity.rabbit.value + ' tóxico para conejos'
+                    item.toxicity.rabbit.value + ' tóxica para conejos'
                   "
                   v-bind:alt="item.toxicity.rabbit.value"
                   :key="item.key"
@@ -260,26 +255,16 @@
                   class="toxicity"
                   src="../assets/svg/face_baby-2.svg"
                   v-bind:class="{ nontoxic: item.toxicity.baby.value == 'Yes' }"
-                  v-bind:title="item.toxicity.baby.value + ' tóxico para bebés'"
+                  v-bind:title="item.toxicity.baby.value + ' tóxica para bebés'"
                   v-bind:alt="item.toxicity.baby.value"
                   :key="item.key"
                 />
               </div>
-
-              <!--             <router-link
-              class="button"
-              :to="{
-                name: 'Plants',
-                params: { plantslug: item.slug, plant: JSON.stringify(item) },
-              }"
-            >
-
-              Ver ficha de {{ item.name }}
-            </router-link> -->
-              <!-- <router-link
-              class="button"
-              :to="{ name: 'Plants', params: { plant: item } }"
-            > -->
+              <div class="row" v-else>
+                <p class="notoxica">
+                  <em>No tóxica para tu mascota</em>
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -358,5 +343,9 @@ export default {
 }
 .sort-button {
   margin-bottom: 0;
+}
+p.notoxica {
+  line-height: 1.8;
+  color: #797979;
 }
 </style>
