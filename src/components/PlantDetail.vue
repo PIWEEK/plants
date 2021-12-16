@@ -161,81 +161,88 @@
       </div>
 
       <div class="toxicidad">
-        <h3>Toxicidad</h3>
-        <div class="row column" v-if="plantData.toxicity !== null">
-          <div class="row left" v-if="plantData.toxicity.dog !== null">
-            <img
-              class="toxicity"
-              src="../assets/svg/animals_dog.svg"
-              v-bind:class="{ nontoxic: plantData.toxicity.dog.value == 'No' }"
-              v-bind:title="
-                plantData.toxicity.dog.value + ' tóxico para perretes'
-              "
-              v-bind:alt="plantData.toxicity.dog.value"
-              :key="plantData.key"
-            />
-            <p>{{ plantData.toxicity.dog.symptoms }}</p>
-          </div>
-          <div class="row left" v-if="plantData.toxicity.cat !== null">
-            <img
-              v-if="plantData.toxicity.cat !== null"
-              class="toxicity"
-              src="../assets/svg/animals_cat.svg"
-              v-bind:class="{ nontoxic: plantData.toxicity.cat.value == 'No' }"
-              v-bind:title="
-                plantData.toxicity.cat.value + ' tóxico para gatetes'
-              "
-              v-bind:alt="plantData.toxicity.cat.value"
-              :key="plantData.key"
-            />
-            <p>{{ plantData.toxicity.cat.symptoms }}</p>
-          </div>
-          <div class="row left" v-if="plantData.toxicity.horse !== null">
-            <img
-              class="toxicity"
-              src="../assets/svg/horse-2.svg"
-              v-bind:class="{
-                nontoxic: plantData.toxicity.horse.value == 'No',
-              }"
-              v-bind:title="
-                plantData.toxicity.horse.value + ' tóxico para caballos'
-              "
-              v-bind:alt="plantData.toxicity.horse.value"
-              :key="plantData.key"
-            />
-            <p>{{ plantData.toxicity.horse.symptoms }}</p>
-          </div>
-          <div class="row left" v-if="plantData.toxicity.rabbit !== null">
-            <img
-              class="toxicity"
-              src="../assets/svg/animals_rabbit_1.svg"
-              v-bind:class="{
-                nontoxic: plantData.toxicity.rabbit.value == 'No',
-              }"
-              v-bind:title="
-                plantData.toxicity.rabbit.value + ' tóxico para conejos'
-              "
-              v-bind:alt="plantData.toxicity.rabbit.value"
-              :key="plantData.key"
-            />
-            <p>{{ plantData.toxicity.rabbit.symptoms }}</p>
-          </div>
-          <div class="row left" v-if="plantData.toxicity.baby !== null">
-            <img
-              class="toxicity"
-              src="../assets/svg/face_baby-2.svg"
-              v-bind:class="{
-                plantData: plantData.toxicity.baby.value == 'Yes',
-              }"
-              v-bind:title="
-                plantData.toxicity.baby.value + ' tóxico para bebés'
-              "
-              v-bind:alt="plantData.toxicity.baby.value"
-              :key="plantData.key"
-            />
-            <p>{{ plantData.toxicity.baby.symptoms }}</p>
+        <div class="bg">
+          <h3>Toxicidad</h3>
+          <div class="row column" v-if="plantData.toxicity !== null">
+            <div class="row left" v-if="plantData.toxicity.dog !== null">
+              <img
+                class="toxicity"
+                src="../assets/svg/animals_dog.svg"
+                v-bind:class="{
+                  nontoxic: plantData.toxicity.dog.value == 'No',
+                }"
+                v-bind:title="
+                  plantData.toxicity.dog.value + ' tóxico para perretes'
+                "
+                v-bind:alt="plantData.toxicity.dog.value"
+                :key="plantData.key"
+              />
+              <p>{{ plantData.toxicity.dog.symptoms }}</p>
+            </div>
+            <div class="row left" v-if="plantData.toxicity.cat !== null">
+              <img
+                v-if="plantData.toxicity.cat !== null"
+                class="toxicity"
+                src="../assets/svg/animals_cat.svg"
+                v-bind:class="{
+                  nontoxic: plantData.toxicity.cat.value == 'No',
+                }"
+                v-bind:title="
+                  plantData.toxicity.cat.value + ' tóxico para gatetes'
+                "
+                v-bind:alt="plantData.toxicity.cat.value"
+                :key="plantData.key"
+              />
+              <p>{{ plantData.toxicity.cat.symptoms }}</p>
+            </div>
+            <div class="row left" v-if="plantData.toxicity.horse !== null">
+              <img
+                class="toxicity"
+                src="../assets/svg/horse-2.svg"
+                v-bind:class="{
+                  nontoxic: plantData.toxicity.horse.value == 'No',
+                }"
+                v-bind:title="
+                  plantData.toxicity.horse.value + ' tóxico para caballos'
+                "
+                v-bind:alt="plantData.toxicity.horse.value"
+                :key="plantData.key"
+              />
+              <p>{{ plantData.toxicity.horse.symptoms }}</p>
+            </div>
+            <div class="row left" v-if="plantData.toxicity.rabbit !== null">
+              <img
+                class="toxicity"
+                src="../assets/svg/animals_rabbit_1.svg"
+                v-bind:class="{
+                  nontoxic: plantData.toxicity.rabbit.value == 'No',
+                }"
+                v-bind:title="
+                  plantData.toxicity.rabbit.value + ' tóxico para conejos'
+                "
+                v-bind:alt="plantData.toxicity.rabbit.value"
+                :key="plantData.key"
+              />
+              <p>{{ plantData.toxicity.rabbit.symptoms }}</p>
+            </div>
+            <div class="row left" v-if="plantData.toxicity.baby !== null">
+              <img
+                class="toxicity"
+                src="../assets/svg/face_baby-2.svg"
+                v-bind:class="{
+                  plantData: plantData.toxicity.baby.value == 'Yes',
+                }"
+                v-bind:title="
+                  plantData.toxicity.baby.value + ' tóxico para bebés'
+                "
+                v-bind:alt="plantData.toxicity.baby.value"
+                :key="plantData.key"
+              />
+              <p>{{ plantData.toxicity.baby.symptoms }}</p>
+            </div>
           </div>
         </div>
+        <randomBenefit />
       </div>
     </div>
   </div>
@@ -243,12 +250,16 @@
 
 <script>
 import datos from "../assets/json/data.json";
+import randomBenefit from "../components/randomBenefit.vue";
 
 export default {
   name: "Plants",
   props: {
     plant: String,
     // name: String,
+  },
+  components: {
+    randomBenefit,
   },
   beforeMount() {
     console.log("Detail", this.plant);
@@ -312,9 +323,12 @@ span.cuidados {
 }
 .toxicidad {
   flex-basis: 25%;
-  padding: 2rem;
-  padding-bottom: 0;
-  background-color: #eef4ed;
+
+  .bg {
+    padding: 2rem;
+    background-color: #eef4ed;
+    margin-bottom: 2rem;
+  }
   .row {
     margin-bottom: 0;
     .left {

@@ -14,6 +14,9 @@ p{
 h1,h2,h3,h4 {
   font-family: 'Roboto Condensed', sans-serif;
 }
+h2{
+  margin-bottom:1rem;
+}
 h3{
   margin-bottom:1rem;
 }
@@ -51,6 +54,24 @@ opacity: 0.8;
     padding:0.25rem;
     height:2rem;
     margin: 4px 1rem 0 0;
+  }
+  a {
+    color:#476643;
+    text-decoration: underline;
+    font-weight:600;
+    &:hover {
+      color:#80c56e;
+    }
+  }
+  a.vermas{
+    text-decoration: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .benefits p {
+    margin-bottom:1rem;
   }
 .hide {
   position:absolute;

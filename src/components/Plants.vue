@@ -51,7 +51,7 @@
     <div class="container-plants row">
       <!-- Bar containing all sort inputs -->
       <div class="sidebar">
-      <!--  <select name="sortBy" id="select" v-model="sortBy">
+        <!--  <select name="sortBy" id="select" v-model="sortBy">
           <option value="alphabetically">Alphabetically</option>
           <option value="cookingTime">Cooking Time</option>
         </select> -->
@@ -90,7 +90,7 @@
             Alta</label
           >
         </div>
-<!-- toxico para -->
+        <!-- toxico para -->
         <h4>Segura para:</h4>
         <div class="row">
           <label class="form-control">
@@ -111,12 +111,12 @@
             <input type="checkbox" id="louie" name="drone" value="louie" />
             conejos</label
           >
-                    <label class="form-control">
+          <label class="form-control">
             <input type="checkbox" id="louie" name="drone" value="louie" />
             humanoides</label
           >
         </div>
-<!-- otros -->
+        <!-- otros -->
         <h4>Soy:</h4>
         <div class="row">
           <label class="form-control">
