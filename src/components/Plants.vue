@@ -58,6 +58,7 @@
         <h4>Dedicación</h4>
         <div class="row">
           <label class="form-control">
+            Baja
             <input
               v-model="dedication"
               type="checkbox"
@@ -65,21 +66,22 @@
               name="drone"
               value="huey"
             />
-            Baja</label
-          >
+            <span class="checkmark"></span>
+          </label>
 
           <label class="form-control">
+            Media
             <input
               v-model="dedication"
               type="checkbox"
               id="dewey"
               name="drone"
-              value="dewey"
-            />
-            Media</label
-          >
+              value="dewey" />
+            <span class="checkmark"></span
+          ></label>
 
           <label class="form-control">
+            Alta
             <input
               v-model="dedication"
               type="checkbox"
@@ -87,34 +89,57 @@
               name="drone"
               value="louie"
             />
-            Alta</label
-          >
+            <span class="checkmark"></span>
+          </label>
         </div>
         <!-- toxico para -->
         <h4>Segura para:</h4>
         <div class="row">
           <label class="form-control">
-            <input type="checkbox" id="huey" name="drone" value="huey" />
-            perretes</label
-          >
+            Perretes
+            <input
+              v-model="dedication"
+              type="checkbox"
+              id="huey"
+              name="dog"
+              value="dog"
+            />
+            <span class="checkmark"></span>
+          </label>
 
           <label class="form-control">
-            <input type="checkbox" id="dewey" name="drone" value="dewey" />
-            gaticos</label
-          >
+            Gaticos
+            <input
+              v-model="dedication"
+              type="checkbox"
+              id="cat"
+              name="cat"
+              value="cat" />
+            <span class="checkmark"></span
+          ></label>
 
           <label class="form-control">
-            <input type="checkbox" id="louie" name="drone" value="louie" />
-            caballos</label
-          >
+            Caballos
+            <input
+              v-model="dedication"
+              type="checkbox"
+              id="horse"
+              name="horse"
+              value="horse"
+            />
+            <span class="checkmark"></span>
+          </label>
           <label class="form-control">
-            <input type="checkbox" id="louie" name="drone" value="louie" />
-            conejos</label
-          >
-          <label class="form-control">
-            <input type="checkbox" id="louie" name="drone" value="louie" />
-            humanoides</label
-          >
+            Conejos
+            <input
+              v-model="dedication"
+              type="checkbox"
+              id="rabbit"
+              name="rabbit"
+              value="rabbit"
+            />
+            <span class="checkmark"></span>
+          </label>
         </div>
         <!-- otros -->
         <h4>Soy:</h4>
@@ -329,6 +354,7 @@ export default {
 <style lang="scss" scoped>
 .sidebar {
   flex-basis: 20%;
+  padding-right: 1rem;
   .row {
     margin-bottom: 2rem;
   }

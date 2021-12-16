@@ -13,7 +13,7 @@
             piel seca e irritaci&oacute;n de garganta.
           </p>
         </div>
-        <img src="../assets/img/benefits-5.png" alt="" />
+        <img src="" alt="" />
       </div>
     </section>
     <section id="2">
@@ -51,7 +51,7 @@
             bien oxigenado es bueno para todo tu organismo.
           </p>
         </div>
-        <img src="../assets/img/benefits-5.png" alt="" />
+        <img src="../assets/img/benefit-2.png" alt="" />
       </div>
     </section>
 
@@ -101,7 +101,7 @@
             Espada, Gomero o Árbol del Caucho, Cinta, Ficus, y Hiedra.
           </p>
         </div>
-        <img src="../assets/img/benefits-5.png" alt="" />
+        <img src="../assets/img/benefit-3.png" alt="" />
       </div>
     </section>
 
@@ -128,7 +128,7 @@
             rugosas.
           </p>
         </div>
-        <img src="../assets/img/benefits-5.png" alt="" />
+        <img src="../assets/img/benefit-4.png" alt="" />
       </div>
     </section>
 
@@ -222,7 +222,7 @@
             >
           </p>
         </div>
-        <img src="../assets/img/benefits-5.png" alt="" />
+        <img src="../assets/img/benefit-5.png" alt="" />
       </div>
     </section>
 
@@ -231,9 +231,10 @@
         ¿Sabías que las plantas aceleran los tiempos de recuperación en
         hospitales?
       </h2>
-      <h3>Disminuye la percepción del dolor, la fatiga y la ansiedad.</h3>
       <div class="two-columns">
         <div>
+          <h3>Disminuye la percepción del dolor, la fatiga y la ansiedad.</h3>
+
           <p>
             Existen investigaciones que demuestran que el estrés y el tiempo de
             recuperación de los pacientes tras una intervención quirúrgica es
@@ -252,7 +253,7 @@
             reducido.
           </p>
         </div>
-        <img src="../assets/img/benefits-5.png" alt="" />
+        <img src="../assets/img/benefit-6.png" alt="" />
       </div>
     </section>
 
@@ -278,7 +279,7 @@
             Orégano, Ortiga Mayor, Perejil, Romero, Salvia, Tomillo, Zanahorias.
           </p>
         </div>
-        <img src="../assets/img/benefits-5.png" alt="" />
+        <img src="../assets/img/benefit-7.png" alt="" />
       </div>
     </section>
   </div>
