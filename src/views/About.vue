@@ -31,7 +31,7 @@
           href="https://kaleidos.net/kaleiders/32BDA0"
           target="_blank"
           class="person"
-          ><p class="name">Miryam Gonzale Duque</p>
+          ><p class="name">Miryam Gonzalez Duque</p>
           <p class="position">
             Como Researcher, Designer y matadora de plantas profesional
           </p></a
@@ -56,10 +56,14 @@
             En su papel de Frontend Engin<em>ppffff jajaja</em>
           </p></a
         >
-        <a href="https://kaleidos.net/720B34/" target="_blank" class="person"
-          ><p class="name">Artista invitada</p>
+        <a
+          href="https://kaleidos.net/kaleiders/720B34/"
+          target="_blank"
+          class="person"
+          ><p class="name"><em style="color: #999">Guest Starring</em></p>
           <p class="position">
-            Esther Moreno con sus maravillosas ilustraciones de CocoMaterial 💕
+            <strong>Esther Moreno</strong> con sus maravillosas ilustraciones de
+            CocoMaterial 💕
           </p></a
         >
       </div>
@@ -89,9 +93,13 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 3%;
+
   .person {
     flex-basis: 30%;
-    margin-bottom: 2rem;
+    padding: 1rem;
+    &:hover {
+      background: #fff;
+    }
   }
 }
 .person .name {
