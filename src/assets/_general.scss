@@ -306,7 +306,7 @@ dd {
 /* checkboxes bonitos */
 .sidebar .row{
   justify-content: flex-start;
-  gap:1.3rem;
+  gap:1rem;
   &:not(.animals){
     flex-direction:column;
   }
@@ -321,6 +321,8 @@ dd {
   border-radius:4px;
   padding:3px 6px;
 }
+/* Hide the browser's default checkbox */
+
 .form-control input {
   position: absolute;
   opacity: 0;
@@ -330,7 +332,6 @@ dd {
 }
 
 .normal {
-/* Hide the browser's default checkbox */
 
   .form-control {
     display: flex;
