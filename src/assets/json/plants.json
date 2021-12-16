@@ -350,7 +350,25 @@
     "description": "Originario de las zonas tropicales y subtropicales de América Central y América del Sur. Son plantas caducas, llamativas y su tamaño varía según su especie. Sus características brácteas de color no son, a pesar de lo que se cree, flores. En realidad, son únicamente hojas protectoras de la auténtica floración.",
     "type": ["Suelo", "Trepadora"],
     "size": "40 y 60 cm según la variedad.",
-    "toxicity": null,
+    "toxicity": {
+      "dog": {
+        "value": "Si",
+        "symptoms": "Irritación oral, dolor e hinchazón de la boca, lengua y labios, babeo excesivo, vómitos, dificultad para tragar"
+      },
+      "cat": {
+        "value": "Si",
+        "symptoms": "Irritación oral, dolor e hinchazón de la boca, lengua y labios, babeo excesivo, vómitos, dificultad para tragar"
+      },
+      "rabbit": {
+        "value": "Yes",
+        "symptoms": "No determinados"
+      },
+      "horse": {
+        "value": "Yes",
+        "symptoms": "Irritación oral, dolor e hinchazón de la boca, lengua y labios, babeo excesivo, dificultad para tragar"
+      },
+      "baby": null
+    },
     "care": {
       "dedication": {
         "value": "Media",
