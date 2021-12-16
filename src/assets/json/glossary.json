@@ -1,27 +1,110 @@
 [
-    "Araña roja: Es un ácaro que provoca serios daños en las plantas ya que se alimenta de su savia. Las hojas presentarán al principio unos puntos decolorados y manchas amarillas. En un estado más avanzado comenzarán a doblarse, secarse y finalmente se caerán. Tejen finas telas de araña alrededor de las hojas y por ello su detección es muy sencilla.",
-    "Brácteas: Las brácteas o hipsofilos son aquellas hojas modificadas situadas cerca de las flores y que funcionan como escudo protector de las mismas. Se las conoce como falsas flores. Un ejemplo se da en el Anturio rojo, cuya flor no es la parte roja, esta es la bráctea que proteje a la verdadera flor que es la de dentro.",
-    "Caduca: Una planta caduca es aquella que pierde completamente sus hojas durante el invierno o la estación seca.",
-    "Cochinillas: Son pequeños insectos inmóviles o de lento movimiento, sin parecido a la mayoría de otros insectos, que succionan la savia de la planta. Causan protuberancias o decoloraciones circulares, ovaladas o alargadas en las ramas y hojas. La infestación de estos insectos puede producir melaza y moho negro de hollín, y causar que las hojas se tornen amarillas o se caigan prematuramente.",
-    "Colgante: Una planta colgante es aquella cuyos tallos cuelgan y no son capaces de sostenerse por sí mismas. Muchas de ellas son también trepadoras y se pueden colocar como colgantes o con un tutor por el que puedan trepar.",
-    "Coronas: La corona de una planta son las ramas, las hojas y las estructuras reproductivas que se extienden desde el tronco principal o tallos.",
-    "Dedicación: Tiempo y esfuerzo invertido. En esta guía se define la dedicación en base a los cuidados en general que necesita la planta, al igual que su adaptación a diferentes medios o su resistencia a plagas o enfermedades, que hacen que el tiempo-esfuerzo dedicado se pueda ver incrementado.",
-    "Esquejes: Tallo, rama o retoño de una planta que se injerta en otra o se introduce en la tierra para reproducir o multiplicar la planta.",
-    "Estolones: Los estolones son un tipo de tallo que tienen las plantas que suelen nacer en la base de los tallos principales. Como medio de reproducción asexual que son, la función de los estolones no es otra que la de extender el terreno que cubre la planta para poder alcanzar un mayor número de nutrientes y colonizar una mayor superficie.",
-    "Falta de hierro: La clorosis férrica o carencia de hierro es una de las principales deficiencias nutricionales de algunas plantas. Está caracterizada por una alteración del color en las hojas (amarilleo) debido a que se ve afectado su metabolismo y la síntesis de la clorofila.",
-    "Fertilizante: Sustancia que mejora la calidad de la tierra y facilita el crecimiento de las plantas. Hay muchos tipos de fertilizante, dependiendo del tipo de planta y sus necesidades.",
-    "Hongos: Los hongos de las plantas son organismos que se alimentan de ellas y suelen atacarlas cuando encuentran las condiciones favorables para ello, comunmente por un exceso de humedad. Hay más de 15.000 especies de hongos que pueden dañar las plantas.",
-    "Luz directa: Aquella en la que los rayos de sol indicen directamente en la planta.",
-    "Luz indirecta: Aquella en la que los rayos de sol no indicen directamente en la planta.",
-    "Mosca blanca: Pequeño insecto, en forma de mosca y larva, de color blanco que se encuentra en el envés de las hojas y que se alimenta de su savia. Las hojas empiezan a manifestar moteados amarillos o melazas y finalmente se secan; pueden debilitar la planta e incluso frenar su crecimiento y desarrollo.",
-    "Nombre científico: Debido a que los nombres comunes varían de un lugar a otro del mundo, es necesaria una clasificación de las plantas para identificarlas de manera universal y que no deje lugar a equivocaciones en su identidad. Para ello se usa el nombre científico que está compuesto del género y la especie de la planta y a veces puede incluir también la variedad.",
-    "Perenne: Una planta perenne es una planta que tiene hojas durante todo el año y siempre están verdes.",
-    "Plagas: Las plagas son plantas, animales, insectos, microbios u otros organismos no deseados que interfieren en el crecimento de la planta.",
-    "Plantas crasas o suculentas: Son aquellas plantas en las que la raíz, el tallo o las hojas se han engrosado para permitir el almacenamiento de agua en cantidades mucho mayores que las plantas normales. Esta adaptación les permite mantener reservas de líquido durante períodos prolongados, sobreviviendo en entornos áridos y secos inhabitables por otras plantas. El ejemplo más típico son los cactus, pero existen otras familias.",
-    "Poda: Cortar ciertas ramas u hojas de una planta ya sea por estética, quitar partes secas o favorecer su crecimiento o floración.",
-    "Pulgones: Los pulgones son pequeños insectos que succionan la savia de la planta y que poseen una gran capacidad reproductora. Pueden ser negros, verdes, amarillos, blancos o rojos. Causan diferentes daños tanto por extraer los nutrientes de la planta, que afectará a su crecimiento y provocará la deformación y marchitamiento de las hojas, como segregando una especie de melaza que hará que las hojas estén pegajosas. Todo ello afectará a la fotosíntesis de la planta.",
-    "Reproducción por esporas: Algunas plantas no se reproducen por semillas, como parece lo habitual, sino por esporas. Estas plantas tienen esporangios o soros en el envés de sus hojas, que liberan las esporas. Cada espora se tiene que unir con otra espora para que germinen. Este es, por ejemplo, el método de reproducción de los helechos.",
-    "Suelo: En esta guía se especifica que una planta es de tipo suelo cuando la planta no es trepadora ni colgante y se puede colocar la maceta en el suelo, en una mesa, estantería, etc.",
-    "Sustrato: También llamado compost o tierra para plantas, es el material sobre el que se va a mantener la planta y es la base para su desarrollo.",
-    "Trepadora: Una planta trepadora o enredadera es aquella que es capaz de trepar por muros, paredes, pérgolas y vallas. Son el resultado de la evolución de su especie para competir por la luz con otras plantas."
+  {
+    "title": "Araña roja",
+    "description": "Es un ácaro que provoca serios daños en las plantas ya que se alimenta de su savia. Las hojas presentarán al principio unos puntos decolorados y manchas amarillas. En un estado más avanzado comenzarán a doblarse, secarse y finalmente se caerán. Tejen finas telas de araña alrededor de las hojas y por ello su detección es muy sencilla."
+  },
+  {
+    "title": "Brácteas",
+    "description": "Las brácteas o hipsofilos son aquellas hojas modificadas situadas cerca de las flores y que funcionan como escudo protector de las mismas. Se las conoce como falsas flores. Un ejemplo se da en el Anturio rojo, cuya flor no es la parte roja, esta es la bráctea que proteje a la verdadera flor que es la de dentro."
+  },
+  {
+    "title": "Caduca",
+    "description": "Una planta caduca es aquella que pierde completamente sus hojas durante el invierno o la estación seca."
+  },
+  {
+    "title": "Cochinillas",
+    "description": "Son pequeños insectos inmóviles o de lento movimiento, sin parecido a la mayoría de otros insectos, que succionan la savia de la planta. Causan protuberancias o decoloraciones circulares, ovaladas o alargadas en las ramas y hojas. La infestación de estos insectos puede producir melaza y moho negro de hollín, y causar que las hojas se tornen amarillas o se caigan prematuramente."
+  },
+  {
+    "title": "Colgante",
+    "description": "Una planta colgante es aquella cuyos tallos cuelgan y no son capaces de sostenerse por sí mismas. Muchas de ellas son también trepadoras y se pueden colocar como colgantes o con un tutor por el que puedan trepar."
+  },
+  {
+    "title": "Crasas o suculentas",
+    "description": "Son aquellas plantas en las que la raíz, el tallo o las hojas se han engrosado para permitir el almacenamiento de agua en cantidades mucho mayores que las plantas normales. Esta adaptación les permite mantener reservas de líquido durante períodos prolongados, sobreviviendo en entornos áridos y secos inhabitables por otras plantas. El ejemplo más típico son los cactus, pero existen otras familias."
+  },
+  {
+    "title": "Corona",
+    "description": "La corona de una planta son las ramas, las hojas y las estructuras reproductivas que se extienden desde el tronco principal o tallos."
+  },
+  {
+    "title": "Dedicación",
+    "description": "Tiempo y esfuerzo invertido. En esta guía se define la dedicación en base a los cuidados en general que necesita la planta, al igual que su adaptación a diferentes medios o su resistencia a plagas o enfermedades, que hacen que el tiempo-esfuerzo dedicado se pueda ver incrementado."
+  },
+  {
+    "title": "Envés",
+    "description": "Parte trasera de la hoja."
+  },
+  {
+    "title": "Esquejes",
+    "description": "Tallo, rama o retoño de una planta que se injerta en otra o se introduce en la tierra para reproducir o multiplicar la planta."
+  },
+  {
+    "title": "Estolones",
+    "description": "Los estolones son un tipo de tallo que tienen las plantas que suelen nacer en la base de los tallos principales. Como medio de reproducción asexual que son, la función de los estolones no es otra que la de extender el terreno que cubre la planta para poder alcanzar un mayor número de nutrientes y colonizar una mayor superficie."
+  },
+  {
+    "title": "Falta de hierro",
+    "description": "La clorosis férrica o carencia de hierro es una de las principales deficiencias nutricionales de algunas plantas. Está caracterizada por una alteración del color en las hojas (amarilleo) debido a que se ve afectado su metabolismo y la síntesis de la clorofila."
+  },
+  {
+    "title": "Fertilizante",
+    "description": "Sustancia que mejora la calidad de la tierra y facilita el crecimiento de las plantas. Hay muchos tipos de fertilizante, dependiendo del tipo de planta y sus necesidades."
+  },
+  {
+    "title": "Hongos",
+    "description": "Los hongos de las plantas son organismos que se alimentan de ellas y suelen atacarlas cuando encuentran las condiciones favorables para ello, comunmente por un exceso de humedad. Hay más de 15.000 especies de hongos que pueden dañar las plantas."
+  },
+  {
+    "title": "Luz directa",
+    "description": "Aquella en la que los rayos de sol indicen directamente en la planta."
+  },
+  {
+    "title": "Luz indirecta",
+    "description": "Aquella en la que los rayos de sol no indicen directamente en la planta."
+  },
+  {
+    "title": "Mosca blanca",
+    "description": "Pequeño insecto, en forma de mosca y larva, de color blanco que se encuentra en el envés de las hojas y que se alimenta de su savia. Las hojas empiezan a manifestar moteados amarillos o melazas y finalmente se secan; pueden debilitar la planta e incluso frenar su crecimiento y desarrollo."
+  },
+  {
+    "title": "Nombre científico",
+    "description": "Debido a que los nombres comunes varían de un lugar a otro del mundo, es necesaria una clasificación de las plantas para identificarlas de manera universal y que no deje lugar a equivocaciones en su identidad. Para ello se usa el nombre científico que está compuesto del género y la especie de la planta y a veces puede incluir también la variedad."
+  },
+  {
+    "title": "Perenne",
+    "description": "Una planta perenne es una planta que tiene hojas durante todo el año y siempre están verdes."
+  },
+  {
+    "title": "Plagas",
+    "description": "Las plagas son plantas, animales, insectos, microbios u otros organismos no deseados que interfieren en el crecimento de la planta."
+  },
+  {
+    "title": "Poda",
+    "description": "Cortar ciertas ramas u hojas de una planta ya sea por estética, quitar partes secas o favorecer su crecimiento o floración."
+  },
+  {
+    "title": "Pulgones",
+    "description": "Los pulgones son pequeños insectos que succionan la savia de la planta y que poseen una gran capacidad reproductora. Pueden ser negros, verdes, amarillos, blancos o rojos. Causan diferentes daños tanto por extraer los nutrientes de la planta, que afectará a su crecimiento y provocará la deformación y marchitamiento de las hojas, como segregando una especie de melaza que hará que las hojas estén pegajosas. Todo ello afectará a la fotosíntesis de la planta."
+  },
+  {
+    "title": "Reproducción por esporas",
+    "description": "Algunas plantas no se reproducen por semillas, como parece lo habitual, sino por esporas. Estas plantas tienen esporangios o soros en el envés de sus hojas, que liberan las esporas. Cada espora se tiene que unir con otra espora para que germinen. Este es, por ejemplo, el método de reproducción de los helechos."
+  },
+  {
+    "title": "Suelo",
+    "description": "En esta guía se especifica que una planta es de tipo suelo cuando la planta no es trepadora ni colgante y se puede colocar la maceta en el suelo, en una mesa, estantería, etc."
+  },
+  {
+    "title": "Sustrato",
+    "description": "También llamado compost o tierra para plantas, es el material sobre el que se va a mantener la planta y es la base para su desarrollo."
+  },
+  {
+    "title": "Trepadora",
+    "description": "Una planta trepadora o enredadera es aquella que es capaz de trepar por muros, paredes, pérgolas y vallas. Son el resultado de la evolución de su especie para competir por la luz con otras plantas"
+  },
+  {
+    "title": "Tutor",
+    "description": "Palo o soporte que se utilizar como agarre para las plantas trepadoras. También para enderezar una planta en su crecimiento."
+  }
 ]
