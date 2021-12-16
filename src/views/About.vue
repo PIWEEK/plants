@@ -24,14 +24,16 @@
           target="_blank"
           class="person"
           ><p class="name">Tere de la Torre</p>
-          <p class="position">Como researcher y experta en plantas</p></a
+          <p class="position">
+            Como researcher y cuidadora de plantas en sus ratos libres
+          </p></a
         ><a
           href="https://kaleidos.net/kaleiders/32BDA0"
           target="_blank"
           class="person"
           ><p class="name">Miryam Gonzale Duque</p>
           <p class="position">
-            Como researcher, designer y matadora de plantas profesional,
+            Como Researcher, Designer y matadora de plantas profesional
           </p></a
         >
         <a
@@ -39,18 +41,26 @@
           target="_blank"
           class="person"
           ><p class="name">Dani Herrero</p>
-          <p class="position">En el papel de research y copy creativo</p></a
-        >
+          <p class="position">
+            En el papel de Researcher y Copy Creativo fuera de su zona de
+            confort
+          </p>
+        </a>
+
         <a
           href="https://kaleidos.net/kaleiders/492858/"
           target="_blank"
           class="person"
           ><p class="name">Natacha Menjibar</p>
-          <p class="position">En su papel de front-end enginpppp jajaja</p></a
+          <p class="position">
+            En su papel de Frontend Engin<em>ppffff jajaja</em>
+          </p></a
         >
         <a href="https://kaleidos.net/720B34/" target="_blank" class="person"
           ><p class="name">Artista invitada</p>
-          <p class="position">Esther Moreno con sus ilustraciones</p></a
+          <p class="position">
+            Esther Moreno con sus maravillosas ilustraciones de CocoMaterial 💕
+          </p></a
         >
       </div>
     </div>
@@ -91,5 +101,6 @@ a {
 }
 .person .position {
   color: #2c3e50;
+  padding-left: 1.5rem;
 }
 </style>
