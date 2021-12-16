@@ -243,8 +243,9 @@
               />
               <p>{{ plantData.toxicity.baby.symptoms }}</p>
             </div>
-            <h4>Disclaimer</h4>
             <div class="disclaimer">
+              <h4>Disclaimer</h4>
+
               <p>
                 Varios factores (cantidad de sustancia ingerida, tamaño del
                 animal, alergias, etc.) determinan qué es tóxico para una
@@ -372,5 +373,18 @@ span.cuidados {
 }
 .barrita {
   margin-right: 2%;
+}
+.disclaimer {
+  margin-top: 2rem;
+  h4 {
+    font-family: Roboto, sans-serif;
+    font-size: 0.875rem;
+  }
+  p {
+    color: #555555;
+    font-size: 0.875rem;
+    margin-top: 1px;
+    line-height: 1.2;
+  }
 }
 </style>

@@ -2,7 +2,7 @@
   <div class="benefits container">
     <h1>Beneficios de tener plantas en casa</h1>
     <section id="1">
-      <h2>¿Sabías que las plantas liberan el 97% del agua que reciben?.</h2>
+      <h2>¿Sabías que las plantas liberan el 97% del agua que reciben?</h2>
       <h3>Evita resfriados y alergias.</h3>
       <div class="two-columns">
         <div>
@@ -13,10 +13,9 @@
             piel seca e irritaci&oacute;n de garganta.
           </p>
         </div>
-        <img src="watering-can.jpg" />
+        <img src="../assets/img/benefits-5.png" alt="" />
       </div>
     </section>
-
     <section id="2">
       <h2>
         ¿Sabías que existen plantas que liberan oxígeno también durante la
@@ -52,7 +51,7 @@
             bien oxigenado es bueno para todo tu organismo.
           </p>
         </div>
-        <img src="sleep.jpg" />
+        <img src="../assets/img/benefits-5.png" alt="" />
       </div>
     </section>
 
@@ -102,7 +101,7 @@
             Espada, Gomero o Árbol del Caucho, Cinta, Ficus, y Hiedra.
           </p>
         </div>
-        <img src="virus.jpg" />
+        <img src="../assets/img/benefits-5.png" alt="" />
       </div>
     </section>
 
@@ -129,7 +128,7 @@
             rugosas.
           </p>
         </div>
-        <img src="sneeze.jpg" />
+        <img src="../assets/img/benefits-5.png" alt="" />
       </div>
     </section>
 
@@ -223,7 +222,7 @@
             >
           </p>
         </div>
-        <img src="stones.jpg" />
+        <img src="../assets/img/benefits-5.png" alt="" />
       </div>
     </section>
 
@@ -253,7 +252,7 @@
             reducido.
           </p>
         </div>
-        <img src="heart.jpg" />
+        <img src="../assets/img/benefits-5.png" alt="" />
       </div>
     </section>
 
@@ -279,7 +278,7 @@
             Orégano, Ortiga Mayor, Perejil, Romero, Salvia, Tomillo, Zanahorias.
           </p>
         </div>
-        <img src="lettuce.jpg" />
+        <img src="../assets/img/benefits-5.png" alt="" />
       </div>
     </section>
   </div>
@@ -293,6 +292,7 @@
 }
 .two-columns {
   display: flex;
+  align-items: flex-start;
   div:first-child {
     flex-basis: 67%;
   }
