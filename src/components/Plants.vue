@@ -56,15 +56,15 @@
           <option value="cookingTime">Cooking Time</option>
         </select> -->
         <h4>Dedicación</h4>
-        <div class="row">
+        <div class="row normal">
           <label class="form-control">
             Baja
             <input
               v-model="dedication"
               type="checkbox"
-              id="huey"
-              name="drone"
-              value="huey"
+              id="baja"
+              name="baja"
+              value="baja"
             />
             <span class="checkmark"></span>
           </label>
@@ -74,9 +74,9 @@
             <input
               v-model="dedication"
               type="checkbox"
-              id="dewey"
-              name="drone"
-              value="dewey" />
+              id="media"
+              name="media"
+              value="media" />
             <span class="checkmark"></span
           ></label>
 
@@ -85,17 +85,72 @@
             <input
               v-model="dedication"
               type="checkbox"
-              id="louie"
-              name="drone"
-              value="louie"
+              id="alta"
+              name="alta"
+              value="alta"
             />
             <span class="checkmark"></span>
           </label>
         </div>
-        <!-- toxico para -->
-        <h4>Segura para:</h4>
-        <div class="row">
+        <!-- Ubicacion -->
+
+        <h4>Ubicación</h4>
+        <div class="row normal">
           <label class="form-control">
+            Exterior
+            <input
+              v-model="dedication"
+              type="checkbox"
+              id="exterior"
+              name="exterior"
+              value="exterior"
+            />
+            <span class="checkmark"></span>
+          </label>
+
+          <label class="form-control">
+            Interior
+            <input
+              v-model="dedication"
+              type="checkbox"
+              id="interior"
+              name="interior"
+              value="interior" />
+            <span class="checkmark"></span
+          ></label>
+        </div>
+        <!-- toxico para -->
+
+        <h4>Luz</h4>
+        <div class="row normal">
+          <label class="form-control">
+            Directa
+            <input
+              v-model="dedication"
+              type="checkbox"
+              id="directa"
+              name="directa"
+              value="directa"
+            />
+            <span class="checkmark"></span>
+          </label>
+
+          <label class="form-control">
+            Indirecta
+            <input
+              v-model="dedication"
+              type="checkbox"
+              id="indirecta"
+              name="indirecta"
+              value="indirecta" />
+            <span class="checkmark"></span
+          ></label>
+        </div>
+        <!-- segura para -->
+        <h4>Segura para:</h4>
+        <div class="row animals">
+          <label class="form-control">
+            <img width="18" height="18" src="../assets/svg/animals_dog.svg" />
             Perretes
             <input
               v-model="dedication"
@@ -108,7 +163,10 @@
           </label>
 
           <label class="form-control">
-            Gaticos
+            <img
+              width="18"
+              height="18"
+              src="../assets/svg/animals_cat.svg" />Gaticos
             <input
               v-model="dedication"
               type="checkbox"
@@ -119,7 +177,11 @@
           ></label>
 
           <label class="form-control">
-            Caballos
+            <img
+              width="18"
+              height="18"
+              src="../assets/svg/horse-2.svg"
+            />Caballos
             <input
               v-model="dedication"
               type="checkbox"
@@ -130,7 +192,11 @@
             <span class="checkmark"></span>
           </label>
           <label class="form-control">
-            Conejos
+            <img
+              width="18"
+              height="18"
+              src="../assets/svg/animals_rabbit_1.svg"
+            />Conejos
             <input
               v-model="dedication"
               type="checkbox"
@@ -142,23 +208,6 @@
           </label>
         </div>
         <!-- otros -->
-        <h4>Soy:</h4>
-        <div class="row">
-          <label class="form-control">
-            <input type="checkbox" id="huey" name="drone" value="huey" />
-            Increíble</label
-          >
-
-          <label class="form-control">
-            <input type="checkbox" id="dewey" name="drone" value="dewey" />
-            La mejor</label
-          >
-
-          <label class="form-control">
-            <input type="checkbox" id="louie" name="drone" value="louie" />
-            un mostro</label
-          >
-        </div>
 
         <!--         <button v-on:click="ascending = !ascending" class="sort-button">
           <i v-if="ascending" class="fa fa-sort-up"></i>
@@ -218,10 +267,7 @@
                   <span class="dedicacion"> <div class="small"></div></span>
                 </div>
               </div>
-              <!-- 
-            <p v-bind:class="{ nontoxic: item.toxicity_dogs }" :key="item.key">
-              perro
-            </p> -->
+
               <div class="row left" v-if="item.toxicity !== null">
                 <span class="title">Tóxica para</span>
                 <img
