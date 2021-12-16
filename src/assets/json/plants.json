@@ -5,6 +5,11 @@
     "variantsName": "",
     "scientificName": "Anthurium andreanum",
     "image": "https://raw.githubusercontent.com/PIWEEK/plants/main/src/assets/img/anthurium-annie-spratt.jpg",
+    "credits": {
+      "author": "Anne Spratt",
+      "url": "https://unsplash.com/photos/QJOeA37U25E",
+      "source": "Unsplash"
+    },
     "description": "Originario de las zonas tropicales y subtropicales de América Central y América del Sur. Son plantas caducas, llamativas y su tamaño varía según su especie. Sus características brácteas de color no son, a pesar de lo que se cree, flores. En realidad, son únicamente hojas protectoras de la auténtica floración.",
     "type": ["Suelo", "Trepadora"],
     "size": "40 y 60 cm según la variedad.",
@@ -65,6 +70,11 @@
     "variantsName": "Árbol del dinero",
     "scientificName": "Crassula ovata",
     "image": "https://raw.githubusercontent.com/PIWEEK/plants/main/src/assets/img/crassuwa-ovata-severin-candrian.jpg",
+    "credits": {
+      "author": "Severin Candrian",
+      "url": "https://unsplash.com/photos/-8gKljLFnFc",
+      "source": "Unsplash"
+    },
     "description": "Una de las suculentas más conocidas del mundo. Originaria de Mozambique y algunas de las provincias sudafricanas (KwaZulu-Natal, Cabo Oriental). Perenne y de lento crecimiento. Sus hojas carnosas y su porte de arbolito, además de su resistencia a la sequía, hacen de ella una especie muy querida. Aunque su período de floración es bastante amplio, es raro que florezca si se mantiene en interior.",
     "type": ["Suelo"],
     "size": "Hasta dos metros de alto, dependiendo de la variedad, pero es de crecimiento lento y se puede limitar con la poda.",
@@ -125,6 +135,11 @@
     "variantsName": "Araña, Malamadre",
     "scientificName": "Chlorophytum comosum",
     "image": "https://raw.githubusercontent.com/PIWEEK/plants/main/src/assets/img/chlorophytum-comosum-alberto-nicoletta.jpg",
+    "credits": {
+      "author": "Alberto Nicoletta",
+      "url": "https://unsplash.com/photos/3SFYql1q3uE",
+      "source": "Unsplash"
+    },
     "description": "Es originaria de las regiones costeras y húmedas de Sudáfrica, de hoja perenne, sus diminutas flores son de color blanco y hermafroditas. Su reprodución por medio de estolones dan la sensación visual de pequeñas plantas ‘flotando’ en el aire, en contacto con la tierra enraízan y dan lugar a nuevas plantas. El nombre de ‘malamadre’ hace alusión a sus estolones porque parece que aleja a sus hijos de ella. Muy resistente, requiere pocos cuidados.",
     "type": ["Suelo", "Colgante"],
     "size": "Según la variedad puede adquirir alturas superiores a los 50 centímetros, pero se puede controlar con la poda.",
@@ -167,6 +182,11 @@
     "variantsName": "",
     "scientificName": "Nephrolepis exaltata",
     "image": "https://raw.githubusercontent.com/PIWEEK/plants/main/src/assets/img/nephrolepis-exaltata-anthony-shkraba.jpg",
+    "credits": {
+      "author": "Anthony Shkraba",
+      "url": "https://www.pexels.com/photo/a-person-planting-a-fern-in-a-pot-7342615/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels",
+      "source": "Pexels"
+    },
     "description": "Nativa de regiones tropicales de todo el mundo y común en los bosques húmedos y pantanos. Son plantas de hoja perenne, sin flores, frutos ni semillas. Es una de las especies más antigüa de plantas y se reproducen por generación de esporas.",
     "type": ["Suelo", "Colgante"],
     "size": "Puede superar el metro de longitud pero se puede limitar con la poda.",
@@ -209,6 +229,11 @@
     "variantsName": "Espatifilo",
     "scientificName": "Spathiphyllum",
     "image": "https://raw.githubusercontent.com/PIWEEK/plants/main/src/assets/img/spathiphyllum-hắng-lê.jpg",
+    "credits": {
+      "author": "Thắng Lê",
+      "url": "https://www.pexels.com/photo/blooming-flowers-with-green-leaves-in-garden-6281875/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels",
+      "source": "Unsplash"
+    },
     "description": "Nativas de la América tropical y Malasia, de hoja perenne. Produce una copiosa floración todo el año. Tiene una gran capacidad de eliminar los contaminantes que se acumulan en nuestro hogar.",
     "type": ["Suelo"],
     "size": "Según la variedad puede adquirir alturas superiores a los 40 centímetros, pero se puede controlar con la poda.",
@@ -269,6 +294,11 @@
     "variantsName": "Costilla de Adán, Queso suizo, Cerimán, Filodendro, Planta esqueleto",
     "scientificName": "Monstera deliciosa",
     "image": "https://raw.githubusercontent.com/PIWEEK/plants/main/src/assets/img/monstera-severin-candrian.jpg",
+    "credits": {
+      "author": "Severin Candrian",
+      "url": "https://unsplash.com/photos/bwsTJMnhcwE",
+      "source": "Unsplash"
+    },
     "description": "Planta trepadora de hoja perenne nativa de América Central. Las Monsteras son famosas por los hermosos agujeros de sus hojas. Puede dar flores y frutos cuya pulpa es comestible, pero rara vez sucede en interior.",
     "type": ["Trepadora"],
     "size": "Media 45-55 cm aprox. pero puede ser superior. Se puede limitar con la poda.",
@@ -329,6 +359,11 @@
     "variantsName": "Potus, Pothos",
     "scientificName": "Epipremnum aureum",
     "image": "https://raw.githubusercontent.com/PIWEEK/plants/main/src/assets/img/epipremnum-aureum-severin-candrian.jpg",
+    "credits": {
+      "author": "Severin Candrian",
+      "url": "https://unsplash.com/photos/IZz3sboy1g8",
+      "source": "Unsplash"
+    },
     "description": "Tropical, nativa del sudeste asiático, con hojas perennes. De crecimiento bastante rápido, muy resistente, requiere pocos cuidados.",
     "type": ["Trepadora", "Colgante"],
     "size": "Se puede limitar con la poda",
@@ -389,6 +424,11 @@
     "variantsName": "Lengua de tigre, Lengua de suegra, Espada de san juan, Laurentii",
     "scientificName": "Sansevieria",
     "image": "https://raw.githubusercontent.com/PIWEEK/plants/main/src/assets/img/sansevieria-zeylanica-severin-candrian.jpg",
+    "credits": {
+      "author": "Severin Candrian",
+      "url": "https://unsplash.com/photos/WQq3rRPb-5Q",
+      "source": "Unsplash"
+    },
     "description": "Abarca aproximadamente 130 especies, la mayoría naturales de África y Asia, de hoja perenne y crecimiento lento. Es una planta muy fácil de cultivar y casi indestructible. Tiene la capacidad de eliminar toxinas del aire. Otra de sus ventajas es que sus hojas siempre crecen hacia arriba, lo que hace que se conviertan en una compañera perfecta para espacios reducidos.",
     "type": ["Suelo"],
     "size": "Hasta dos metros y medio de alto, dependiendo de la variedad, pero es de crecimiento lento.",
@@ -449,6 +489,11 @@
     "variantsName": "Palo de Brasil, Palo de Agua",
     "scientificName": "Dracaena fragans",
     "image": "https://raw.githubusercontent.com/PIWEEK/plants/main/src/assets/img/dracaena-fragrans-severin-candrian.jpg",
+    "credits": {
+      "author": "Severin Candrian",
+      "url": "https://unsplash.com/photos/r-kG_nvpvLA",
+      "source": "Unsplash"
+    },
     "description": "Nativa de África tropical, arbusto de crecimiento lento, presenta una o varias coronas (según su brotación) de amplias hojas brillantes en la parte superior del tronco. Es muy común en los hogares por su capacidad de purificar el aire.",
     "type": ["Suelo"],
     "size": "Hasta 2 m de alto pero es de crecimiento lento y se puede limitar con la poda.",
