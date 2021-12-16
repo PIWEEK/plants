@@ -1,7 +1,7 @@
 <template>
   <div class="benefits">
     <div class="row">
-      <h2>Sabias que...</h2>
+      <h2>¿Sabias que...</h2>
       <button class="reload" @click="generate">
         <svg
           xmlns="http://www.w3.org/2000/svg"

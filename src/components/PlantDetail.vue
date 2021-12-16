@@ -290,6 +290,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.container {
+  padding-top: 2rem;
+}
 .plant__data {
   p {
     margin-bottom: 1rem;
