@@ -313,14 +313,20 @@ dd {
 }
  /* Customize the label (the container) */
 
-.animals .form-control{
+.animals .form-control .buttontype{
   padding-left:0;
   display: flex;
   gap:4px;
   border:2px solid #80c56e;
   border-radius:4px;
   padding:3px 6px;
-}
+  cursor:pointer;
+  }
+  .form-control input:checked ~ .buttontype {
+    color: #fff;
+    background: #80c56e;
+  }
+
 /* Hide the browser's default checkbox */
 
 .form-control input {

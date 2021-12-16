@@ -5,7 +5,7 @@
         <h1>Plantas para dummies</h1>
       </div>
       <div class="row">
-        <button v-on:click="ascending = !ascending" class="sort-button">
+        <!-- <button v-on:click="ascending = !ascending" class="sort-button">
           <template v-if="ascending">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +36,7 @@
             >
               <polyline points="18 15 12 9 6 15" /></svg
           ></template>
-        </button>
+        </button> -->
         <label for="buscar" class="hide">Buscar</label>
         <input
           type="text"
@@ -60,11 +60,11 @@
           <label class="form-control">
             Baja
             <input
-              v-model="dedication"
+              v-model="location"
               type="checkbox"
-              id="baja"
-              name="baja"
-              value="baja"
+              id="Baja"
+              name="Baja"
+              value="Baja"
             />
             <span class="checkmark"></span>
           </label>
@@ -72,28 +72,27 @@
           <label class="form-control">
             Media
             <input
-              v-model="dedication"
+              v-model="location"
               type="checkbox"
-              id="media"
-              name="media"
-              value="media" />
+              id="Media"
+              name="Media"
+              value="Media" />
             <span class="checkmark"></span
           ></label>
 
           <label class="form-control">
             Alta
             <input
-              v-model="dedication"
+              v-model="location"
               type="checkbox"
-              id="alta"
-              name="alta"
-              value="alta"
+              id="Alta"
+              name="Alta"
+              value="Alta"
             />
             <span class="checkmark"></span>
           </label>
         </div>
         <!-- Ubicacion -->
-
         <h4>Ubicación</h4>
         <div class="row normal">
           <label class="form-control">
@@ -150,8 +149,6 @@
         <h4>Segura para:</h4>
         <div class="row animals">
           <label class="form-control">
-            <img width="18" height="18" src="../assets/svg/animals_dog.svg" />
-            Perretes
             <input
               v-model="dedication"
               type="checkbox"
@@ -159,29 +156,33 @@
               name="dog"
               value="dog"
             />
+            <span class="buttontype">
+              <img width="18" height="18" src="../assets/svg/animals_dog.svg" />
+              Perretes</span
+            >
+
             <span class="checkmark"></span>
           </label>
 
           <label class="form-control">
-            <img
-              width="18"
-              height="18"
-              src="../assets/svg/animals_cat.svg" />Gaticos
             <input
               v-model="dedication"
               type="checkbox"
               id="cat"
               name="cat"
               value="cat" />
+            <span class="buttontype"
+              ><img
+                width="18"
+                height="18"
+                src="../assets/svg/animals_cat.svg"
+              />Gaticos</span
+            >
+
             <span class="checkmark"></span
           ></label>
 
           <label class="form-control">
-            <img
-              width="18"
-              height="18"
-              src="../assets/svg/horse-2.svg"
-            />Caballos
             <input
               v-model="dedication"
               type="checkbox"
@@ -189,14 +190,17 @@
               name="horse"
               value="horse"
             />
+            <span class="buttontype"
+              ><img
+                width="18"
+                height="18"
+                src="../assets/svg/horse-2.svg"
+              />Caballos</span
+            >
+
             <span class="checkmark"></span>
           </label>
           <label class="form-control">
-            <img
-              width="18"
-              height="18"
-              src="../assets/svg/animals_rabbit_1.svg"
-            />Conejos
             <input
               v-model="dedication"
               type="checkbox"
@@ -204,6 +208,13 @@
               name="rabbit"
               value="rabbit"
             />
+            <span class="buttontype"
+              ><img
+                width="18"
+                height="18"
+                src="../assets/svg/animals_rabbit_1.svg"
+              />Conejos
+            </span>
             <span class="checkmark"></span>
           </label>
         </div>
@@ -355,24 +366,14 @@ export default {
     return {
       ascending: true,
       buscar: "",
+      /*       checkedLocation: true, */
     };
   },
 
   // Creo un método llamado 'items' y obtengo los datos de las Plants
   // Asimismo filtro la búsqueda de las Plants con el método filter()
   // buscador inicial funcionando:
-  /*   computed: {
-    items() {
-      return datos.filter((item) => {
-        return (
-          item.scientific_name
-            .toLowerCase()
-            .includes(this.buscar.toLowerCase()) ||
-          item.name.toLowerCase().includes(this.buscar.toLowerCase())
-        );
-      });
-    },
-  }, */
+  /* */
   /* probar la opcioń de meter más filtros via una variable como este ejempo  https://medium.com/swlh/filtering-sorting-and-searching-in-arrays-with-vue-js-f60951c040fc*/
 
   computed: {
@@ -391,6 +392,13 @@ export default {
       if (!this.ascending) {
         tempPlantas.reverse();
       }
+
+      /*       if (!this.checked.location) {
+        tempPlantas.filter((item) =>
+          this.checked.location.includes(item.care.location)
+        );
+      } */
+
       return tempPlantas;
     },
   },
