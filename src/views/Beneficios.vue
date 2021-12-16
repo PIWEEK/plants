@@ -290,6 +290,9 @@
   max-width: 1024px;
   margin: 0 auto;
 }
+h1 {
+  margin-bottom: 2rem;
+}
 .two-columns {
   display: flex;
   align-items: flex-start;

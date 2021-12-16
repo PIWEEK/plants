@@ -11,7 +11,7 @@
     </div>
     <div class="nav-right">
       <router-link to="/glossary">Glosario</router-link> |
-      <router-link to="/about">Nosotros</router-link>
+      <router-link to="/about">Nosotras</router-link>
     </div>
   </div>
   <router-view />
