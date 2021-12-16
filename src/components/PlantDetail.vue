@@ -38,13 +38,17 @@
             v-for="(ubicacion, index) in plantData.care.location"
             :key="index"
           >
-            {{ ubicacion }},
+            {{ ubicacion }}
+            <template v-if="index !== plantData.care.location.length - 1"
+              >,</template
+            >
           </dd>
         </dl>
         <dl>
           <dt>Tipo</dt>
           <dd v-for="(tipo, index) in plantData.type" :key="index">
-            {{ tipo }},
+            {{ tipo }}
+            <template v-if="index !== plantData.type.length - 1">,</template>
           </dd>
         </dl>
       </div>
@@ -109,9 +113,13 @@
                 v-for="(tipofert, index) in plantData.care.fertilizer.type"
                 :key="index"
               >
-                {{ tipofert }},
+                {{ tipofert
+                }}<template
+                  v-if="index !== plantData.care.fertilizer.length - 1"
+                  >,
+                </template>
               </span>
-              {{ plantData.care.fertilizer.time }}
+              {{ plantData.care.fertilizer.time }}.
             </p>
           </div>
           <div class="row left">
@@ -121,16 +129,17 @@
                 v-for="(sustrato, index) in plantData.care.soil"
                 :key="index"
               >
-                {{ sustrato }},
-              </span>
+                {{ sustrato
+                }}<template v-if="index !== plantData.care.soil.length - 1"
+                  >,
+                </template> </span
+              >.
             </p>
           </div>
           <div class="row left">
             <p>
               <span class="cuidados">Transplante</span>
-              <span>
-                {{ plantData.care.transplant }}
-              </span>
+              <span> {{ plantData.care.transplant }}. </span>
             </p>
           </div>
           <div class="row left">
@@ -268,7 +277,7 @@
 </template>
 
 <script>
-import datos from "../assets/json/data.json";
+//import datos from "../assets/json/data.json";
 import randomBenefit from "../components/randomBenefit.vue";
 
 export default {
@@ -281,7 +290,7 @@ export default {
     randomBenefit,
   },
   beforeMount() {
-    console.log("Detail", this.plant);
+    // console.log("Detail", this.plant);
     this.plantData = this.plant && JSON.parse(this.plant);
   },
   data() {
