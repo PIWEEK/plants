@@ -51,7 +51,7 @@
             bien oxigenado es bueno para todo tu organismo.
           </p>
         </div>
-        <img src="../assets/img/benefit-2.png" alt="" />
+        <img src="../assets/img/benefit-2-alt.png" alt="" />
       </div>
     </section>
 
@@ -60,9 +60,10 @@
         ¿Sabías que las plantas reducen cada 24 horas hasta el 87% de los
         contaminantes orgánicos presentes en el aire?
       </h2>
-      <h3>Purifica el aire eliminando gases nocivos.</h3>
       <div class="two-columns">
         <div>
+          <h3>Purifica el aire eliminando gases nocivos.</h3>
+
           <p>
             Muchos productos de uso habitual en el hogar (desinfectantes,
             desengrasantes, barnices, pinturas, cosméticos o libros impresos)
@@ -253,7 +254,11 @@
             reducido.
           </p>
         </div>
-        <img src="../assets/img/benefit-6.png" alt="" />
+        <img
+          src="../assets/img/benefit-6.png"
+          alt=""
+          style="margin-top: -44px"
+        />
       </div>
     </section>
 
@@ -279,26 +284,68 @@
             Orégano, Ortiga Mayor, Perejil, Romero, Salvia, Tomillo, Zanahorias.
           </p>
         </div>
-        <img src="../assets/img/benefit-7.png" alt="" />
+        <img
+          src="../assets/img/benefit-7.png"
+          alt=""
+          style="margin-top: -40px"
+        />
       </div>
     </section>
+    <section></section>
   </div>
 </template>
-<script></script>
+<script>
+const TIMEOUT = 1;
+
+export default {
+  name: "NavLinks",
+  mounted() {
+    // From testing, without a brief timeout, it won't work.
+    if (this.$route.hash) {
+      setTimeout(() => this.scrollTo(this.$route.hash), TIMEOUT);
+    }
+  },
+  methods: {
+    scrollTo: function (hashtag) {
+      setTimeout(() => {
+        location.href = hashtag;
+      }, TIMEOUT);
+    },
+  },
+};
+</script>
 <style lang="scss" scoped>
 .container {
   padding-top: 2rem;
   max-width: 1024px;
   margin: 0 auto;
 }
+p {
+  font-size: 1rem;
+}
 h1 {
   margin-bottom: 2rem;
+}
+h2 {
+  color: #476643;
+  font-size: 1.25rem;
+}
+h3 {
+  font-size: 1.125rem;
+  color: #7b7c80;
+}
+section {
+  padding-top: 2rem;
 }
 .two-columns {
   display: flex;
   align-items: flex-start;
+  gap: 2rem;
   div:first-child {
     flex-basis: 67%;
+  }
+  :last-child {
+    flex-basis: 22%;
   }
 }
 </style>

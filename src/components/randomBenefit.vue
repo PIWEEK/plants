@@ -22,8 +22,8 @@
     </div>
     <p>{{ quote.quote }}</p>
     <!-- router link with parameters https://forum.vuejs.org/t/passing-props-through-router-link-solved/16868 -->
-    <router-link class="vermas" to="/benefits/#2"
-      ><span>Ver todos los beneficios</span>
+    <router-link class="vermas" :to="'/benefits/#' + quote.id"
+      ><span>Saber más</span>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="20"

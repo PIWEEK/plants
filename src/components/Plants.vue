@@ -43,7 +43,7 @@
           id="buscar"
           v-model="buscar"
           class="form-control"
-          placeholder="Ejemplo: Aloe"
+          placeholder="Ejemplo: Monstera"
         />
       </div>
     </div>
@@ -233,7 +233,7 @@
         />
         <i class="fa fa-search"></i> -->
       </div>
-      <div class="row list">
+      <div class="row list left">
         <div class="col-3" v-for="item in items" v-bind:key="item.slug">
           <div class="card">
             <router-link
@@ -415,6 +415,7 @@ export default {
 }
 .row.list {
   flex-basis: 78%;
+  gap: 3%;
 }
 .sort-button {
   margin-bottom: 0;
