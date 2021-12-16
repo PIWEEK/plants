@@ -20,7 +20,7 @@
     <section id="2">
       <h2>
         ¿Sabías que existen plantas que liberan oxígeno también durante la
-        noche?.
+        noche?
       </h2>
       <h3>Evita dolores de cabeza y favorece el descanso.</h3>
       <div class="two-columns">
@@ -59,7 +59,7 @@
     <section id="3">
       <h2>
         ¿Sabías que las plantas reducen cada 24 horas hasta el 87% de los
-        contaminantes orgánicos presentes en el aire?.
+        contaminantes orgánicos presentes en el aire?
       </h2>
       <h3>Purifica el aire eliminando gases nocivos.</h3>
       <div class="two-columns">
@@ -108,7 +108,7 @@
 
     <section id="4">
       <h2>¿Sabías que existen plantas que reducen el polvo?.</h2>
-      <h3>Reduce el asma y las alergias</h3>
+      <h3>Reduce el asma y las alergias.</h3>
       <div class="two-columns">
         <div>
           <p>
@@ -136,9 +136,9 @@
     <section id="5">
       <h2>
         ¿Sabías que las plantas reducen el nivel de estrés y mejoran tu
-        productividad?.
+        productividad?
       </h2>
-      <h3>Mejora tu atención y creatividad haciéndote sentir más relajado</h3>
+      <h3>Mejora tu atención y creatividad haciéndote sentir más relajado.</h3>
       <div class="two-columns">
         <div>
           <p>
