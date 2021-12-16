@@ -190,11 +190,7 @@
               <div class="row ded">
                 <span class="title">Dedicación</span>
                 <div class="barrita" :class="item.care.dedication.value">
-                  <span class="dedicacion">
-                    <div class="small">
-                      {{ item.care.dedication.value }}
-                    </div></span
-                  >
+                  <span class="dedicacion"> <div class="small"></div></span>
                 </div>
               </div>
               <!-- 
