@@ -18,39 +18,35 @@
           {{ plantData.description }}
         </p>
         <dl>
-          <dt>Tipo</dt>
-          <dd v-for="(tipo, index) in plantData.type" :key="index">
-            {{ tipo }},
+          <dt>Dedicacion:</dt>
+          <dd class="dd-barrita">
+            <div class="barrita" :class="plantData.care.dedication.value">
+              <span class="dedicacion"> </span>
+            </div>
+            <div class="small">
+              {{ plantData.care.dedication.value }}
+            </div>
           </dd>
         </dl>
         <dl>
           <dt>Tamaño</dt>
           <dd>{{ plantData.size }}</dd>
         </dl>
-        <div class="row">
-          <div class="col-2">
-            <h3>Nivel de dedicacion:</h3>
-            <div class="row ded">
-              <div class="barrita" :class="plantData.care.dedication.value">
-                <span class="dedicacion"> </span>
-              </div>
-              <div class="small">
-                {{ plantData.care.dedication.value }}
-              </div>
-            </div>
-          </div>
-          <div class="col-2">
-            <h3>Ubicación</h3>
-            <div class="row left">
-              <span
-                v-for="(ubicacion, index) in plantData.care.location"
-                :key="index"
-              >
-                {{ ubicacion }},
-              </span>
-            </div>
-          </div>
-        </div>
+        <dl>
+          <dt>Ubicación</dt>
+          <dd
+            v-for="(ubicacion, index) in plantData.care.location"
+            :key="index"
+          >
+            {{ ubicacion }},
+          </dd>
+        </dl>
+        <dl>
+          <dt>Tipo</dt>
+          <dd v-for="(tipo, index) in plantData.type" :key="index">
+            {{ tipo }},
+          </dd>
+        </dl>
       </div>
     </div>
     <div class="detailed-info row">
@@ -363,5 +359,8 @@ span.cuidados {
   .row {
     margin-bottom: 0;
   }
+}
+.barrita {
+  margin-right: 2%;
 }
 </style>
