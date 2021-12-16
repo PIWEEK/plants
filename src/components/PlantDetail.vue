@@ -307,6 +307,7 @@ span.cuidados {
   flex-basis: 66%;
   .row {
     margin-bottom: 1.5rem;
+    flex-wrap: nowrap;
   }
 }
 .toxicidad {
