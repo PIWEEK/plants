@@ -434,7 +434,25 @@
     "description": "Nativa de África tropical, arbusto de crecimiento lento, presenta una o varias coronas (según su brotación) de amplias hojas brillantes en la parte superior del tronco. Es muy común en los hogares por su capacidad de purificar el aire.",
     "type": ["Suelo"],
     "size": "Hasta 2 m de alto pero es de crecimiento lento y se puede limitar con la poda.",
-    "toxicity": null,
+    "toxicity": {
+      "dog": {
+        "value": "Si",
+        "symptoms": "Vómitos (ocasionalmente con sangre), depresión, anorexia, hipersalivación"
+      },
+      "cat": {
+        "value": "Si",
+        "symptoms": "Vómitos (ocasionalmente con sangre), depresión, anorexia, hipersalivación, puplias dilatadas"
+      },
+      "rabbit": {
+        "value": "Yes",
+        "symptoms": "No determinados"
+      },
+      "horse": {
+        "value": "No",
+        "symptoms": null
+      },
+      "baby": null
+    },
     "care": {
       "dedication": {
         "value": "Media",
