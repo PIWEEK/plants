@@ -56,7 +56,7 @@
     },
     "problems": {
       "diseases": "Son resistentes a casi todo tipo de plagas y las que los afectan no traen daños considerables. Los más comunes son los pulgones, cochinilla y araña roja. Cuando se riega en exceso, es vulnerable a los hongos.",
-      "commonMistakes": "Manchas marrones por excesivo riego o quemaduras de sol. Hojas amarillas y lacias por falta de riego o de hierro. Puntas de las hojas marrones por falta de agua o baja humedad. Hojas pálidas o descoloridas por falta de luz."
+      "commonMistakes": ["Manchas marrones por excesivo riego o quemaduras de sol.", "Hojas amarillas y lacias por falta de riego o de hierro.", "Puntas de las hojas marrones por falta de agua o baja humedad.", "Hojas pálidas o descoloridas por falta de luz."]
     }
   },
   {
@@ -98,7 +98,7 @@
     },
     "problems": {
       "diseases": "Pulgones, cochinillas o araña roja, aunque no son habituales.",
-      "commonMistakes": "Puntas marrones por falta de agua o baja humedad. Hojas pálidas o descoloridas por falta de luz. Hojas amarillas por falta de hierro. Hojas pequeñas o crecimiento lento por falta de fertilizante."
+      "commonMistakes": ["Puntas marrones por falta de agua o baja humedad.", "Hojas pálidas o descoloridas por falta de luz.", "Hojas amarillas por falta de hierro.", "Hojas pequeñas o crecimiento lento por falta de fertilizante."]
     }
   },
   {
@@ -158,7 +158,7 @@
     },
     "problems": {
       "diseases": "Son resistentes a casi todo tipo de plagas y las que los afectan no traen daños considerables. Los más comunes son los pulgones, araña roja y mosca blanca. Cuando se riega en exceso, es vulnerable a los hongos.",
-      "commonMistakes": "Bordes de hojas marrones por exceso de riego, quemaduras solares o exceso de fertilizante. No florece por falta de luz. Hojas amarillas por exceso de riego o quemaduras solares. Hojas caidas por falta o exceso de riego."
+      "commonMistakes": ["Bordes de hojas marrones por exceso de riego, quemaduras solares o exceso de fertilizante.", "No florece por falta de luz.", "Hojas amarillas por exceso de riego o quemaduras solares.", "Hojas caidas por falta o exceso de riego."]
     }
   },
   {
@@ -218,7 +218,7 @@
     },
     "problems": {
       "diseases": "Son resistentes a casi todo tipo de plagas y las que los afectan no traen daños considerables. Los más comunes son las cochinillas. Cuando se riega en exceso, es vulnerable a los hongos.",
-      "commonMistakes": "Hojas que se pudren en la base o aparición de manchas marrones, por excesivo riego. Hojas que pierden su color por falta de luz. Hojas secas por falta de agua. "
+      "commonMistakes": ["Hojas que se pudren en la base o aparición de manchas marrones, por excesivo riego.", "Hojas que pierden su color por falta de luz.", "Hojas secas por falta de agua."]
     }
   },
   {
@@ -278,7 +278,7 @@
     },
     "problems": {
       "diseases": "Muy pocas posibilidades de ser atacada por plagas o enfermedades. Raras veces araña roja, cochinilla o pudriciones causadas por hongos o bacterias",
-      "commonMistakes": "Puntas de las hojas secas por falta de riego o humedad. Manchas negras por exceso de agua, baja temperatura o quemadura solar. Hojas amarillas por exceso de riego, falta de fertilizante o falta de luz."
+      "commonMistakes": ["Puntas de las hojas secas por falta de riego o humedad.", "Manchas negras por exceso de agua, baja temperatura o quemadura solar.", "Hojas amarillas por exceso de riego, falta de fertilizante o falta de luz."]
     }
   },
   {
@@ -338,7 +338,7 @@
     },
     "problems": {
       "diseases": "Son resistentes a casi todo tipo de plagas y las que los afectan no traen daños considerables. Los más comunes son las cochinillas o araña roja. Cuando se riega en exceso, es vulnerable a los hongos.",
-      "commonMistakes": "Manchas negras en las hojas por exceso de humedad o frío. Caida de hojas por falta o exceso de agua. Tallos largos con pocas hojas o no crece por falta de luz."
+      "commonMistakes": ["Manchas negras en las hojas por exceso de humedad o frío.", "Caída de hojas por falta o exceso de agua.", "Tallos largos con pocas hojas o no crece por falta de luz."]
     }
   },
   {
@@ -398,7 +398,7 @@
     },
     "problems": {
       "diseases": "Los más comunes son los pulgones, cochinilla y araña roja.",
-      "commonMistakes": "Hojas amarillas o marrones por falta o exceso de riego, excesiva cal en el agua o sol directo que la quema. No florece o no se abren las flores por falta de luz o fertilizante."
+      "commonMistakes": ["Hojas amarillas o marrones por falta o exceso de riego, excesiva cal en el agua o sol directo que la quema.", "No florece o no se abren las flores por falta de luz o fertilizante."]
     }
   },
   {
@@ -440,7 +440,7 @@
     },
     "problems": {
       "diseases": "No suele sufrir plagas o enfermedades aunque, en ocasiones, la cochinilla puede resultar problemática y puede tener hongos por encharcamiento.",
-      "commonMistakes": "Hojas secas que se caen por falta de riego o humedad. Hojas claras o descoloridas por quemaduras solares o falta de fertilizante. Hojas arrugadas por temperatura excesivamente baja. Hojas con bordes oscuros que se marchitan por demasiado calor."
+      "commonMistakes": ["Hojas secas que se caen por falta de riego o humedad.", "Hojas claras o descoloridas por quemaduras solares o falta de fertilizante.", "Hojas arrugadas por temperatura excesivamente baja.", "Hojas con bordes oscuros que se marchitan por demasiado calor."]
     }
   },
   {
@@ -500,7 +500,7 @@
     },
     "problems": {
       "diseases": "Los más comunes son los pulgones, cochinilla y araña roja. También puede ser atacada por hongos por exceso de riego.",
-      "commonMistakes": "Tronco blando u hojas amarillas por excesivo riego. Puntas de las hojas secas u hojas arrugadas por falta de agua. Manchas marrones por temperatura baja o quemaduras solares. Hojas descoloridas por falta de luz."
+      "commonMistakes": ["Tronco blando u hojas amarillas por excesivo riego.", "Puntas de las hojas secas u hojas arrugadas por falta de agua.", "Manchas marrones por temperatura baja o quemaduras solares.", "Hojas descoloridas por falta de luz."]
     }
   }
 ]
