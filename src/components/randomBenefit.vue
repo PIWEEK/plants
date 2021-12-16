@@ -21,8 +21,8 @@
       </button>
     </div>
     <p>{{ quote.quote }}</p>
-
-    <router-link class="vermas" to="/benefits"
+    <!-- router link with parameters https://forum.vuejs.org/t/passing-props-through-router-link-solved/16868 -->
+    <router-link class="vermas" to="/benefits/#2"
       ><span>Ver todos los beneficios</span>
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@ import quotes from "../assets/json/benefits.json";
     quote: "Talk is cheap. Show me the code.",
   },
 ]; */
-
+/* https://morioh.com/p/039cdbec58ab */
 export default {
   name: "randomBenefit",
   data() {
