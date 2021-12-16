@@ -160,7 +160,7 @@
                 v-for="(mistake, index) in plantData.problems.commonMistakes"
                 :key="index"
               >
-                {{ mistake }},
+                {{ mistake }}
               </li>
             </ul>
           </div>
