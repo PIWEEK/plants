@@ -243,6 +243,16 @@
               />
               <p>{{ plantData.toxicity.baby.symptoms }}</p>
             </div>
+            <h4>Disclaimer</h4>
+            <div class="disclaimer">
+              <p>
+                Varios factores (cantidad de sustancia ingerida, tamaño del
+                animal, alergias, etc.) determinan qué es tóxico para una
+                mascota en particular. Si cree que su mascota ha ingerido algo
+                potencialmente tóxico busque asesoramiento veterinario de
+                inmediato.
+              </p>
+            </div>
           </div>
           <div class="row" v-else>
             <p class="notoxica">
