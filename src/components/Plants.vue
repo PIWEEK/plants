@@ -197,9 +197,8 @@
             <p v-bind:class="{ nontoxic: item.toxicity_dogs }" :key="item.key">
               perro
             </p> -->
-              <div class="row" v-if="item.toxicity !== null">
-                <span>Tóxica para</span>
-
+              <div class="row left" v-if="item.toxicity !== null">
+                <span class="title">Tóxica para</span>
                 <img
                   v-if="item.toxicity.dog !== null"
                   class="toxicity"
