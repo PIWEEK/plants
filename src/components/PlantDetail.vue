@@ -155,7 +155,14 @@
         <div class="problemas">
           <h3>Errores más comunes</h3>
           <div class="row left">
-            <p>{{ plantData.problems.commonMistakes }}</p>
+            <ul>
+              <li
+                v-for="(mistake, index) in plantData.problems.commonMistakes"
+                :key="index"
+              >
+                {{ mistake }},
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -334,6 +341,9 @@ span.cuidados {
     .left {
       flex-wrap: nowrap;
       align-items: flex-start;
+      .nontoxic {
+        display: none;
+      }
     }
   }
 }
