@@ -1,35 +1,99 @@
 [
-  { "quote": "Las plantas favorecen la concentración"},
-  { "quote": "Las plantas ayudan a la recuperación en hospitales"},
-  { "quote": "Las plantas ayudan a la recuperación en hospitales"},
-  { "quote": "Las plantas contribuyen a dormir mejor"},
-  { "quote": "Las plantas cuidan nuestra piel"},
-  { "quote": "Las plantas te protegen de los resfriados"},
-  { "quote": "Las plantas evitan irratión de garganta y la tos seca"},
-  { "quote": "Las plantas evitan dolores de cabeza"},
-  { "quote": "Las plantas disminuyen la sensación de fatiga"},
-  { "quote": "Las plantas mitigan el asma y las alergias"},
-  { "quote": "Las plantas disminuyen nuestra presión sanguínea"},
-  { "quote":"Las plantas ayudan a cogerse menos días de baja"},
-  { "quote":"Las plantas reducen los efectos del estrés"},
-  { "quote":"Las plantas disminuyen tus niveles de ansiedad"},
-  { "quote":"Las plantas afectan a nuestro estado de ánimo"},
-  { "quote": "Las plantas nejoran tu capacidad de atención"},
-  { "quote":  "Las plantas disminuye nuestros tiempos de reacción"},
-  { "quote":  "Las plantas favorecen la creatividad"},
-  { "quote":  "Las plantas mejoran tu productividad"},
-  { "quote":  "Las plantas eliminan contaminantes orgánicos del aire"},
-  { "quote": "Las plantas evitan el moho"},
-  { "quote": "Las plantas reducen el polvo"},
-  { "quote": "Las plantas retornan el 97% del agua que reciben"},
-  { "quote": "Las plantas liberan oxígeno también de noche"},
-  { "quote": "Las plantas amortiguan el ruido"},
-  { "quote": "Las plantas hacen tu hogar un poco más alegre y acogedor"},
-  { "quote": "Las plantas aderezan las mejores recetas"},
-  { "quote":"Las plantas tienen poder medicinal"},
-  { "quote": "Las plantas son ambientadores naturales"},
-  { "quote": "Las plantas son aptas para todos los públicos"},
-  { "quote": "Las plantas son más fáciles y limpias que una mascota"},
-  { "quote": "Las plantas hay variedades que se adaptan a cualquier habitat"},
-  { "quote":"Las plantas existen plantas capaces de sobrevivir sin tierra"}
+  { "quote": "Las plantas favorecen la concentración",
+    "id": 5
+  },
+  { "quote": "Las plantas ayudan a la recuperación en hospitales",
+    "id": 6
+  },
+  { "quote": "Las plantas contribuyen a dormir mejor",
+    "id": 2
+  },
+  { "quote": "Las plantas cuidan nuestra piel",
+    "id": 1
+  },
+  { "quote": "Las plantas te protegen de los resfriados",
+    "id": 1
+  },
+  { "quote": "Las plantas evitan irratión de garganta y la tos seca",
+    "id": 3
+  },
+  { "quote": "Las plantas evitan dolores de cabeza",
+    "id": 3
+  },
+  { "quote": "Las plantas disminuyen la sensación de fatiga",
+    "id": 6
+  },
+  { "quote": "Las plantas mitigan el asma y las alergias",
+    "id": 3
+  },
+  { "quote": "Las plantas disminuyen nuestra presión sanguínea",
+    "id": 5
+  },
+  { "quote":"Las plantas ayudan a cogerse menos días de baja",
+    "id": 5
+  },
+  { "quote":"Las plantas reducen los efectos del estrés",
+    "id": 5
+  },
+  { "quote":"Las plantas disminuyen tus niveles de ansiedad",
+    "id": 5
+  },
+  { "quote":"Las plantas afectan a nuestro estado de ánimo",
+    "id": 5
+  },
+  { "quote":"Las plantas nejoran tu capacidad de atención",
+    "id": 5
+  },
+  { "quote":  "Las plantas disminuye nuestros tiempos de reacción",
+    "id": 5
+  },
+  { "quote":  "Las plantas favorecen la creatividad",
+    "id": 5
+  },
+  { "quote":  "Las plantas mejoran tu productividad",
+    "id": 5
+  },
+  { "quote":  "Las plantas eliminan contaminantes orgánicos del aire",
+    "id": 3
+  },
+  { "quote": "Las plantas evitan el moho",
+    "id": 3
+  },
+  { "quote": "Las plantas reducen el polvo",
+    "id": 4
+  },
+  { "quote": "Las plantas retornan el 97% del agua que reciben",
+    "id": 1
+  },
+  { "quote": "Las plantas liberan oxígeno también de noche",
+    "id": 2
+  },
+  { "quote": "Las plantas amortiguan el ruido",
+    "id": 5
+  },
+  { "quote": "Las plantas hacen tu hogar un poco más alegre y acogedor",
+    "id": 6
+  },
+  { "quote": "Las plantas aderezan las mejores recetas",
+    "id": 7
+  },
+  { "quote":"Las plantas tienen poder medicinal",
+    "id": 7
+  },
+  { "quote": "Las plantas son ambientadores naturales",
+    "id": 7
+  },
+  { "quote": "Las plantas son aptas para todos los públicos",
+    "id": 0
+  },
+  { "quote": "Las plantas son más fáciles y limpias que una mascota",
+    "id": 0
+  },
+  { "quote": "Las plantas hay variedades que se adaptan a cualquier habitat",
+    "id": 0
+  },
+  {
+    "quote":"Las plantas existen plantas capaces de sobrevivir sin tierra",
+    "id": 0
+  }
 ]
