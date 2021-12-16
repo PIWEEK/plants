@@ -10,6 +10,14 @@
           v-bind:src="plantData.image"
           v-bind:alt="plantData.scientificName"
         />
+        <caption>
+          Imagen de
+          <a :href="plantData.credits.url">{{ plantData.credits.author }}</a>
+          via
+          {{
+            plantData.credits.source
+          }}
+        </caption>
       </div>
       <div class="plant__data">
         <h1>{{ plantData.name }}</h1>
@@ -108,7 +116,7 @@
           <h3>Otros cuidados</h3>
           <div class="row left">
             <p>
-              <span class="cuidados">Fertilizante</span>
+              <span class="cuidados">Fertilizante:</span>
               <span
                 v-for="(tipofert, index) in plantData.care.fertilizer.type"
                 :key="index"
@@ -124,7 +132,7 @@
           </div>
           <div class="row left">
             <p>
-              <span class="cuidados">Sustrato</span>
+              <span class="cuidados">Sustrato:</span>
               <span
                 v-for="(sustrato, index) in plantData.care.soil"
                 :key="index"
@@ -138,13 +146,13 @@
           </div>
           <div class="row left">
             <p>
-              <span class="cuidados">Transplante</span>
+              <span class="cuidados">Transplante:</span>
               <span> {{ plantData.care.transplant }}. </span>
             </p>
           </div>
           <div class="row left">
             <p>
-              <span class="cuidados">Poda</span>
+              <span class="cuidados">Poda:</span>
               <span>
                 {{ plantData.care.pruning }}
               </span>
@@ -266,7 +274,7 @@
           </div>
           <div class="row" v-else>
             <p class="notoxica">
-              <em>No tóxica para tu mascota</em>
+              <em>Esta planta no es tóxica para tu mascota ✨</em>
             </p>
           </div>
         </div>
@@ -374,7 +382,8 @@ span.cuidados {
   }
 }
 .listacuidados {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+  padding-top: 1rem;
 }
 .otroscuidados {
   margin-bottom: 2rem;
@@ -396,6 +405,18 @@ span.cuidados {
     font-size: 0.875rem;
     margin-top: 1px;
     line-height: 1.2;
+  }
+}
+caption {
+  font-size: 0.875rem;
+  color: #888;
+  width: 100%;
+  text-align: left;
+  a {
+    color: #888;
+    &:hover {
+      color: #80c56e;
+    }
   }
 }
 </style>

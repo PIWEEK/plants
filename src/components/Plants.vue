@@ -412,6 +412,9 @@ export default {
   .row {
     margin-bottom: 2rem;
   }
+  h4 {
+    font-weight: 600;
+  }
 }
 .row.list {
   flex-basis: 78%;

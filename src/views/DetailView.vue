@@ -3,7 +3,7 @@
   <div id="#app">
     <div class="DetailView container">
       <PlantDetail :plant="plant" />
-      <button @click="home">home</button>
+      <button @click="home">Volver a lista de plantas</button>
     </div>
   </div>
 </template>
