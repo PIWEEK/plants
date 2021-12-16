@@ -11,11 +11,11 @@
     "toxicity": {
       "dog": {
         "value": "Si",
-        "symptoms": "Irritación oral, ardor intenso e irritación de boca, lengua y labios, babeo excesivo, vómitos, dificultad para tragar."
+        "symptoms": "Irritación oral, ardor intenso e irritación de boca, lengua y labios, babeo excesivo, vómitos, dificultad para tragar"
       },
       "cat": {
         "value": "Si",
-        "symptoms": "Irritación oral, ardor intenso e irritación de boca, lengua y labios, babeo excesivo, vómitos, dificultad para tragar."
+        "symptoms": "Irritación oral, ardor intenso e irritación de boca, lengua y labios, babeo excesivo, vómitos, dificultad para tragar"
       },
       "rabbit": {
         "value": "Sí",
@@ -113,11 +113,11 @@
     "toxicity": {
       "dog": {
         "value": "Si",
-        "symptoms": "Irritación oral, ardor intenso e irritación de boca, lengua y labios, babeo excesivo, vómitos, dificultad para tragar."
+        "symptoms": "Irritación oral, ardor intenso e irritación de boca, lengua y labios, babeo excesivo, vómitos, dificultad para tragar"
       },
       "cat": {
         "value": "Si",
-        "symptoms": "Irritación oral, ardor intenso e irritación de boca, lengua y labios, babeo excesivo, vómitos, dificultad para tragar."
+        "symptoms": "Irritación oral, ardor intenso e irritación de boca, lengua y labios, babeo excesivo, vómitos, dificultad para tragar"
       },
       "rabbit": {
         "value": "Sí",
@@ -173,11 +173,11 @@
     "toxicity": {
       "dog": {
         "value": "Si",
-        "symptoms": "Nauseas, vómitos y diarrea."
+        "symptoms": "Nauseas, vómitos y diarrea"
       },
       "cat": {
         "value": "Si",
-        "symptoms": "Nauseas, vómitos y diarrea."
+        "symptoms": "Nauseas, vómitos y diarrea"
       },
       "rabbit": {
         "value": "Sí",
@@ -233,11 +233,11 @@
     "toxicity": {
       "dog": {
         "value": "Si",
-        "symptoms": "Irritación oral, ardor intenso e irritación de boca, lengua y labios, babeo excesivo, vómitos o dificultad para tragar."
+        "symptoms": "Irritación oral, ardor intenso e irritación de boca, lengua y labios, babeo excesivo, vómitos o dificultad para tragar"
       },
       "cat": {
         "value": "Si",
-        "symptoms": "Irritación oral, ardor intenso e irritación de boca, lengua y labios, babeo excesivo, vómitos o dificultad para tragar."
+        "symptoms": "Irritación oral, ardor intenso e irritación de boca, lengua y labios, babeo excesivo, vómitos o dificultad para tragar"
       },
       "rabbit": {
         "value": "Sí",
@@ -293,11 +293,11 @@
     "toxicity": {
       "dog": {
         "value": "Si",
-        "symptoms": "Vómitos, depresión."
+        "symptoms": "Vómitos, depresión"
       },
       "cat": {
         "value": "Si",
-        "symptoms": "Vómitos, depresión."
+        "symptoms": "Vómitos, depresión"
       },
       "rabbit": {
         "value": "No",
