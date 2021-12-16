@@ -10,7 +10,7 @@
       /></router-link>
     </div>
     <div class="nav-right">
-      <router-link to="/about">Glosario</router-link> |
+      <router-link to="/glossary">Glosario</router-link> |
       <router-link to="/benefits">Beneficios</router-link>
     </div>
   </div>
