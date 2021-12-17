@@ -2,10 +2,11 @@
   <div class="benefits container">
     <h1>Beneficios de tener plantas en casa</h1>
     <section id="1">
-      <h2>¿Sabías que las plantas liberan el 97% del agua que reciben?</h2>
-      <h3>Evita resfriados y alergias.</h3>
       <div class="two-columns">
         <div>
+          <h2>¿Sabías que las plantas liberan el 97% del agua que reciben?</h2>
+          <h3>Evita resfriados y alergias.</h3>
+
           <p>
             Efectivamente, uno de los beneficios directos de tener plantas de
             interior es que aumentan de forma natural los niveles de humedad del
@@ -17,13 +18,13 @@
       </div>
     </section>
     <section id="2">
-      <h2>
-        ¿Sabías que existen plantas que liberan oxígeno también durante la
-        noche?
-      </h2>
-      <h3>Evita dolores de cabeza y favorece el descanso.</h3>
       <div class="two-columns">
         <div>
+          <h2>
+            ¿Sabías que existen plantas que liberan oxígeno también durante la
+            noche?
+          </h2>
+          <h3>Evita dolores de cabeza y favorece el descanso.</h3>
           <p>
             Bien es sabido que durante el día las plantas complementan el ciclo
             de gases de nuestra respiración, asimilando el CO2 y liberando
@@ -56,12 +57,12 @@
     </section>
 
     <section id="3">
-      <h2>
-        ¿Sabías que las plantas reducen cada 24 horas hasta el 87% de los
-        contaminantes orgánicos presentes en el aire?
-      </h2>
       <div class="two-columns">
         <div>
+          <h2>
+            ¿Sabías que las plantas reducen cada 24 horas hasta el 87% de los
+            contaminantes orgánicos presentes en el aire?
+          </h2>
           <h3>Purifica el aire eliminando gases nocivos.</h3>
 
           <p>
@@ -107,10 +108,11 @@
     </section>
 
     <section id="4">
-      <h2>¿Sabías que existen plantas que reducen el polvo?.</h2>
-      <h3>Reduce el asma y las alergias.</h3>
       <div class="two-columns">
         <div>
+          <h2>¿Sabías que existen plantas que reducen el polvo?.</h2>
+          <h3>Reduce el asma y las alergias.</h3>
+
           <p>
             Las plantas ayudan activamente a combatir alergias y otros problemas
             respiratorios como el asma, al reducir los niveles de polvo en
@@ -134,13 +136,16 @@
     </section>
 
     <section id="5">
-      <h2>
-        ¿Sabías que las plantas reducen el nivel de estrés y mejoran tu
-        productividad?
-      </h2>
-      <h3>Mejora tu atención y creatividad haciéndote sentir más relajado.</h3>
       <div class="two-columns">
         <div>
+          <h2>
+            ¿Sabías que las plantas reducen el nivel de estrés y mejoran tu
+            productividad?
+          </h2>
+          <h3>
+            Mejora tu atención y creatividad haciéndote sentir más relajado.
+          </h3>
+
           <p>
             Se han realizado numerosos estudios que demuestran los beneficios
             que las plantas tienen sobre nuestro estado de ánimo, y otros
@@ -228,10 +233,6 @@
     </section>
 
     <section id="6">
-      <h2>
-        ¿Sabías que las plantas aceleran los tiempos de recuperación en
-        hospitales?
-      </h2>
       <div class="two-columns">
         <div>
           <h3>Disminuye la percepción del dolor, la fatiga y la ansiedad.</h3>
@@ -263,13 +264,13 @@
     </section>
 
     <section id="7">
-      <h2>
-        ¿Sabías que muchas plantas tienen propiedades medicinales, aromáticas o
-        pueden condimentar nuestras comidas?
-      </h2>
-      <h3>Adereza tus platos y mejora algunas dolencias.</h3>
       <div class="two-columns">
         <div>
+          <h2>
+            ¿Sabías que muchas plantas tienen propiedades medicinales,
+            aromáticas o pueden condimentar nuestras comidas?
+          </h2>
+          <h3>Adereza tus platos y mejora algunas dolencias.</h3>
           <p>
             Si sabes elegirlas no sólo harán tu hogar un poco más alegre y
             acogedor, sino que también le podrás sacar partido a sus beneficios
@@ -346,6 +347,9 @@ section {
   }
   :last-child {
     flex-basis: 22%;
+  }
+  img {
+    max-width: 400px;
   }
 }
 </style>
