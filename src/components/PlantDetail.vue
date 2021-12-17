@@ -71,7 +71,7 @@
               <img src="../assets/svg/iluminacion.svg" width="48" height="48" />
             </div>
             <div>
-              <h5 class="cuidados">Iluminación</h5>
+              <h5 class="cuidados">Luz</h5>
               <p>
                 {{ plantData.care.light.value }}.
                 {{ plantData.care.light.description }}
