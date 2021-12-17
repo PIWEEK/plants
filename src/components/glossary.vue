@@ -1,14 +1,28 @@
 <template>
   <div class="container cont">
-    <h1>Glosario para dummies</h1>
+    <div class="row search">
+      <div class="col2">
+        <h1>Glosario para dummies</h1>
+      </div>
+      <div class="row search">
+        <label for="buscar" class="hide">Buscar</label>
+        <input
+          type="text"
+          id="buscar"
+          v-model="buscar"
+          class="form-control"
+          placeholder="Ejemplo: esqueje"
+        />
+      </div>
+    </div>
     <p class="intro">
       ¿Has pensado que "cochinilla" era un insulto suave o que "envés" era un
       gazapo? Estás en el contenido adecuado. Aquí tienes una lista de todos los
       términos que hemos usado y algunos más.
     </p>
-    <dl class="row left" v-for="(term, index) in glossary" :key="index">
-      <dt>{{ term.title }}</dt>
-      <dd>{{ term.description }}</dd>
+    <dl class="row left" v-for="item in items" :key="item.title">
+      <dt>{{ item.title }}</dt>
+      <dd>{{ item.description }}</dd>
     </dl>
   </div>
 </template>
@@ -24,7 +38,19 @@ export default {
   data() {
     return {
       glossary,
+      buscar: "",
     };
+  },
+  computed: {
+    items() {
+      let tempGlossary = this.glossary;
+
+      tempGlossary = glossary.filter((item) => {
+        return item.title.toLowerCase().includes(this.buscar.toLowerCase());
+      });
+
+      return tempGlossary;
+    },
   },
 };
 </script>

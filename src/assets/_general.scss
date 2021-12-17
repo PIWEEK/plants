@@ -46,6 +46,8 @@ input {
     border:1px solid #ccc;
     &:focus {
       background-color: #fff;
+      border:2px solid #80c56e;
+      outline:none;
     }
   }
 input[type=radio], input[type=checkbox]{
