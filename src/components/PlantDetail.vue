@@ -55,8 +55,8 @@
         <dl>
           <dt>Tipo</dt>
           <dd v-for="(tipo, index) in plantData.type" :key="index">
-            {{ tipo }}
-            <template v-if="index !== plantData.type.length - 1">,</template>
+            {{ tipo
+            }}<template v-if="index !== plantData.type.length - 1">,</template>
           </dd>
         </dl>
       </div>
