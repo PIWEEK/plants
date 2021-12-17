@@ -39,7 +39,7 @@
           <div><img src="../assets/img/miryam.png" /></div>
           <p class="name">Miryam Gonzalez Duque</p>
           <p class="position">
-            Como Researcher, Designer y matadora de plantas profesional
+            Como Researcher, Designer y asesina de plantas profesional
           </p></a
         >
         <a
@@ -75,7 +75,7 @@
           <p class="name"><em style="color: #999">Guest Starring</em></p>
           <p class="position">
             <strong>Esther Moreno</strong> con sus maravillosas ilustraciones de
-            CocoMaterial 💕
+            CocoMaterial
           </p></a
         >
       </div>
