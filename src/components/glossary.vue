@@ -4,7 +4,7 @@
       <div class="col2">
         <h1>Glosario para dummies</h1>
       </div>
-      <div class="row search">
+      <div class="search input">
         <label for="buscar" class="hide">Buscar</label>
         <input
           type="text"
@@ -55,9 +55,14 @@ export default {
 };
 </script>
 <style scoped>
-h1 {
+.row.search {
   margin-bottom: 2rem;
 }
+.col2 {
+  display: flex;
+  align-items: center;
+}
+
 .intro {
   font-size: 1.2rem;
   margin-bottom: 3rem;
