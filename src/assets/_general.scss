@@ -157,7 +157,7 @@ opacity: 0.8;
     flex-basis: 48%;
   }
   .col-3 {
-    flex-basis: 31.33333%;
+    flex-basis: calc(33% - 2rem);
   }
   &.search{
     margin-bottom:1rem;
@@ -169,6 +169,12 @@ opacity: 0.8;
     flex-direction: column;
   }
 }
+
+/* @media screen and (-webkit-min-device-pixel-ratio:0) {
+  .card {
+    margin-bottom:2rem;
+  }
+} */
 
   .card{
     border-radius: 5px;

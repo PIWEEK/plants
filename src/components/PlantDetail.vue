@@ -412,6 +412,7 @@ caption {
   color: #888;
   width: 100%;
   text-align: left;
+  display: block;
   a {
     color: #888;
     &:hover {
