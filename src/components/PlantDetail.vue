@@ -12,11 +12,11 @@
         />
         <caption>
           Imagen de
-          <a :href="plantData.credits.url">{{ plantData.credits.author }}</a>
-          via
           {{
-            plantData.credits.source
+            plantData.credits.author
           }}
+          via
+          <a :href="plantData.credits.url"> {{ plantData.credits.source }}</a>
         </caption>
       </div>
       <div class="plant__data">
