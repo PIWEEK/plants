@@ -12,7 +12,7 @@
     },
     "description": "Originario de las zonas tropicales y subtropicales de América Central y América del Sur. Son plantas caducas, llamativas y su tamaño varía según su especie. Sus características brácteas de color no son, a pesar de lo que se cree, flores. En realidad, son únicamente hojas protectoras de la auténtica floración.",
     "type": ["suelo", "trepadora"],
-    "size": "40 y 60 cm según la variedad.",
+    "size": "Entre 40 y 60 cm según la variedad.",
     "toxicity": {
       "dog": {
         "value": "Si",
@@ -49,11 +49,11 @@
       },
       "irrigation": {
         "value": "Moderado",
-        "description": "Dejar secar la tierra ligeramente entre riegos. Es sensible a la cal, se debe filtrar el agua si tiene excesiva cal."
+        "description": "Dejar secar la tierra ligeramente entre riegos. Es sensible a la cal. Se debe filtrar el agua si tiene excesiva cal."
       },
       "fertilizer": {
         "type": ["Universal", "Plantas verdes"],
-        "time": "Primavera y verano"
+        "time": "en primavera y verano"
       },
       "soil": ["Universal", "Plantas verdes"],
       "transplant": "Cada 2 años",
@@ -102,12 +102,12 @@
         "value": "Baja",
         "description": null
       },
-      "location": ["Interior", "Exterior"],
+      "location": ["interior", "exterior"],
       "light": {
         "value": "Indirecta",
         "description": "Con algo de sol directo. Necesita luz media-alta aunque se puede poner en sitios de menos luz, pero sus hojas serán de verde más oscuro y el crecimiento será más lento."
       },
-      "temperature": "Óptima de 12 a 26ºC. No tolera el frío ni las heladas.",
+      "temperature": "Entre 12 y 26ºC. No tolera el frío ni las heladas.",
       "humidity": {
         "value": "Baja",
         "description": "Soporta bien los ambientes secos y muy secos. No tolera la excesiva humedad ambiental."
@@ -118,7 +118,7 @@
       },
       "fertilizer": {
         "type": ["Plantas crasas"],
-        "time": "Primavera y verano"
+        "time": "en primavera y verano"
       },
       "soil": ["Plantas crasas"],
       "transplant": "Sólo cuando la planta se desborde de su maceta.",
@@ -140,7 +140,7 @@
       "url": "https://unsplash.com/photos/3SFYql1q3uE",
       "source": "Unsplash"
     },
-    "description": "Es originaria de las regiones costeras y húmedas de Sudáfrica, de hoja perenne, sus diminutas flores son de color blanco y hermafroditas. Su reprodución por medio de estolones dan la sensación visual de pequeñas plantas ‘flotando’ en el aire, en contacto con la tierra enraízan y dan lugar a nuevas plantas. El nombre de ‘malamadre’ hace alusión a sus estolones porque parece que aleja a sus hijos de ella. Muy resistente, requiere pocos cuidados.",
+    "description": "Es originaria de las regiones costeras y húmedas de Sudáfrica. De hoja perenne, sus diminutas flores son de color blanco y hermafroditas. Su reprodución por medio de estolones dan la sensación visual de pequeñas plantas ‘flotando’ en el aire, en contacto con la tierra enraízan y dan lugar a nuevas plantas. El nombre de ‘malamadre’ hace alusión a sus estolones porque parece que aleja a sus hijos de ella. Muy resistente, requiere pocos cuidados.",
     "type": ["suelo", "colgante"],
     "size": "Según la variedad puede adquirir alturas superiores a los 50 centímetros, pero se puede controlar con la poda.",
     "toxicity": null,
@@ -154,10 +154,10 @@
         "value": "Indirecta",
         "description": "Tolera luz baja pero lo oṕtimo es media/alta, sin sol directo porque se pueden quemar las hojas."
       },
-      "temperature": "Óptima de 10 a 30ºC, pero tolera hasta -2ºC",
+      "temperature": "De 10 a 30ºC, pero tolera hasta -2ºC",
       "humidity": {
         "value": "Ambiente húmedo",
-        "description": "Soporta bien ambientes más secos, pulverizar las hojas si hay excesiva sequedad."
+        "description": "Soporta bien ambientes más secos. Pulverizar las hojas si hay excesiva sequedad."
       },
       "irrigation": {
         "value": "Moderado.",
@@ -165,7 +165,7 @@
       },
       "fertilizer": {
         "type": ["Universal", "Plantas verdes"],
-        "time": "Primavera y verano"
+        "time": "en primavera y verano"
       },
       "soil": ["Universal", "Plantas verdes"],
       "transplant": "Cada 2 años",
@@ -201,7 +201,7 @@
         "value": "Indirecta",
         "description": "Tolera luz baja pero lo oṕtimo es media, sin sol directo porque se pueden quemar las hojas."
       },
-      "temperature": "Óptima de 16 a 21ºC.",
+      "temperature": "De 16 a 21ºC.",
       "humidity": {
         "value": "Ambiente húmedo",
         "description": "Soporta bien ambientes algo más secos pero pulverizar las hojas si hay excesiva sequedad."
@@ -212,7 +212,7 @@
       },
       "fertilizer": {
         "type": ["Universal", "Plantas verdes"],
-        "time": "Primavera y verano"
+        "time": "en primavera y verano"
       },
       "soil": ["Universal", "Plantas verdes"],
       "transplant": "No es necesario a menos que se quiera aumentar su tamaño o la planta se desborde de su maceta.",
@@ -234,7 +234,7 @@
       "url": "https://www.pexels.com/photo/blooming-flowers-with-green-leaves-in-garden-6281875/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels",
       "source": "Unsplash"
     },
-    "description": "Nativas de la América tropical y Malasia, de hoja perenne. Produce una copiosa floración todo el año. Tiene una gran capacidad de eliminar los contaminantes que se acumulan en nuestro hogar.",
+    "description": "Nativas de la América tropical y Malasia. De hoja perenne. Produce una copiosa floración todo el año. Tiene una gran capacidad de eliminar los contaminantes que se acumulan en nuestro hogar.",
     "type": ["suelo"],
     "size": "Según la variedad puede adquirir alturas superiores a los 40 centímetros, pero se puede controlar con la poda.",
     "toxicity": {
@@ -266,25 +266,25 @@
         "value": "Indirecta",
         "description": "Tolera luz baja pero lo oṕtimo es media/alta para que florezca, sin sol directo porque se pueden quemar las hojas."
       },
-      "temperature": "Óptimo de 15 a 30ºC. No soporta temperaturas muy bajas ni las heladas.",
+      "temperature": "De 15 a 30ºC. No soporta temperaturas muy bajas ni las heladas.",
       "humidity": {
         "value": "Ambiente húmedo",
         "description": "Soporta bien ambientes más secos, pulverizar las hojas si hay excesiva sequedad."
       },
       "irrigation": {
         "value": "Moderado.",
-        "description": "Mantener la tierra húmeda sin encharcar en primavera y verano, en otoño e invierno dejar secar la tierra entre riegos. Si el cloro del agua del grifo es excesivo riégala con agua filtrada, o al menos, déjala reposar durante la noche para permitir que el cloro se evapore."
+        "description": "Mantener la tierra húmeda sin encharcar en primavera y verano; en otoño e invierno dejar secar la tierra entre riegos. Si el cloro del agua del grifo es excesivo riégala con agua filtrada, o al menos, déjala reposar durante la noche para permitir que el cloro se evapore."
       },
       "fertilizer": {
         "type": ["Universal", "Plantas verdes", "Plantas con flor"],
-        "time": "Primavera y verano"
+        "time": "en primavera y verano"
       },
       "soil": ["Universal", "Plantas verdes", "Plantas con flor"],
       "transplant": "1 vez al año",
       "pruning": "Cuando la flor comienza a marchitarse, hay que podarla dos o tres centímetros por encima de la unión con la hoja. Pasado un mes, el tallo que dejamos se habrá secado y entonces podremos tirar de él y extraerlo sin ningún problema de resistencia. De esta manera, induciremos una ininterrumpida floración."
     },
     "problems": {
-      "diseases": "Son resistentes a casi todo tipo de plagas y las que los afectan no traen daños considerables. Los más comunes son los pulgones, araña roja y mosca blanca. Cuando se riega en exceso, es vulnerable a los hongos.",
+      "diseases": "Son resistentes a casi todo tipo de plagas y las que los afectan no traen daños considerables. Los más comunes son los pulgones, araña roja y mosca blanca. Cuando se riega en exceso es vulnerable a los hongos.",
       "commonMistakes": ["Bordes de hojas marrones por exceso de riego, quemaduras solares o exceso de fertilizante.", "No florece por falta de luz.", "Hojas amarillas por exceso de riego o quemaduras solares.", "Hojas caidas por falta o exceso de riego."]
     }
   },
@@ -301,7 +301,7 @@
     },
     "description": "Planta trepadora de hoja perenne nativa de América Central. Las Monsteras son famosas por los hermosos agujeros de sus hojas. Puede dar flores y frutos cuya pulpa es comestible, pero rara vez sucede en interior.",
     "type": ["trepadora"],
-    "size": "Media 45-55 cm aprox. pero puede ser superior. Se puede limitar con la poda.",
+    "size": "Medio. Entre 45-55 cm aprox. pero puede ser superior. Se puede limitar con la poda.",
     "toxicity": {
       "dog": {
         "value": "Si",
@@ -326,15 +326,15 @@
         "value": "Media",
         "description": null
       },
-      "location": ["Interior", "Exterior"],
+      "location": ["interior", "exterior"],
       "light": {
         "value": "Indirecta",
         "description": "Lo oṕtimo es media/alta, sin sol directo porque se pueden quemar las hojas."
       },
-      "temperature": "Óptima de 18°C a 30°C. Es mejor no dejar que baje de los 10°C. No tolera las heladas.",
+      "temperature": "De 18°C a 30°C. Es mejor no dejar que baje de los 10°C. No tolera las heladas.",
       "humidity": {
         "value": "Ambiente húmedo",
-        "description": "Soporta bien ambientes algo más secos, pulverizar las hojas si hay excesiva sequedad."
+        "description": "Soporta bien ambientes algo más secos. Pulverizar las hojas si hay excesiva sequedad."
       },
       "irrigation": {
         "value": "Moderado",
@@ -342,14 +342,14 @@
       },
       "fertilizer": {
         "type": ["Universal", "Plantas verdes"],
-        "time": "Primavera y verano"
+        "time": "en primavera y verano"
       },
       "soil": ["Universal", "Plantas verdes"],
       "transplant": "Cada 2 años",
       "pruning": "No necesita poda, sólo para retirar ramas secas o para limitar su crecimiento."
     },
     "problems": {
-      "diseases": "Muy pocas posibilidades de ser atacada por plagas o enfermedades. Raras veces araña roja, cochinilla o pudriciones causadas por hongos o bacterias",
+      "diseases": "Muy pocas posibilidades de ser atacada por plagas o enfermedades. Raras veces araña roja, cochinilla o pudriciones causadas por hongos o bacterias.",
       "commonMistakes": ["Puntas de las hojas secas por falta de riego o humedad.", "Manchas negras por exceso de agua, baja temperatura o quemadura solar.", "Hojas amarillas por exceso de riego, falta de fertilizante o falta de luz."]
     }
   },
@@ -391,15 +391,15 @@
         "value": "Media",
         "description": null
       },
-      "location": ["Interior", "Terraza o patio"],
+      "location": ["interior", "terraza o patio"],
       "light": {
         "value": "Indirecta",
         "description": "Tolera luz baja pero lo oṕtimo es media/alta, sin sol directo porque se pueden quemar las hojas."
       },
-      "temperature": "Óptimo de 10 a 30ºC",
+      "temperature": "De 10 a 30ºC",
       "humidity": {
         "value": "Ambiente húmedo",
-        "description": "Soporta bien ambientes más secos, pulverizar las hojas si hay excesiva sequedad."
+        "description": "Soporta bien ambientes más secos. Pulverizar las hojas si hay excesiva sequedad."
       },
       "irrigation": {
         "value": "Moderado.",
@@ -407,14 +407,14 @@
       },
       "fertilizer": {
         "type": ["Universal", "Plantas verdes"],
-        "time": "Primavera y verano"
+        "time": "en primavera y verano"
       },
       "soil": ["Universal", "Plantas verdes"],
       "transplant": "Cada 2 años",
       "pruning": "En cualquier momento, para controlar su crecimiento u obtener esquejes."
     },
     "problems": {
-      "diseases": "Son resistentes a casi todo tipo de plagas y las que los afectan no traen daños considerables. Los más comunes son los pulgones, cochinilla y araña roja. Cuando se riega en exceso, es vulnerable a los hongos.",
+      "diseases": "Son resistentes a casi todo tipo de plagas y las que los afectan no traen daños considerables. Los más comunes son los pulgones, cochinilla y araña roja. Cuando se riega en exceso es vulnerable a los hongos.",
       "commonMistakes": ["Manchas marrones por excesivo riego o quemaduras de sol.", "Hojas amarillas y lacias por falta de riego o de hierro.", "Puntas de las hojas marrones por falta de agua o baja humedad.", "Hojas pálidas o descoloridas por falta de luz."]
     }
   },
@@ -456,12 +456,12 @@
         "value": "Baja",
         "description": null
       },
-      "location": ["Interior", "Exterior"],
+      "location": ["interior", "exterior"],
       "light": {
         "value": "Indirecta",
         "description": "Con algo de sol directo. Pueden adaptarse a condiciones de pleno sol y también sobrevivirán en ambientes más oscuros."
       },
-      "temperature": "Óptimo de 15 a 30ºC.",
+      "temperature": "De 15 a 30ºC.",
       "humidity": {
         "value": "Media-baja",
         "description": "Soporta bien los ambientes secos."
@@ -472,14 +472,14 @@
       },
       "fertilizer": {
         "type": ["Plantas crasas"],
-        "time": "Primavera y verano"
+        "time": "en primavera y verano"
       },
       "soil": ["Plantas crasas"],
       "transplant": "No necesario, sólo cuando las raices crezcan fuera de la maceta.",
       "pruning": "No necesita poda, sólo eliminar hojas secas."
     },
     "problems": {
-      "diseases": "Son resistentes a casi todo tipo de plagas y las que los afectan no traen daños considerables. Los más comunes son las cochinillas. Cuando se riega en exceso, es vulnerable a los hongos.",
+      "diseases": "Son resistentes a casi todo tipo de plagas y las que los afectan no traen daños considerables. Los más comunes son las cochinillas. Cuando se riega en exceso es vulnerable a los hongos.",
       "commonMistakes": ["Hojas que se pudren en la base o aparición de manchas marrones, por excesivo riego.", "Hojas que pierden su color por falta de luz.", "Hojas secas por falta de agua."]
     }
   },
@@ -521,12 +521,12 @@
         "value": "Media",
         "description": null
       },
-      "location": ["Interior", "Exterior"],
+      "location": ["interior", "exterior"],
       "light": {
         "value": "Indirecta",
         "description": "Lo oṕtimo es media/alta, sin sol directo porque se pueden quemar las hojas."
       },
-      "temperature": "Óptima entre 16 y 24ºC. No menos de 10ºC.",
+      "temperature": "Entre 16 y 24ºC. No menos de 10ºC.",
       "humidity": {
         "value": "Ambiente húmedo",
         "description": "Soporta bien ambientes algo más secos pero pulverizar las hojas si hay excesiva sequedad."
@@ -537,7 +537,7 @@
       },
       "fertilizer": {
         "type": ["Universal", "Plantas verdes"],
-        "time": "Primavera y verano"
+        "time": "en primavera y verano"
       },
       "soil": ["Universal", "Plantas verdes"],
       "transplant": "Cada 2 años",
