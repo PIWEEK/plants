@@ -300,12 +300,10 @@
         this.items = tempPlantas;
       },
       updateList() {
-        console.log(datos);
         if (!this.form.dedication.length && !this.form.location.length && !this.form.light.length && !this.form.toxicity.length) {
           this.items = datos;
         } else {
           this.items = datos.filter((it) => {
-            console.log(it.name);
             // console.log("dedication", this.form.dedication.length ? this.form.dedication.includes(it.care.dedication.value) : true);
             // console.log(
             //   "location",
