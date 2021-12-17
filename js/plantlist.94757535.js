@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["plantlist"],{8343:function(n,t,e){"use strict";e.r(t);var s=e("7a23"),a={class:"plantsList"};function c(n,t,e,c,o,i){var r=Object(s["z"])("Plants");return Object(s["s"])(),Object(s["e"])("div",a,[Object(s["i"])(r)])}var o=e("7eff"),i={name:"Home",components:{Plants:o["a"]}},r=e("6b0d"),p=e.n(r);const b=p()(i,[["render",c]]);t["default"]=b}}]);
+//# sourceMappingURL=plantlist.94757535.js.map
