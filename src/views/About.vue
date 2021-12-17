@@ -70,7 +70,9 @@
           href="https://kaleidos.net/kaleiders/720B34/"
           target="_blank"
           class="person"
-          ><p class="name"><em style="color: #999">Guest Starring</em></p>
+        >
+          <div><img src="../assets/img/esther.png" /></div>
+          <p class="name"><em style="color: #999">Guest Starring</em></p>
           <p class="position">
             <strong>Esther Moreno</strong> con sus maravillosas ilustraciones de
             CocoMaterial 💕
@@ -106,7 +108,7 @@ a {
 
   .person {
     flex-basis: 33%;
-    padding: 2rem;
+    padding: 0 1rem 1rem 1rem;
     div {
       display: flex;
       height: 200px;
