@@ -418,7 +418,7 @@ export default {
 }
 .row.list {
   flex-basis: 78%;
-  gap: 2rem;
+  gap: 2rem 3%;
 }
 .sort-button {
   margin-bottom: 0;
