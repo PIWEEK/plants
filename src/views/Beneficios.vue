@@ -126,8 +126,8 @@
             de polvo en el aire que las que tienen hojas lisas.
           </p>
           <p>
-            Algunos ejemplos excelentes son la Aglaonema, Lirio de la Paz*,
-            Violeta Africana*, o cualquier variedad que dispongan de hojas
+            Algunos ejemplos excelentes son la Aglaonema, Lirio de la Paz,
+            Violeta Africana, o cualquier variedad que dispongan de hojas
             rugosas.
           </p>
         </div>
@@ -148,14 +148,14 @@
 
           <p>
             Se han realizado numerosos estudios que demuestran los beneficios
-            que las plantas tienen sobre nuestro estado de ánimo, y otros
+            que las plantas tienen sobre nuestro estado de ánimo y otros
             factores mentales que se traducen en un aumento de nuestra
             productividad.
           </p>
           <p>
             Por ejemplo, se ha estudiado cómo realizar labores de jardinería
             disminuye la actividad del sistema nervioso simpático y la presión
-            sanguínea, contribuyendo a reducir los efectos del estrés en nuestro
+            sanguínea contribuyendo a reducir los efectos del estrés en nuestro
             organismo.<sup
               ><a
                 href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4419447/"
@@ -167,7 +167,7 @@
           <p>
             En esta investigación se ha comprobado que exclusivamente ante la
             presencia de una planta real (y no en una fotografía o ante una
-            planta artificial), la generación de ondas Theta se reduce
+            planta artificial) la generación de ondas Theta se reduce
             significativamente, viéndose aumentada nuestra capacidad de
             atención.<sup
               ><a
@@ -179,9 +179,9 @@
           </p>
           <p>
             Analizando los tiempos de reacción con un software que somete a una
-            prueba de estrés, se ha comprobado mayor productividad (menores
+            prueba de estrés se ha comprobado mayor productividad (menores
             tiempos de reacción) y menores niveles de estrés (presión
-            sanguínea), en aquellas personas con una planta cerca.<sup
+            sanguínea) en aquellas personas con una planta cerca.<sup
               ><a
                 href="https://meridian.allenpress.com/jeh/article/14/2/97/79431/Interior-Plants-May-Improve-Worker-Productivity"
                 target="_blank"
@@ -250,7 +250,7 @@
           </p>
           <p>
             El estudio confirma el valor terapéutico de las plantas y sugiere a
-            los profesionales de la salud y gerentes de hospital, que sea tenido
+            los profesionales de la salud y gerentes de hospital que sea tenido
             en cuenta como complemento natural viable, no invasivo y de coste
             reducido.
           </p>
