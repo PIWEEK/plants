@@ -15,7 +15,9 @@
           href="https://kaleidos.net/kaleiders/FF8A80"
           target="_blank"
           class="person"
-          ><p class="name">Marina López</p>
+        >
+          <div><img src="../assets/img/marina.png" /></div>
+          <p class="name">Marina López</p>
           <p class="position">
             En su papel de Ideadora, UI designer y experta en plantas de peluche
           </p></a
@@ -23,7 +25,9 @@
           href="https://kaleidos.net/kaleiders/0F0F0F"
           target="_blank"
           class="person"
-          ><p class="name">Tere de la Torre</p>
+        >
+          <div><img src="../assets/img/tere.png" /></div>
+          <p class="name">Tere de la Torre</p>
           <p class="position">
             Como researcher y cuidadora de plantas en sus ratos libres
           </p></a
@@ -31,7 +35,9 @@
           href="https://kaleidos.net/kaleiders/32BDA0"
           target="_blank"
           class="person"
-          ><p class="name">Miryam Gonzalez Duque</p>
+        >
+          <div><img src="../assets/img/miryam.png" /></div>
+          <p class="name">Miryam Gonzalez Duque</p>
           <p class="position">
             Como Researcher, Designer y matadora de plantas profesional
           </p></a
@@ -40,7 +46,9 @@
           href="https://kaleidos.net/kaleiders/71A6D2"
           target="_blank"
           class="person"
-          ><p class="name">Dani Herrero</p>
+        >
+          <div><img src="../assets/img/dani.png" /></div>
+          <p class="name">Dani Herrero</p>
           <p class="position">
             En el papel de Researcher y Copy Creativo fuera de su zona de
             confort
@@ -51,7 +59,9 @@
           href="https://kaleidos.net/kaleiders/492858/"
           target="_blank"
           class="person"
-          ><p class="name">Natacha Menjibar</p>
+        >
+          <div><img src="../assets/img/natacha.png" /></div>
+          <p class="name">Natacha Menjibar</p>
           <p class="position">
             En su papel de Frontend Engin<em>ppffff jajaja</em>
           </p></a
@@ -93,11 +103,20 @@ a {
 .group {
   display: flex;
   flex-wrap: wrap;
-  gap: 3%;
 
   .person {
-    flex-basis: 30%;
-    padding: 1rem;
+    flex-basis: 33%;
+    padding: 2rem;
+    div {
+      display: flex;
+      height: 200px;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+    }
+    img {
+      max-height: 180px;
+    }
     &:hover {
       background: #fff;
     }
@@ -107,12 +126,12 @@ a {
   color: #80c56e;
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
-
+  text-align: center;
   font-family: "Roboto Condensed";
   font-weight: 600;
 }
 .person .position {
   color: #2c3e50;
-  padding-left: 1.5rem;
+  text-align: center;
 }
 </style>
