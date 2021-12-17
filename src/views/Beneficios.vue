@@ -180,8 +180,8 @@
           <p>
             Analizando los tiempos de reacción con un software que somete a una
             prueba de estrés se ha comprobado mayor productividad (menores
-            tiempos de reacción) y menores niveles de estrés (presión
-            sanguínea) en aquellas personas con una planta cerca.<sup
+            tiempos de reacción) y menores niveles de estrés (presión sanguínea)
+            en aquellas personas con una planta cerca.<sup
               ><a
                 href="https://meridian.allenpress.com/jeh/article/14/2/97/79431/Interior-Plants-May-Improve-Worker-Productivity"
                 target="_blank"
@@ -235,6 +235,10 @@
     <section id="6">
       <div class="two-columns">
         <div>
+          <h2>
+            ¿Sabías que las plantas aceleran los tiempos de recuperación en
+            hospitales?
+          </h2>
           <h3>Disminuye la percepción del dolor, la fatiga y la ansiedad.</h3>
 
           <p>
