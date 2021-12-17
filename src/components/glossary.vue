@@ -24,12 +24,10 @@
       <dt>{{ item.title }}</dt>
       <dd>{{ item.description }}</dd>
     </dl>
-    <div style="text-align: center" v-if="items.length === 0">
-      <h2>
-        No tenemos nada con ese nombre,<br /><strong
-          >por favor deja de inventarte palabros</strong
-        >
-      </h2>
+    <div class="noresults" v-if="items.length === 0">
+      <h2>No tenemos nada con ese nombre</h2>
+      <p class="big">Por favor, deja de inventarte palabros</p>
+
       <img src="https://c.tenor.com/IzXxm7sO-HwAAAAd/nothing-to.gif" />
     </div>
   </div>
