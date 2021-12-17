@@ -16,7 +16,9 @@
             plantData.credits.author
           }}
           via
-          <a :href="plantData.credits.url"> {{ plantData.credits.source }}</a>
+          <a target="_blank" :href="plantData.credits.url">
+            {{ plantData.credits.source }}</a
+          >
         </caption>
       </div>
       <div class="plant__data">
