@@ -78,6 +78,7 @@
 }
 p {
   font-size: 1rem;
+  font-weight: 500;
 }
 h1 {
   margin-bottom: 2rem;
@@ -106,6 +107,9 @@ a {
   color: #80c56e;
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
+
+  font-family: "Roboto Condensed";
+  font-weight: 600;
 }
 .person .position {
   color: #2c3e50;
