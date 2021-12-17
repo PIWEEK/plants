@@ -125,8 +125,9 @@
               >
                 {{ tipofert
                 }}<template
-                  v-if="index !== plantData.care.fertilizer.length - 1"
-                  >,
+                  v-if="index !== plantData.care.fertilizer.type.length - 1"
+                >
+                  o
                 </template>
               </span>
               {{ plantData.care.fertilizer.time }}.
